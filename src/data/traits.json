@@ -1,0 +1,933 @@
+[
+  {
+    "id": "void",
+    "name": "공허",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "변이 1개, 공격 속도 8%"
+      },
+      {
+        "count": 4,
+        "effect": "변이 2개, 공격 속도 18%"
+      },
+      {
+        "count": 6,
+        "effect": "변이 3개, 공격 속도 33%"
+      },
+      {
+        "count": 9,
+        "effect": "변이가 폭주하여 위력 100% 증가, 공격 속도 40%"
+      }
+    ],
+    "champions": [
+      "kogmaw",
+      "reksai",
+      "chogath",
+      "malzahar",
+      "belveth",
+      "kaisa",
+      "riftherald",
+      "baronnashor"
+    ]
+  },
+  {
+    "id": "caretaker",
+    "name": "관리인",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "bard"
+    ]
+  },
+  {
+    "id": "shadow_isle",
+    "name": "그림자 군도",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "1x 영혼, 공격력·주문력 18%"
+      },
+      {
+        "count": 3,
+        "effect": "1.3x 영혼, 공격력·주문력 20%"
+      },
+      {
+        "count": 4,
+        "effect": "1.6x 영혼, 공격력·주문력 25%"
+      },
+      {
+        "count": 5,
+        "effect": "1.9x 영혼, 공격력·주문력 33%"
+      }
+    ],
+    "champions": [
+      "viego",
+      "yorick",
+      "gwen",
+      "kalista",
+      "thresh"
+    ]
+  },
+  {
+    "id": "noxus",
+    "name": "녹서스",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "아타칸이 적을 베어 마법 피해를 입힘"
+      },
+      {
+        "count": 5,
+        "effect": "아타칸 생존 시간에 따라 녹서스가 더 강해짐"
+      },
+      {
+        "count": 7,
+        "effect": "아타칸이 스킬 사용 시 적 영혼 흡수"
+      },
+      {
+        "count": 10,
+        "effect": "10초 후 파멸 인도"
+      }
+    ],
+    "champions": [
+      "briar",
+      "sion",
+      "darius",
+      "draven",
+      "leblanc",
+      "swain",
+      "ambessa",
+      "mel"
+    ]
+  },
+  {
+    "id": "darkin",
+    "name": "다르킨",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 1,
+        "effect": "모든 피해 흡혈 15% 획득"
+      },
+      {
+        "count": 2,
+        "effect": "내가 입힌 플레이어 피해량의 25%만큼 내 체력 회복"
+      },
+      {
+        "count": 3,
+        "effect": "다르킨이 체력을 600 회복할 때마다 가장 가까운 적 2명에게 333의 마법 피해"
+      }
+    ],
+    "champions": [
+      "aatrox",
+      "zaahen"
+    ]
+  },
+  {
+    "id": "blacksmith",
+    "name": "대장장이",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "ornn"
+    ]
+  },
+  {
+    "id": "demacia",
+    "name": "데마시아",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "방어력·마법 저항력 12"
+      },
+      {
+        "count": 5,
+        "effect": "방어력·마법 저항력 35"
+      },
+      {
+        "count": 7,
+        "effect": "방어력·마법 저항력 35, 결집 시 적을 강타해 최대 체력 5% 피해"
+      },
+      {
+        "count": 11,
+        "effect": "방어력·마법 저항력 150, 데마시아를 위한 전투!"
+      }
+    ],
+    "champions": [
+      "sona",
+      "jarvaniv",
+      "poppy",
+      "xinzhao",
+      "vayne",
+      "garen",
+      "lux",
+      "galio"
+    ]
+  },
+  {
+    "id": "runeMage",
+    "name": "룬 마법사",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "ryze"
+    ]
+  },
+  {
+    "id": "hexmech",
+    "name": "마법공학기계",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "thex"
+    ]
+  },
+  {
+    "id": "bilgewater",
+    "name": "빌지워터",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "바다뱀 은화 15개"
+      },
+      {
+        "count": 5,
+        "effect": "바다뱀 은화 35개, 향상된 전리품"
+      },
+      {
+        "count": 7,
+        "effect": "바다뱀 은화 65개, 상급 전리품"
+      },
+      {
+        "count": 10,
+        "effect": "바다뱀 은화 150개, 2x 능력치, 대포 발사!"
+      }
+    ],
+    "champions": [
+      "illaoi",
+      "graves",
+      "twistedfate",
+      "gangplank",
+      "nautilus",
+      "missfortune",
+      "fizz",
+      "tahmkench"
+    ]
+  },
+  {
+    "id": "chainbreaker",
+    "name": "사슬파괴자",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "sylas"
+    ]
+  },
+  {
+    "id": "harvester",
+    "name": "수확자",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "fiddlesticks"
+    ]
+  },
+  {
+    "id": "shurima",
+    "name": "슈리마",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "최대 체력 20%"
+      },
+      {
+        "count": 3,
+        "effect": "방어력·마법 저항력 50"
+      },
+      {
+        "count": 4,
+        "effect": "슈리마가 ?초마다 신성 초월"
+      }
+    ],
+    "champions": [
+      "nasus",
+      "renekton",
+      "azir",
+      "xerath"
+    ]
+  },
+  {
+    "id": "chronokeeper",
+    "name": "시간의 수호자",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "zilean"
+    ]
+  },
+  {
+    "id": "ionia",
+    "name": "아이오니아",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "shen",
+      "jhin",
+      "xinzhao",
+      "yasuo",
+      "ahri",
+      "kennen",
+      "wukong",
+      "yone",
+      "yunara",
+      "sett"
+    ]
+  },
+  {
+    "id": "darkChild",
+    "name": "어둠의 아이",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "annie"
+    ]
+  },
+  {
+    "id": "eternal",
+    "name": "영겁",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "kindred"
+    ]
+  },
+  {
+    "id": "soulbound",
+    "name": "영혼결속자",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "luciansenna"
+    ]
+  },
+  {
+    "id": "yordle",
+    "name": "요들",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "배치한 서로 다른 요들 하나당 체력 40, 공격 속도 5% 획득"
+      },
+      {
+        "count": 4,
+        "effect": "각 라운드 첫 상점에 요들 포함"
+      },
+      {
+        "count": 6,
+        "effect": "라운드마다 무료 새로고침 1회 획득"
+      },
+      {
+        "count": 8,
+        "effect": "라운드마다 요들 꾸러미 획득"
+      }
+    ],
+    "champions": [
+      "rumble",
+      "lulu",
+      "poppy",
+      "tristana",
+      "teemo",
+      "kennen",
+      "kobukoyuumi",
+      "veigar",
+      "fizz",
+      "ziggs"
+    ]
+  },
+  {
+    "id": "dragonborn",
+    "name": "용족",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "shyvana"
+    ]
+  },
+  {
+    "id": "ixtal",
+    "name": "이쉬탈",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "태양파편을 모아 전리품 획득"
+      },
+      {
+        "count": 5,
+        "effect": "각 전투 시작 시 플레이어 체력 2 회복"
+      },
+      {
+        "count": 7,
+        "effect": "전투 승리 후 태양파편 50개 발견 및 추가 전리품"
+      }
+    ],
+    "champions": [
+      "quiyana",
+      "neeko",
+      "milio",
+      "nidalee",
+      "skarner",
+      "brock"
+    ]
+  },
+  {
+    "id": "zaun",
+    "name": "자운",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "4초마다 시머 주입 초기화"
+      },
+      {
+        "count": 5,
+        "effect": "체력 60%일 때 3초 동안 체력 30% 회복 후 즉시 시머 주입"
+      },
+      {
+        "count": 7,
+        "effect": "시머 주입 추가 효과 50% 증가, 3초마다 초기화"
+      }
+    ],
+    "champions": [
+      "blitzcrank",
+      "vi",
+      "ekko",
+      "drmundo",
+      "jinx",
+      "singed",
+      "warwick",
+      "ziggs"
+    ]
+  },
+  {
+    "id": "targon",
+    "name": "타곤",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "aphelios",
+      "leona",
+      "zoe",
+      "diana",
+      "taric",
+      "aurelionsol"
+    ]
+  },
+  {
+    "id": "freljord",
+    "name": "프렐요드",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 3,
+        "effect": "체력 8%, 피해 증폭 10%"
+      },
+      {
+        "count": 5,
+        "effect": "포탑 2개, 체력 12%, 피해 증폭 16%"
+      },
+      {
+        "count": 7,
+        "effect": "포탑 파괴 시 적 1.5초 기절, 체력 16%, 피해 증폭 22%"
+      }
+    ],
+    "champions": [
+      "anivia",
+      "ashe",
+      "tryndamere",
+      "sejuani",
+      "lissandra",
+      "braum",
+      "volibear"
+    ]
+  },
+  {
+    "id": "piltover",
+    "name": "필트오버",
+    "type": "origin",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "모듈 선택"
+      },
+      {
+        "count": 4,
+        "effect": "두 번째 모듈 선택"
+      },
+      {
+        "count": 6,
+        "effect": "세 번째 모듈 선택"
+      }
+    ],
+    "champions": [
+      "caitlyn",
+      "vi",
+      "orianna",
+      "loris",
+      "seraphine",
+      "thex"
+    ]
+  },
+  {
+    "id": "assimilator",
+    "name": "흡수자",
+    "type": "origin",
+    "breakpoints": [],
+    "champions": [
+      "kaisa"
+    ]
+  },
+  {
+    "id": "riftscourge",
+    "name": "균열의 재앙",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "baronnashor"
+    ]
+  },
+  {
+    "id": "quickstriker",
+    "name": "기동타격대",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "공격 속도 10~30%"
+      },
+      {
+        "count": 3,
+        "effect": "공격 속도 20~45%"
+      },
+      {
+        "count": 4,
+        "effect": "공격 속도 30~60%"
+      },
+      {
+        "count": 5,
+        "effect": "공격 속도 40~80%"
+      }
+    ],
+    "champions": [
+      "viego",
+      "ashe",
+      "twistedfate",
+      "draven",
+      "warwick",
+      "yunara",
+      "kindred"
+    ]
+  },
+  {
+    "id": "invoker",
+    "name": "기원자",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "추가 마나 25%"
+      },
+      {
+        "count": 4,
+        "effect": "추가 마나 40%"
+      }
+    ],
+    "champions": [
+      "sona",
+      "anivia",
+      "orianna",
+      "leblanc",
+      "milio",
+      "kobukoyuumi",
+      "lissandra",
+      "zilean"
+    ]
+  },
+  {
+    "id": "bruiser",
+    "name": "난동꾼",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "최대 체력 25%"
+      },
+      {
+        "count": 4,
+        "effect": "최대 체력 40%"
+      },
+      {
+        "count": 6,
+        "effect": "최대 체력 60%"
+      }
+    ],
+    "champions": [
+      "shen",
+      "illaoi",
+      "sion",
+      "drmundo",
+      "kobukoyuumi",
+      "wukong",
+      "riftherald",
+      "volibear",
+      "tahmkench"
+    ]
+  },
+  {
+    "id": "glutton",
+    "name": "대식가",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "tahmkench"
+    ]
+  },
+  {
+    "id": "disruptor",
+    "name": "방해꾼",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "현혹된 적에게 추가 피해 18%"
+      },
+      {
+        "count": 4,
+        "effect": "현혹된 적에게 추가 피해 40%"
+      }
+    ],
+    "champions": [
+      "ekko",
+      "gwen",
+      "malzahar",
+      "seraphine",
+      "mel",
+      "azir"
+    ]
+  },
+  {
+    "id": "starForger",
+    "name": "별의 창조자",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "aurelionsol"
+    ]
+  },
+  {
+    "id": "immortal",
+    "name": "불멸자",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "zaahen"
+    ]
+  },
+  {
+    "id": "arcanist",
+    "name": "비전 마법사",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "아군 주문력 15%, 비전 마법사 25%"
+      },
+      {
+        "count": 4,
+        "effect": "아군 주문력 20%, 비전 마법사 50%"
+      },
+      {
+        "count": 6,
+        "effect": "아군 주문력 35%, 비전 마법사 70%"
+      }
+    ],
+    "champions": [
+      "lulu",
+      "kogmaw",
+      "neeko",
+      "ahri",
+      "lux",
+      "veigar",
+      "swain",
+      "annie",
+      "sylas"
+    ]
+  },
+  {
+    "id": "worldEnder",
+    "name": "세계의 종결자",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "aatrox"
+    ]
+  },
+  {
+    "id": "defender",
+    "name": "엄호대",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "방어력·마법 저항력 30"
+      },
+      {
+        "count": 4,
+        "effect": "방어력·마법 저항력 55"
+      },
+      {
+        "count": 6,
+        "effect": "방어력·마법 저항력 80"
+      }
+    ],
+    "champions": [
+      "rumble",
+      "jarvaniv",
+      "neeko",
+      "vi",
+      "darius",
+      "sejuani",
+      "kennen",
+      "garen",
+      "sylas"
+    ]
+  },
+  {
+    "id": "huntress",
+    "name": "여사냥꾼",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "nidalee"
+    ]
+  },
+  {
+    "id": "heroic",
+    "name": "영웅",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "galio"
+    ]
+  },
+  {
+    "id": "theBoss",
+    "name": "우두머리",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "sett"
+    ]
+  },
+  {
+    "id": "longshot",
+    "name": "원거리 사격",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "피해 증폭 18% + 칸 하나당 2%"
+      },
+      {
+        "count": 3,
+        "effect": "피해 증폭 24% + 칸 하나당 3%"
+      },
+      {
+        "count": 4,
+        "effect": "피해 증폭 28% + 칸 하나당 4%"
+      },
+      {
+        "count": 5,
+        "effect": "피해 증폭 32% + 칸 하나당 5%"
+      }
+    ],
+    "champions": [
+      "caitlyn",
+      "kogmaw",
+      "teemo",
+      "vayne",
+      "kaisa",
+      "ziggs"
+    ]
+  },
+  {
+    "id": "juggernaut",
+    "name": "전쟁기계",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "내구력 18% 또는 25%"
+      },
+      {
+        "count": 4,
+        "effect": "내구력 20% 또는 30%"
+      },
+      {
+        "count": 6,
+        "effect": "내구력 26% 또는 36%"
+      }
+    ],
+    "champions": [
+      "briar",
+      "blitzcrank",
+      "poppy",
+      "chogath",
+      "nautilus",
+      "swain",
+      "singed",
+      "shyvana"
+    ]
+  },
+  {
+    "id": "ascendant",
+    "name": "초월체",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "xerath"
+    ]
+  },
+  {
+    "id": "gunslinger",
+    "name": "총잡이",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "공격력 22%, 기본 공격 4회마다 추가 물리 피해 100"
+      },
+      {
+        "count": 4,
+        "effect": "공격력 40%, 기본 공격 4회마다 추가 물리 피해 200"
+      }
+    ],
+    "champions": [
+      "jhin",
+      "graves",
+      "tristana",
+      "jinx",
+      "missfortune",
+      "thex",
+      "luciansenna"
+    ]
+  },
+  {
+    "id": "vanquisher",
+    "name": "토벌자",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "치명타 피해량 15%, 치명타 확률 15%"
+      },
+      {
+        "count": 3,
+        "effect": "치명타 피해량 20%, 치명타 확률 20%"
+      },
+      {
+        "count": 4,
+        "effect": "치명타 피해량 25%, 치명타 확률 25%"
+      },
+      {
+        "count": 5,
+        "effect": "치명타 피해량 30%, 치명타 확률 30%"
+      }
+    ],
+    "champions": [
+      "reksai",
+      "gangplank",
+      "ambessa",
+      "kalista",
+      "fiddlesticks"
+    ]
+  },
+  {
+    "id": "warden",
+    "name": "파수꾼",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "체력 비례 보호막 16%"
+      },
+      {
+        "count": 3,
+        "effect": "체력 비례 보호막 20%"
+      },
+      {
+        "count": 4,
+        "effect": "체력 비례 보호막 26%"
+      },
+      {
+        "count": 5,
+        "effect": "체력 비례 보호막 33%"
+      }
+    ],
+    "champions": [
+      "xinzhao",
+      "yorick",
+      "nautilus",
+      "loris",
+      "braum",
+      "thresh",
+      "ornn"
+    ]
+  },
+  {
+    "id": "slayer",
+    "name": "학살자",
+    "type": "class",
+    "breakpoints": [
+      {
+        "count": 2,
+        "effect": "공격력 20%, 모든 피해 흡혈 10%"
+      },
+      {
+        "count": 4,
+        "effect": "공격력 30%, 모든 피해 흡혈 16%"
+      },
+      {
+        "count": 6,
+        "effect": "공격력 40%, 모든 피해 흡혈 20%"
+      }
+    ],
+    "champions": [
+      "briar",
+      "quiyana",
+      "yasuo",
+      "tryndamere",
+      "gangplank",
+      "belveth",
+      "yone",
+      "aatrox"
+    ]
+  },
+  {
+    "id": "emperor",
+    "name": "황제",
+    "type": "class",
+    "breakpoints": [],
+    "champions": [
+      "azir"
+    ]
+  }
+]

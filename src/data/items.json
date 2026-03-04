@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "bf_sword",
+    "name": "B.F. 대검",
+    "type": "component",
+    "effect": "공격력 +10%",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/BFSword_1658364277-1038.png"
+  },
+  {
+    "id": "recurve_bow",
+    "name": "곡궁",
+    "type": "component",
+    "effect": "공격 속도 +10%",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/RecurveBow_1640058784.png"
+  },
+  {
+    "id": "chain_vest",
+    "name": "쇠사슬 조끼",
+    "type": "component",
+    "effect": "방어력 +20",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ChainVest_1640058945.png"
+  },
+  {
+    "id": "negatron_cloak",
+    "name": "음전자 망토",
+    "type": "component",
+    "effect": "마법 저항력 +20",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/NegatronCloak_1640059073.png"
+  },
+  {
+    "id": "needlessly_large_rod",
+    "name": "쓸데없이 큰 지팡이",
+    "type": "component",
+    "effect": "주문력 +10",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/NeedlesslyLargeRod_1640059008.png"
+  },
+  {
+    "id": "tear_of_goddess",
+    "name": "여신의 눈물",
+    "type": "component",
+    "effect": "마나 재생 +1",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Tearofthegoddess_1640059037.png"
+  },
+  {
+    "id": "giants_belt",
+    "name": "거인의 허리띠",
+    "type": "component",
+    "effect": "체력 +150",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/GiantsBelt_1658368751-1011.png"
+  },
+  {
+    "id": "sparring_gloves",
+    "name": "연습용 장갑",
+    "type": "component",
+    "effect": "치명타 확률 +20",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SparringGloves_1640059055.png"
+  },
+  {
+    "id": "spatula",
+    "name": "뒤집개",
+    "type": "component",
+    "effect": "무슨 쓸모가 있을 텐데...",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Spatula_1658364227-4403.png"
+  },
+  {
+    "id": "frying_pan",
+    "name": "프라이팬",
+    "type": "component",
+    "effect": "... 이게 여기에 있는 이유가 달리 있을까요?",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/FryingPan_1724990105-frying_pan.png"
+  },
+  {
+    "id": "deathblade",
+    "name": "죽음의 검",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "bf_sword"
+    ],
+    "effect": "이 검의 주인은 더없는 평화와 안정을 찾게 됩니다. 주인의 적들도 마찬가지고요.",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png"
+  },
+  {
+    "id": "giant_slayer",
+    "name": "거인 학살자",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "recurve_bow"
+    ],
+    "effect": "탱커를 상대로 추가 피해 증폭 15% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png"
+  },
+  {
+    "id": "edge_of_night",
+    "name": "밤의 끝자락",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "chain_vest"
+    ],
+    "effect": "체력이 60%일 때 잠시 대상으로 지정할 수 없게 되며 해로운 효과 제거 및 잃은 체력의 30% 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png"
+  },
+  {
+    "id": "bloodthirster",
+    "name": "피바라기",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "negatron_cloak"
+    ],
+    "effect": "전투당 한 번, 체력이 40%일 때 최대 체력의 25%에 해당하는 보호막 획득 후 최대 5초까지 유지",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png"
+  },
+  {
+    "id": "hextech_gunblade",
+    "name": "마법공학 총검",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "needlessly_large_rod"
+    ],
+    "effect": "입힌 피해량의 20%만큼 체력 비율이 가장 낮은 아군의 체력 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png"
+  },
+  {
+    "id": "spear_of_shojin",
+    "name": "쇼진의 창",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "tear_of_goddess"
+    ],
+    "effect": "기본 공격 시 추가 마나 5 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png"
+  },
+  {
+    "id": "steraks_gage",
+    "name": "스테락의 도전",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "giants_belt"
+    ],
+    "effect": "체력이 60%일 때, 장착 유닛 최대 체력의 50%에 해당하는 보호막 획득. 보호막은 4초에 걸쳐 빠르게 사라짐",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png"
+  },
+  {
+    "id": "infinity_edge",
+    "name": "무한의 대검",
+    "type": "normal",
+    "components": [
+      "bf_sword",
+      "sparring_gloves"
+    ],
+    "effect": "스킬에 치명타 적용 가능. 기본 스킬에 치명타 적용이 가능한 경우, 대신에 치명타 피해량이 10% 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png"
+  },
+  {
+    "id": "red_buff",
+    "name": "붉은 덩굴정령",
+    "type": "normal",
+    "components": [
+      "recurve_bow",
+      "recurve_bow"
+    ],
+    "effect": "기본 공격과 스킬이 5초 동안 적에게 불태우기를 1%, 상처를 33% 적용",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png"
+  },
+  {
+    "id": "void_staff",
+    "name": "공허의 지팡이",
+    "type": "normal",
+    "components": [
+      "recurve_bow",
+      "tear_of_goddess"
+    ],
+    "effect": "기본 공격 및 스킬로 피해를 입힐 경우 5초 동안 대상에게 파쇄를 30% 적용 (중첩 불가)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png"
+  },
+  {
+    "id": "last_whisper",
+    "name": "최후의 속삭임",
+    "type": "normal",
+    "components": [
+      "recurve_bow",
+      "sparring_gloves"
+    ],
+    "effect": "기본 공격 및 스킬로 피해를 입힐 경우 3초 동안 대상에게 파열을 30% 적용 (중첩 불가)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png"
+  },
+  {
+    "id": "titans_resolve",
+    "name": "거인의 결의",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "recurve_bow"
+    ],
+    "effect": "공격하거나 피해를 받으면 공격력 2%, 주문력 2% 증가 (최대 25회 중첩). 최대 중첩 시 피해 증폭 10% 획득 및 군중 제어 효과에 면역",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png"
+  },
+  {
+    "id": "bramble_vest",
+    "name": "덤불 조끼",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "chain_vest"
+    ],
+    "effect": "최대 체력 9% 획득. 기본 공격으로 받는 피해 5% 감소. 기본 공격에 맞을 경우 인접한 모든 적에게 100의 마법 피해 (재사용 대기시간: 2초)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png"
+  },
+  {
+    "id": "gargoyle_stoneplate",
+    "name": "가고일 돌갑옷",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "negatron_cloak"
+    ],
+    "effect": "적의 공격 대상이 되면 방어력이 10, 마법 저항력이 10 증가. 공격하는 적이 늘어나면 중첩되어 적용",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png"
+  },
+  {
+    "id": "crownguard",
+    "name": "크라운가드",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "needlessly_large_rod"
+    ],
+    "effect": "전투 시작: 8초 동안 최대 체력의 25%에 해당하는 보호막 획득. 보호막이 사라지면 주문력 25% 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png"
+  },
+  {
+    "id": "fimbulwinter",
+    "name": "수호자의 맹세",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "tear_of_goddess"
+    ],
+    "effect": "전투 시작: 마나 20 획득. 체력이 40%일 때 마나 15 및 최대 체력의 20%에 해당하는 보호막 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png"
+  },
+  {
+    "id": "sunfire_cape",
+    "name": "태양불꽃 망토",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "giants_belt"
+    ],
+    "effect": "최대 체력 8% 획득. 2초마다 2칸 내에 있는 적 하나에게 10초 동안 불태우기를 1%, 상처를 33% 적용",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png"
+  },
+  {
+    "id": "steadfast_heart",
+    "name": "굳건한 심장",
+    "type": "normal",
+    "components": [
+      "chain_vest",
+      "sparring_gloves"
+    ],
+    "effect": "내구력 10% 획득. 체력이 50% 이상일 때 대신 내구력 18% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png"
+  },
+  {
+    "id": "kraken_slayer",
+    "name": "크라켄의 분노",
+    "type": "normal",
+    "components": [
+      "negatron_cloak",
+      "recurve_bow"
+    ],
+    "effect": "기본 공격 시 공격력 3.5% (최대 15회 중첩) 획득. 기본 공격 15회 후 공격 속도 15% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png"
+  },
+  {
+    "id": "dragons_claw",
+    "name": "용의 발톱",
+    "type": "normal",
+    "components": [
+      "negatron_cloak",
+      "negatron_cloak"
+    ],
+    "effect": "최대 체력 9% 획득. 2초마다 최대 체력의 2.5% 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png"
+  },
+  {
+    "id": "adaptive_helm",
+    "name": "적응형 투구",
+    "type": "normal",
+    "components": [
+      "negatron_cloak",
+      "tear_of_goddess"
+    ],
+    "effect": "모든 요소로부터 얻는 마나 15% 증가. 탱커·전사: 방어력 및 마법 저항력 45 획득. 기타: 공격력 및 주문력 10% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+  },
+  {
+    "id": "quicksilver",
+    "name": "수은",
+    "type": "normal",
+    "components": [
+      "negatron_cloak",
+      "sparring_gloves"
+    ],
+    "effect": "전투 시작: 18초 동안 군중 제어 효과에 면역. 매초 공격 속도 3% 획득 (중첩 가능)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png"
+  },
+  {
+    "id": "guinsoos_rageblade",
+    "name": "구인수의 격노검",
+    "type": "normal",
+    "components": [
+      "needlessly_large_rod",
+      "recurve_bow"
+    ],
+    "effect": "매초 공격 속도 7% 획득 (중첩 가능)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png"
+  },
+  {
+    "id": "ionic_spark",
+    "name": "이온 충격기",
+    "type": "normal",
+    "components": [
+      "needlessly_large_rod",
+      "negatron_cloak"
+    ],
+    "effect": "2칸 내 적에게 파쇄 30% 적용. 해당 적은 스킬 사용 시 사용한 마나의 150%에 해당하는 마법 피해를 입음",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png"
+  },
+  {
+    "id": "rabadons_deathcap",
+    "name": "라바돈의 죽음모자",
+    "type": "normal",
+    "components": [
+      "needlessly_large_rod",
+      "needlessly_large_rod"
+    ],
+    "effect": "평범해 보이지만 우주를 창조하거나 파괴할 수 있는 모자입니다.",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png"
+  },
+  {
+    "id": "archangels_staff",
+    "name": "대천사의 지팡이",
+    "type": "normal",
+    "components": [
+      "needlessly_large_rod",
+      "tear_of_goddess"
+    ],
+    "effect": "전투 시작: 전투 중 5초마다 주문력 20% 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png"
+  },
+  {
+    "id": "jeweled_gauntlet",
+    "name": "보석 건틀릿",
+    "type": "normal",
+    "components": [
+      "needlessly_large_rod",
+      "sparring_gloves"
+    ],
+    "effect": "스킬에 치명타 적용 가능. 기본 스킬에 치명타 적용이 가능한 경우, 대신에 치명타 피해량이 10% 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png"
+  },
+  {
+    "id": "blue_buff",
+    "name": "푸른 파수꾼",
+    "type": "normal",
+    "components": [
+      "tear_of_goddess",
+      "tear_of_goddess"
+    ],
+    "effect": "모든 요소로부터 얻는 공격력 및 주문력 10% 증가",
+    "icon": "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png"
+  },
+  {
+    "id": "nashors_tooth",
+    "name": "내셔의 이빨",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "recurve_bow"
+    ],
+    "effect": "기본 공격 시 추가 마나 2 획득. 치명타 적중 시 4 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png"
+  },
+  {
+    "id": "evenshroud",
+    "name": "저녁갑주",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "negatron_cloak"
+    ],
+    "effect": "2칸 내에 있는 적 30% 파열. 전투 시작 후 15초 동안 방어력과 마법 저항력 25 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Evenshroud_1693041191-3001_support_lunari.png"
+  },
+  {
+    "id": "morellonomicon",
+    "name": "모렐로노미콘",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "needlessly_large_rod"
+    ],
+    "effect": "기본 공격 및 스킬로 피해를 입힐 경우 10초 동안 적에게 불태우기를 1%, 상처를 33% 적용",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png"
+  },
+  {
+    "id": "redemption",
+    "name": "정령의 형상",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "tear_of_goddess"
+    ],
+    "effect": "매초 잃은 체력의 2.5%만큼 체력 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png"
+  },
+  {
+    "id": "warmogs_armor",
+    "name": "워모그의 갑옷",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "giants_belt"
+    ],
+    "effect": "최대 체력 18% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png"
+  },
+  {
+    "id": "guardbreaker",
+    "name": "타격대의 철퇴",
+    "type": "normal",
+    "components": [
+      "giants_belt",
+      "sparring_gloves"
+    ],
+    "effect": "치명타 적중 시 5초 동안 피해 증폭 5% 획득 (최대 4회 중첩)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png"
+  },
+  {
+    "id": "hand_of_justice",
+    "name": "정의의 손길",
+    "type": "normal",
+    "components": [
+      "sparring_gloves",
+      "tear_of_goddess"
+    ],
+    "effect": "공격력 15%·주문력 15% 또는 모든 피해 흡혈 12% (체력 50% 기준 전환)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png"
+  },
+  {
+    "id": "thiefs_gloves",
+    "name": "도적의 장갑",
+    "type": "normal",
+    "components": [
+      "sparring_gloves",
+      "sparring_gloves"
+    ],
+    "effect": "매 라운드: 무작위 아이템 2개 장착. [아이템 슬롯 3개 차지]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png"
+  },
+  {
+    "id": "tacticians_crown",
+    "name": "전략가의 왕관",
+    "type": "normal",
+    "components": [
+      "spatula",
+      "spatula"
+    ],
+    "effect": "아군의 최대 팀 규모 +1 증가. 전투 승리 시 1골드를 획득할 확률 10%",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ForceofNature_1726200222-tacticians_crown.png"
+  },
+  {
+    "id": "tacticians_cape",
+    "name": "전략가의 망토",
+    "type": "normal",
+    "components": [
+      "frying_pan",
+      "spatula"
+    ],
+    "effect": "아군의 최대 팀 규모 +1 증가. 전투 시작 시 10초 후 1골드를 획득할 확률 10%",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TacticiansCape_1724990309-tacticians_ring.png"
+  },
+  {
+    "id": "tacticians_shield",
+    "name": "전략가의 방패",
+    "type": "normal",
+    "components": [
+      "frying_pan",
+      "frying_pan"
+    ],
+    "effect": "아군의 최대 팀 규모 +1 증가. 장착 유닛 사망 시 1골드를 획득할 확률 10%",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TacticiansShield_1724990428-tacticians_scepter.png"
+  },
+  {
+    "id": "locket_solari",
+    "name": "강철의 솔라리 펜던트",
+    "type": "support",
+    "effect": "전투 시작: 가로로 2칸 내 모든 아군이 20초 동안 보호막 250, 방어력 20, 마법 저항력 20 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LocketoftheIronSolari_1693365491-locket_of_the_iron_solari.png"
+  },
+  {
+    "id": "accomplices_gloves",
+    "name": "공범의 장갑",
+    "type": "support",
+    "effect": "매 라운드: 무작위 지원 아이템 2개 장착. [아이템 슬롯 3개 차지]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/AccomplicesGloves_1709501151-thieves_gloves.png"
+  },
+  {
+    "id": "aegis_legion",
+    "name": "군단의 방패",
+    "type": "support",
+    "effect": "전투 시작: 같은 열 인접 아군과 그 뒤 아군이 12초 동안 공격 속도 25%, 방어력·마법 저항력 15 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/AegisoftheLegion_1693365506-ZzRotPortal_1667202928-zzrot_portal.png"
+  },
+  {
+    "id": "knights_vow",
+    "name": "기사의 맹세",
+    "type": "support",
+    "effect": "전투 시작: 1칸 내 같은 열 아군이 체력 200, 모든 피해 흡혈 15% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/KnightsVow_1714027510-knights_vow.png"
+  },
+  {
+    "id": "randuins_omen",
+    "name": "란두인의 예언",
+    "type": "support",
+    "effect": "전투 시작: 인접한 모든 아군과 장착 유닛에게 방어력 30, 마법 저항력 30 부여",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemRanduinsOmen_1693365512-randuins_sanctum_support.png"
+  },
+  {
+    "id": "banshees_veil",
+    "name": "밴시의 장막",
+    "type": "support",
+    "effect": "전투 시작: 가로로 1칸 내 아군이 18초 동안 군중 제어 면역 및 공격 속도 25% 증가. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/BansheesVeil_1693365519-banshees_veil.png"
+  },
+  {
+    "id": "unstable_treasure_chest",
+    "name": "불안정한 보물 상자",
+    "type": "support",
+    "effect": "장착 유닛이 죽으면 체력 비율 높은 아군 4명이 임시 완성 아이템 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/UnstableTreasureChest_1714027854-unstable_treasure_chest.png"
+  },
+  {
+    "id": "zephyr",
+    "name": "서풍",
+    "type": "support",
+    "effect": "전투 시작: 반대편에 회오리바람 소환, 가장 가까운 적을 5초 동안 전투에서 제외. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Zephyr_1693365537-zephyr.png"
+  },
+  {
+    "id": "virtue_martyr",
+    "name": "순교자의 미덕",
+    "type": "support",
+    "effect": "5초마다 모든 아군이 최대 체력의 7%만큼 회복. 장착 유닛 처치 시 14%로 증가, 2회 추가 적용",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/VirtueoftheMartyr_1693365499-radiant_virtue.png"
+  },
+  {
+    "id": "needlessly_big_gem",
+    "name": "쓸데없이 큰 보석",
+    "type": "support",
+    "effect": "아군이 피해 증폭 5% 획득. 장착 유닛 생존 시 매초 1% 추가 (최대 20%)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/NeedlesslyBigGem_1693365545-needlessy_large_gem.png"
+  },
+  {
+    "id": "eternal_flame",
+    "name": "영원한 불꽃",
+    "type": "support",
+    "effect": "장착 유닛 생존 중 모든 아군이 피해 증폭 8%, 모든 적에게 상처 33% 적용. 5초마다 초기화",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TheEternalFlame_1714027272-eternal_flame.png"
+  },
+  {
+    "id": "moonstone_renewer",
+    "name": "월석 재생기",
+    "type": "support",
+    "effect": "4초마다 체력 비율 낮은 아군 2명에게 4초 동안 55~325 보호막 부여",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/MoonstoneRenewer_1714027625-moonstone.png"
+  },
+  {
+    "id": "zzrot_portal",
+    "name": "즈롯 차원문",
+    "type": "support",
+    "effect": "전투 시작: 도발. 사망 시 공허 생물이 깨어나 주변 적을 도발",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ZzRotPortal_1693365550-zzrot_portal.png"
+  },
+  {
+    "id": "zekes_herald",
+    "name": "지크의 전령",
+    "type": "support",
+    "effect": "전투 시작: 장착 유닛과 2칸 내 같은 열 아군이 공격 속도 30% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ZekesHerald_1693365559-zekes_herald.png"
+  },
+  {
+    "id": "shroud_of_stillness",
+    "name": "침묵의 장막",
+    "type": "support",
+    "effect": "전투 시작: 적에게 마나 30% 강탈 광선 발사. 아군 체력 60 증가. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Shroud_1693365565-shroud_of_stillness.png"
+  },
+  {
+    "id": "obsidian_cleaver",
+    "name": "흑요석 양날 도끼",
+    "type": "support",
+    "effect": "피해를 입힐 경우 15초 동안 대상 파쇄 30% 및 파열 30%. 아군 모두 공격력 8%, 주문력 8 획득. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemBlackCleaver_1693365581-obsidian_cleaver.png"
+  },
+  {
+    "id": "chalice_of_power",
+    "name": "힘의 성배",
+    "type": "support",
+    "effect": "전투 시작: 장착 유닛과 2칸 내 같은 열 아군이 주문력 25, 마나 10 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Chalice_1693365587-chalice_of_power.png"
+  },
+  {
+    "id": "titanic_hydra",
+    "name": "거대한 히드라",
+    "type": "artifact",
+    "effect": "기본 공격 시 대상 및 인접한 적에게 최대 체력 3%+공격력 8%만큼 추가 물리 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TitanicHydra_1748484828-거대한히드라.jpg"
+  },
+  {
+    "id": "moguls_mail",
+    "name": "거물의 갑옷",
+    "type": "artifact",
+    "effect": "피해를 입으면 방어력 1, 마법 저항력 1, 체력 5 획득 (최대 35회). 최대 중첩 시 11초마다 1골드. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/MogulsMail_1693364912-moguls_mail.png"
+  },
+  {
+    "id": "rapid_firecannon",
+    "name": "고속 연사포",
+    "type": "artifact",
+    "effect": "공격 사거리 +1 증가. 적을 처치할 때마다 1씩 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/RapidFirecannon_1714029325-tft_item_artifact_rapidfirecannon.png"
+  },
+  {
+    "id": "void_gauntlet",
+    "name": "공허 건틀릿",
+    "type": "artifact",
+    "effect": "전투 시작: 최대 체력 30% 저장, 매초 2.5% 추가. 사망 시 4칸 내 적에게 저장한 체력만큼 마법 피해. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_VoidGauntlet.jpg"
+  },
+  {
+    "id": "darkin_scythe",
+    "name": "다르킨의 낫",
+    "type": "artifact",
+    "effect": "다르킨 특성 획득. 4초마다 인접한 적에게 기본 공격 150% 물리 피해. 처치 관여 또는 돌진 시 재발동",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_TheDarkinScythe.jpg"
+  },
+  {
+    "id": "darkin_aegis",
+    "name": "다르킨의 방패",
+    "type": "artifact",
+    "effect": "다르킨 특성 획득. 2칸 내 적에게 매초 최대 체력 1% 마법 피해. 범위 내 유닛 사망 시 최대 체력 2% 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_TheDarkinAegis.jpg"
+  },
+  {
+    "id": "darkin_staff",
+    "name": "다르킨의 지팡이",
+    "type": "artifact",
+    "effect": "다르킨 특성 획득. 마나 20 사용마다 현재 대상 주변 적에게 덩굴 50 마법 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_TheDarkinStaff.jpg"
+  },
+  {
+    "id": "darkin_bow",
+    "name": "다르킨의 활",
+    "type": "artifact",
+    "effect": "다르킨 특성 획득. 기본 공격 10회마다 관통 화살 발사, 기본 공격 500% 물리 피해 (적중마다 33% 감소)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_TheDarkinBow.jpg"
+  },
+  {
+    "id": "blacksmiths_gloves",
+    "name": "대장장이의 장갑",
+    "type": "artifact",
+    "effect": "매 라운드: 무작위 오른 유물 2개 장착. [아이템 슬롯 3개 차지]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/BlacksmithsGloves_1710226718-tft9_ornnitem_blacksmithsgloves.png"
+  },
+  {
+    "id": "gamblers_blade",
+    "name": "도박꾼의 칼날",
+    "type": "artifact",
+    "effect": "보유 골드마다 공격 속도 1% 획득 (최대 30골드). 기본 공격마다 6% 확률로 1골드. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/GamblersBlade_1699930369-tft10_gamblersblade.tft_set10%20(1).png"
+  },
+  {
+    "id": "lightshield_crest",
+    "name": "라이트실드 문장",
+    "type": "artifact",
+    "effect": "3초마다 체력 낮은 아군에게 방어력+마법 저항력 합의 70%만큼 보호막. 사망 시 모든 아군에게 부여",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LightshieldCrest_1714030338-tft_item_artifact_lightshieldcrest.png"
+  },
+  {
+    "id": "ludens_tempest",
+    "name": "루덴의 폭풍",
+    "type": "artifact",
+    "effect": "대상 처치 후 남는 피해량의 100%+100에 해당하는 마법 피해를 가장 가까운 적 세 명에게 입힘",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LudensTempest_1714029478-tft_item_artifact_ludenstempest.png"
+  },
+  {
+    "id": "lich_bane",
+    "name": "리치베인",
+    "type": "artifact",
+    "effect": "스킬 사용 후 첫 번째 기본 공격 시 추가 마법 피해 (스테이지 비례)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/LichBane_1714030255-tft_item_artifact_lichbane.png"
+  },
+  {
+    "id": "wits_end",
+    "name": "마법사의 최후",
+    "type": "artifact",
+    "effect": "기본 공격 시 추가 마법 피해. 입히는 모든 마법 피해량의 30%만큼 체력 회복 (스테이지 비례)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/WitsEnd_1714029999-tft_item_artifact_witsend.png"
+  },
+  {
+    "id": "flickerblade",
+    "name": "명멸검",
+    "type": "artifact",
+    "effect": "기본 공격 시 공격 속도 5% 획득 (중첩). 기본 공격 5회마다 공격력 2%, 주문력 2% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Flickerblade_1748484851-명멸검.jpg"
+  },
+  {
+    "id": "infinite_trinity_force",
+    "name": "무한한 삼위일체",
+    "type": "artifact",
+    "effect": "없는 게 없습니다!",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemTrinityForce_1644815912.png"
+  },
+  {
+    "id": "mittens",
+    "name": "방한 장갑",
+    "type": "artifact",
+    "effect": "착용자의 몸집이 줄고 이동 속도가 증가하며 냉각, 불태우기, 상처 효과에 면역",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Mittens_1714029155-tft_item_artifact_mittens.png"
+  },
+  {
+    "id": "indomitable_gauntlet",
+    "name": "불굴",
+    "type": "artifact",
+    "effect": "최대 체력 15%와 기절 면역 획득. 현재 대상을 근접 공격 사거리로 끌어당김",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/IndomitableGauntlet_1748484841-불굴.jpg"
+  },
+  {
+    "id": "dawncore",
+    "name": "새벽심장",
+    "type": "artifact",
+    "effect": "장착 시 최대 마나 10 감소. 스킬 사용 시 최대 마나 10% 감소 (최소 10)",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/PBEDawncore_1752038401-Dawncore.png"
+  },
+  {
+    "id": "aegis_of_dawn",
+    "name": "새벽의 방패",
+    "type": "artifact",
+    "effect": "2.5초마다 1칸 내 적의 방어력 5 훔치고 방어력의 15%만큼 체력 회복. 황혼의 방패 장착 시 1.25초마다",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_AegisOfDawn.jpg"
+  },
+  {
+    "id": "fishbones",
+    "name": "생선대가리",
+    "type": "artifact",
+    "effect": "기본 공격 시 무작위 적을 대상으로 지정",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Fishbones_1714028339-tft_item_artifact_fishbones.png"
+  },
+  {
+    "id": "hullcrusher",
+    "name": "선체분쇄자",
+    "type": "artifact",
+    "effect": "전투 시작: 인접한 아군이 없다면 체력 400, 공격력 10%, 주문력 10% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/Hullcrusher_1710227062-tft9_ornnitem_hullbreaker.png"
+  },
+  {
+    "id": "statikk_shiv",
+    "name": "스태틱의 단검",
+    "type": "artifact",
+    "effect": "기본 공격 3회마다 4명의 적에게 30+주문력 40%만큼 추가 마법 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/StatikkShiv_1748484859-스태틱.jpg"
+  },
+  {
+    "id": "talisman_of_ascension",
+    "name": "승천의 부적",
+    "type": "artifact",
+    "effect": "22초 후 전투가 끝날 때까지 최대 체력 100%와 피해 증폭 120% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TalismanOfAscension_1714028034-tft_item_artifact_talismanofascension.png"
+  },
+  {
+    "id": "blighting_jewel",
+    "name": "역병의 보석",
+    "type": "artifact",
+    "effect": "마법 피해를 입히면 대상의 마법 저항력 2 감소. 0이면 대신 마나 2 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/BlightingJewel_1714029927-tft_item_artifact_blightingjewel.png"
+  },
+  {
+    "id": "everfrost",
+    "name": "영원한 겨울",
+    "type": "artifact",
+    "effect": "피해를 입힌 적에게 1.5초 동안 냉각 20% 부여. 7번 냉각 시 기절. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemEverfrost_1644815863.png"
+  },
+  {
+    "id": "eternal_pact",
+    "name": "영원한 서약",
+    "type": "artifact",
+    "effect": "전투 시작: 체력 많은 아군과 서약. 해당 아군 사망 시 마나 재생 10, 주문력 40% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_EternalPact.jpg"
+  },
+  {
+    "id": "silvermere_dawn",
+    "name": "은빛 여명",
+    "type": "artifact",
+    "effect": "기절 면역. 기본 공격 시 대상을 0.8초 동안 기절. 공격 속도는 0.5에서 고정",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SilvermereDawn_1714029565-tft_item_artifact_silvermeredawn.png"
+  },
+  {
+    "id": "prowlers_claw",
+    "name": "자객의 발톱",
+    "type": "artifact",
+    "effect": "대상 처치 후 해로운 효과 제거하고 4칸 내 가장 먼 대상에게 돌진. 다음 치명타 2회가 50% 추가 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/ProwlersClaw_1714029686-tft_item_artifact_prowlersclaw.png"
+  },
+  {
+    "id": "snipers_focus",
+    "name": "저격수의 집중",
+    "type": "artifact",
+    "effect": "4칸 이상 떨어진 대상을 상대로 피해 증폭 40% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SnipersFocus_1686308390-tft9_ornnitem_snipersfocus.tft_set9.png"
+  },
+  {
+    "id": "zhonyas_paradox",
+    "name": "존야의 역설",
+    "type": "artifact",
+    "effect": "전투당 한 번, 체력이 40%일 때 3초 동안 무적. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemZhonyasHourglass_1644815918.png"
+  },
+  {
+    "id": "deaths_dance",
+    "name": "죽음의 저항",
+    "type": "artifact",
+    "effect": "받는 피해량의 50%를 4초 동안 치명적이지 않은 피해로 받음. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemDeathsDance_1644815852.png"
+  },
+  {
+    "id": "hellfire_hatchet",
+    "name": "지옥불 손도끼",
+    "type": "artifact",
+    "effect": "기본 공격 시 최대 체력 2%만큼 추가 물리 피해. 잃은 체력 1%당 공격 속도 1% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_HellfireHatchet.jpg"
+  },
+  {
+    "id": "horizon_focus",
+    "name": "지평선의 초점",
+    "type": "artifact",
+    "effect": "적을 기절시키면 벼락을 떨어뜨려 대상 최대 체력의 30%에 해당하는 마법 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/HorizonFocus_1714029051-tft_item_artifact_horizonfocus.png"
+  },
+  {
+    "id": "seekers_armguard",
+    "name": "추적자의 팔목 보호대",
+    "type": "artifact",
+    "effect": "처치 관여 시 방어력, 마법 저항력, 주문력 20 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/SeekersArmguard_1714030423-tft_item_artifact_seekersarmguard.png"
+  },
+  {
+    "id": "cappa_juice",
+    "name": "카파 주스",
+    "type": "artifact",
+    "effect": "처치 관여마다 모자 착용. 모자 하나당 공격력 및 주문력 1% 획득. 사망 시 모자의 20% 상실",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_CappaJuice.jpg"
+  },
+  {
+    "id": "the_collector",
+    "name": "황금 징수의 총",
+    "type": "artifact",
+    "effect": "최대 체력의 12%보다 체력이 낮은 적 처형. 처형 시 33% 확률로 1골드. [고유]",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/OrnnItemTheCollector_1644815905.png"
+  },
+  {
+    "id": "aegis_of_dusk",
+    "name": "황혼의 방패",
+    "type": "artifact",
+    "effect": "2.5초마다 1칸 내 적의 마법 저항력 5 훔치고 마법 저항력의 15%만큼 마법 피해. 새벽의 방패 장착 시 1.25초마다",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT_Item_Artifact_AegisOfDusk.jpg"
+  },
+  {
+    "id": "emblem_void",
+    "name": "공허 상징",
+    "type": "emblem",
+    "trait": "void",
+    "effect": "장착 시 공허 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_VoidEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_quickstriker",
+    "name": "기동타격대 상징",
+    "type": "emblem",
+    "trait": "quickstriker",
+    "effect": "장착 시 기동타격대 특성 획득. 처치 관여 시 가장 가까운 대상에게 돌진하고 최대 체력의 10%만큼 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_RapidfireEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_invoker",
+    "name": "기원자 상징",
+    "type": "emblem",
+    "trait": "invoker",
+    "effect": "장착 시 기원자 특성 획득. 스킬 사용 시 사용한 마나의 10%만큼 주문력 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_InvokerEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_bruiser",
+    "name": "난동꾼 상징",
+    "type": "emblem",
+    "trait": "bruiser",
+    "effect": "장착 시 난동꾼 특성 획득. 매초 반경 1칸에 최대 체력의 2%만큼 마법 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_BrawlerEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_noxus",
+    "name": "녹서스 상징",
+    "type": "emblem",
+    "trait": "noxus",
+    "effect": "장착 시 녹서스 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_NoxusEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_demacia",
+    "name": "데마시아 상징",
+    "type": "emblem",
+    "trait": "demacia",
+    "effect": "장착 시 데마시아 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_DemaciaEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_disruptor",
+    "name": "방해꾼 상징",
+    "type": "emblem",
+    "trait": "disruptor",
+    "effect": "장착 시 방해꾼 특성 획득. 스킬이 3초 동안 20%의 추가 마법 피해",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_MagusEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_arcanist",
+    "name": "비전 마법사 상징",
+    "type": "emblem",
+    "trait": "arcanist",
+    "effect": "장착 시 비전 마법사 특성 획득. 처치 시 최대 마나의 20%만큼 마나 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_SorcererEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_bilgewater",
+    "name": "빌지워터 상징",
+    "type": "emblem",
+    "trait": "bilgewater",
+    "effect": "장착 시 빌지워터 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_BilgewaterEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_ionia",
+    "name": "아이오니아 상징",
+    "type": "emblem",
+    "trait": "ionia",
+    "effect": "장착 시 아이오니아 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_IoniaEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_defender",
+    "name": "엄호대 상징",
+    "type": "emblem",
+    "trait": "defender",
+    "effect": "장착 시 엄호대 특성 획득. 전투 시작: 방어력 또는 마법 저항력 중 더 높은 능력치 35% 추가 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_DefenderEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_yordle",
+    "name": "요들 상징",
+    "type": "emblem",
+    "trait": "yordle",
+    "effect": "장착 시 요들 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_YordleEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_longshot",
+    "name": "원거리 사격 상징",
+    "type": "emblem",
+    "trait": "longshot",
+    "effect": "장착 시 원거리 사격 특성 획득 및 공격 사거리 +1 증가",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_LongshotEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_ixtal",
+    "name": "이쉬탈 상징",
+    "type": "emblem",
+    "trait": "ixtal",
+    "effect": "장착 시 이쉬탈 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_IxtalEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_zaun",
+    "name": "자운 상징",
+    "type": "emblem",
+    "trait": "zaun",
+    "effect": "장착 시 자운 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_ZaunEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_juggernaut",
+    "name": "전쟁기계 상징",
+    "type": "emblem",
+    "trait": "juggernaut",
+    "effect": "장착 시 전쟁기계 특성 획득 및 다른 전쟁기계 사망 시 최대 체력 10% 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_JuggernautEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_gunslinger",
+    "name": "총잡이 상징",
+    "type": "emblem",
+    "trait": "gunslinger",
+    "effect": "장착 시 총잡이 특성 획득. 물리 피해를 입힐 경우 대상 방어력 2 감소",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_GunslingerEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_vanquisher",
+    "name": "토벌자 상징",
+    "type": "emblem",
+    "trait": "vanquisher",
+    "effect": "장착 시 토벌자 특성 획득 및 치명타 적중 시 3% 확률로 1골드",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_VanquisherEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_warden",
+    "name": "파수꾼 상징",
+    "type": "emblem",
+    "trait": "warden",
+    "effect": "장착 시 파수꾼 특성 획득. 보호막 파괴 시 최초 보호막 수치의 30%만큼 체력 회복",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_WardenEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_freljord",
+    "name": "프렐요드 상징",
+    "type": "emblem",
+    "trait": "freljord",
+    "effect": "장착 시 프렐요드 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_FreljordEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_piltover",
+    "name": "필트오버 상징",
+    "type": "emblem",
+    "trait": "piltover",
+    "effect": "장착 시 필트오버 특성 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_PiltoverEmblemItem.jpg"
+  },
+  {
+    "id": "emblem_slayer",
+    "name": "학살자 상징",
+    "type": "emblem",
+    "trait": "slayer",
+    "effect": "장착 시 학살자 특성 획득. 체력이 25% 아래로 떨어지면 마나 20 및 최대 체력의 30% 보호막 획득",
+    "icon": "https://cdn.lolchess.gg/upload/images/items/TFT16_Item_SlayerEmblemItem.jpg"
+  }
+]

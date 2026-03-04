@@ -1,0 +1,5333 @@
+[
+  {
+    "id": "e0bdd6c5",
+    "name": "공허 카이사",
+    "goldCost": 93,
+    "traits": [
+      {
+        "id": "assimilator",
+        "count": 1
+      },
+      {
+        "id": "riftscourge",
+        "count": 1
+      },
+      {
+        "id": "void",
+        "count": 8
+      },
+      {
+        "id": "bruiser",
+        "count": 3
+      },
+      {
+        "id": "longshot",
+        "count": 1
+      }
+    ],
+    "champions": [
+      {
+        "id": "kog_maw",
+        "name": "코그모",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "reksai",
+        "name": "렉사이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "cho_gath",
+        "name": "초가스",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "malzahar",
+        "name": "말자하",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bel_veth",
+        "name": "벨베스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "giant_slayer",
+          "quicksilver",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kai_sa",
+        "name": "카이사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "jeweled_gauntlet",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "rift_herald",
+        "name": "협곡의 전령",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "baron_nashor",
+        "name": "내셔 남작",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "bloodthirster",
+          "steraks_gage"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/e0bdd6c5d3a2903b6947e13032b1936a211730d3?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "ffa3b11b",
+    "name": "8요들 베이가 직스",
+    "goldCost": 84,
+    "traits": [
+      {
+        "id": "yordle",
+        "count": 8
+      },
+      {
+        "id": "arcanist",
+        "count": 2
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "juggernaut",
+        "count": 2
+      },
+      {
+        "id": "longshot",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "rumble",
+        "name": "럼블",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "teemo",
+        "name": "티모",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "veigar",
+        "name": "베이가",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "rabadons_deathcap",
+          "hextech_gunblade"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "fizz",
+        "name": "피즈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "hand_of_justice",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "rabadons_deathcap",
+          "jeweled_gauntlet"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/ffa3b11bc1f94fd53ea537f1886173715714b332?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "01f32ae3",
+    "name": "파수꾼 칼리스타",
+    "goldCost": 105,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      },
+      {
+        "id": "shadowisles_black",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "yorick",
+        "name": "요릭",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "gwen",
+        "name": "그웬",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kalista",
+        "name": "칼리스타",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "lastwhisper",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "thresh",
+        "name": "쓰레쉬",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "morellonomicon",
+          "ionic_spark",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/01f32ae35617cf2bc4833d9502174d601e4c503e?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "95a81273",
+    "name": "킨드레드 루시안 밸류",
+    "goldCost": 117,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 3
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "draven",
+        "name": "드레이븐",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "skarner",
+        "name": "스카너",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "shojins_spear",
+          "giant_slayer"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/95a81273fac593aa1991fc9f7102eeea52a85375?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "ca358983",
+    "name": "녹서스 멜 밸류",
+    "goldCost": 105,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 3
+      },
+      {
+        "id": "arcanist",
+        "count": 1
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "fimbulwinter",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "mel",
+        "name": "멜",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "nashorstooth",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/ca358983dc939fb5541e1970875ddd870cab5c9c?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "45616ead",
+    "name": "자운 직스 라이즈",
+    "goldCost": 102,
+    "traits": [
+      {
+        "id": "runemage_black",
+        "count": 0
+      },
+      {
+        "id": "theboss_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "zaun",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "longshot",
+        "count": 1
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "yordle",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "caitlyn",
+        "name": "케이틀린",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "drmundo",
+        "name": "문도 박사",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sett",
+        "name": "세트",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "jeweled_gauntlet",
+          "rabadons_deathcap"
+        ]
+      },
+      {
+        "id": "ryze",
+        "name": "라이즈",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/45616eadd7f14ecedebfb76e1171d5c182695379?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "c7133ee8",
+    "name": "문두 파수꾼 말자하",
+    "goldCost": 72,
+    "traits": [
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "void",
+        "count": 3
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "cho_gath",
+        "name": "초가스",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "redemption",
+          "steadfastheart"
+        ]
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "malzahar",
+        "name": "말자하",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "nashorstooth",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "malzahar",
+        "name": "말자하",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/c7133ee8fba36a9491a1a2230a668206b9846437?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "2fd0c38b",
+    "name": "7녹서스 암베사 멜",
+    "goldCost": 90,
+    "traits": [
+      {
+        "id": "emperor_black",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 6
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "briar",
+        "name": "브라이어",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sion",
+        "name": "사이온",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "bramblevest"
+        ]
+      },
+      {
+        "id": "darius",
+        "name": "다리우스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "leblanc",
+        "name": "르블랑",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "lordsedge",
+          "hand_of_justice",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "mel",
+        "name": "멜",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "jeweled_gauntlet",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "azir",
+        "name": "아지르",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/2fd0c38b99fb355c5fd090a1c27dd5b3a5fc0ef0?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "70f2be59",
+    "name": "벨베스 암베사 밸류",
+    "goldCost": 111,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "worldender_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 2
+      },
+      {
+        "id": "bruiser",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      },
+      {
+        "id": "void",
+        "count": 1
+      },
+      {
+        "id": "darkin_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "sion",
+        "name": "사이온",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bel_veth",
+        "name": "벨베스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "giant_slayer",
+          "quicksilver",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "lordsedge",
+          "hand_of_justice",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "rift_herald",
+        "name": "협곡의 전령",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "aatrox",
+        "name": "아트록스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/70f2be593d0100757933ac68f4c5fee767088b56?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "2ee4926f",
+    "name": "난동꾼 라이즈",
+    "goldCost": 102,
+    "traits": [
+      {
+        "id": "runemage_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "yordle",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "shen",
+        "name": "쉔",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "lissandra",
+        "name": "리산드라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "ludensecho",
+          "adaptivehelm"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "volibear",
+        "name": "볼리베어",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "steraks_gage",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "ryze",
+        "name": "라이즈",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/2ee4926f253670ee23b20b1d8e0293fbd66e83a1?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "83184a80",
+    "name": "유나라이즈",
+    "goldCost": 102,
+    "traits": [
+      {
+        "id": "runemage_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "yordle",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "ashe",
+        "name": "애쉬",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "lissandra",
+        "name": "리산드라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "ludensecho",
+          "adaptivehelm"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "yunara",
+        "name": "유나라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "infinity_edge",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ryze",
+        "name": "라이즈",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "jeweled_gauntlet",
+          "void_staff"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/83184a8068be99eda9d742f2eb84cc2372f9e229?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "a1c0b86d",
+    "name": "7데마시아 럭스",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "chronokeeper_black",
+        "count": 0
+      },
+      {
+        "id": "heroic_black",
+        "count": 0
+      },
+      {
+        "id": "demacia",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      }
+    ],
+    "champions": [
+      {
+        "id": "sona",
+        "name": "소나",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "jarvan_iv",
+        "name": "자르반 4세",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "xinzhao",
+        "name": "신 짜오",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "garen",
+        "name": "가렌",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "lux",
+        "name": "럭스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "hextech_gunblade",
+          "jeweled_gauntlet",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "galio",
+        "name": "갈리오",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "zilean",
+        "name": "질리언",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "morellonomicon",
+          "void_staff",
+          "shojins_spear"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/a1c0b86d0e371b40ecfabc40ae51f96be8181c71?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "761624c4",
+    "name": "비전 마법사 애니 밸류",
+    "goldCost": 111,
+    "traits": [
+      {
+        "id": "chainbreaker_black",
+        "count": 0
+      },
+      {
+        "id": "chronokeeper_black",
+        "count": 0
+      },
+      {
+        "id": "darkchild_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "theboss_black",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 1
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "yordle",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "tft16_annietibbers",
+        "name": "티버",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "warmogs_armor",
+          "bramblevest"
+        ]
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "lastwhisper",
+          "shojins_spear"
+        ]
+      },
+      {
+        "id": "sett",
+        "name": "세트",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "annie",
+        "name": "애니",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "bluebuff",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "zilean",
+        "name": "질리언",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sylas",
+        "name": "사일러스",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "jeweled_gauntlet",
+          "quicksilver"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/761624c4f66d45f7302b580fdfdbfa25cae19923?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "bab62806",
+    "name": "빌지워터 미스 포츈",
+    "goldCost": 105,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "glutton_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "bilgewater",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 0
+      },
+      {
+        "id": "gunslinger_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "illaoi",
+        "name": "일라오이",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "twistedfate",
+        "name": "트위스티드 페이트",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "tft16_item_bilgewater_captainsbrew"
+        ]
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "tft16_item_bilgewater_freebootersfrock"
+        ]
+      },
+      {
+        "id": "missfortune",
+        "name": "미스 포츈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "shojins_spear",
+          "tft16_item_bilgewater_firstmatesflintlock"
+        ]
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "lastwhisper",
+          "redbuffitem",
+          "shojins_spear"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "tahmkench",
+        "name": "탐 켄치",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "fimbulwinter",
+          "redemption",
+          "tft16_item_bilgewater_pileocitrus"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/bab6280665e757fda290b7c847f9182b9f1c040e?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "63554131",
+    "name": "밸류 아우솔",
+    "goldCost": 111,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "emperor_black",
+        "count": 0
+      },
+      {
+        "id": "starforger_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "diana",
+        "name": "다이애나",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "azir",
+        "name": "아지르",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "aurelionsol",
+        "name": "아우렐리온 솔",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "nashorstooth",
+          "nashorstooth"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/63554131e69c42be84125983d2221757e929802d?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "d0adfe36",
+    "name": "필트오버 T-헥스",
+    "goldCost": 108,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "hexmech_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      },
+      {
+        "id": "gunslinger_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "orianna",
+        "name": "오리아나",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "redemption",
+          "steadfastheart"
+        ]
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "lastwhisper",
+          "redbuffitem",
+          "shojins_spear"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "thex",
+        "name": "T-헥스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "guardbreaker",
+          "bluebuff"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/d0adfe36a867009702f212a1c2e0557b91329734?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "85686707",
+    "name": "4전기 4학살자 벨베스",
+    "goldCost": 99,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "worldender_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 2
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 3
+      },
+      {
+        "id": "void",
+        "count": 2
+      },
+      {
+        "id": "darkin_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "briar",
+        "name": "브라이어",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "cho_gath",
+        "name": "초가스",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "gangplank",
+        "name": "갱플랭크",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bel_veth",
+        "name": "벨베스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "giant_slayer",
+          "quicksilver",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "lordsedge",
+          "hand_of_justice",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "aatrox",
+        "name": "아트록스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/856867079ec83aa7ba76e82abd279d3cafff23a4?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "6c1fa059",
+    "name": "4전기 4공허 카이사",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "assimilator",
+        "count": 1
+      },
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 2
+      },
+      {
+        "id": "void",
+        "count": 3
+      },
+      {
+        "id": "longshot",
+        "count": 2
+      },
+      {
+        "id": "zaun",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      }
+    ],
+    "champions": [
+      {
+        "id": "kog_maw",
+        "name": "코그모",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "cho_gath",
+        "name": "초가스",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "drmundo",
+        "name": "문도 박사",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "singed",
+        "name": "신지드",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kai_sa",
+        "name": "카이사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "jeweled_gauntlet",
+          "hextech_gunblade"
+        ]
+      },
+      {
+        "id": "rift_herald",
+        "name": "협곡의 전령",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "redbuffitem",
+          "void_staff",
+          "guinsoos_rageblade"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/6c1fa0597d6435c022328b376d3ccdcdcab98187?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "ebc9f079",
+    "name": "자운 워윅",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "zaun",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ekko",
+        "name": "에코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "singed",
+        "name": "신지드",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "warwick",
+        "name": "워윅",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "rabadons_deathcap",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "lastwhisper",
+          "runaans_hurricane"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/ebc9f0792b33afabeb42daed6c490a878dac9a43?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "646b299c",
+    "name": "아이오니아 유나라",
+    "goldCost": 105,
+    "traits": [
+      {
+        "id": "dragonborn_black",
+        "count": 0
+      },
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "theboss_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "shen",
+        "name": "쉔",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ahri",
+        "name": "아리",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "yunara",
+        "name": "유나라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "infinity_edge",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sett",
+        "name": "세트",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "hand_of_justice",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "shyvana",
+        "name": "쉬바나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/646b299cc3563d54dace3dbfe04ffc10aafbc215?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "e0c85e63",
+    "name": "아이오니아 학살자 요네",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "theboss_black",
+        "count": 0
+      },
+      {
+        "id": "worldender_black",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 2
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      },
+      {
+        "id": "void",
+        "count": 3
+      },
+      {
+        "id": "darkin_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "shen",
+        "name": "쉔",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "reksai",
+        "name": "렉사이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "yasuo",
+        "name": "야스오",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bel_veth",
+        "name": "벨베스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "giant_slayer",
+          "quicksilver",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "yone",
+        "name": "요네",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "quicksilver",
+          "guinsoos_rageblade"
+        ]
+      },
+      {
+        "id": "sett",
+        "name": "세트",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "aatrox",
+        "name": "아트록스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/e0c85e636e2f910c8966306f722fa0157a5abd7a?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "d0132d0b",
+    "name": "이쉬탈 바드",
+    "goldCost": 90,
+    "traits": [
+      {
+        "id": "caretaker_black",
+        "count": 0
+      },
+      {
+        "id": "huntress_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "ixtal",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "bard",
+        "name": "바드",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "ludensecho",
+          "jeweled_gauntlet",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "orianna",
+        "name": "오리아나",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "adaptivehelm",
+          "morellonomicon",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "milio",
+        "name": "밀리오",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nidalee",
+        "name": "니달리",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "hextech_gunblade",
+          "jeweled_gauntlet",
+          "rabadons_deathcap"
+        ]
+      },
+      {
+        "id": "skarner",
+        "name": "스카너",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "brock",
+        "name": "브록",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "steraks_gage",
+          "lordsedge"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/d0132d0bc0e25df4b3ac20a8a2e7401521108b53?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "e15a32d9",
+    "name": "4필트 리산드라 세라핀",
+    "goldCost": 93,
+    "traits": [
+      {
+        "id": "emperor_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "shurima",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "orianna",
+        "name": "오리아나",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nasus",
+        "name": "나서스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "lissandra",
+        "name": "리산드라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "nashorstooth",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "azir",
+        "name": "아지르",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/e15a32d9c6e02fcce5f77aa8aad0eb8dd4e74b91?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "b172739e",
+    "name": "5그림자 군도 비에고",
+    "goldCost": 87,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "shadowisles_black",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "vi",
+        "name": "비에고",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "yorick",
+        "name": "요릭",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "gwen",
+        "name": "그웬",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "kalista",
+        "name": "칼리스타",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "lastwhisper",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "thresh",
+        "name": "쓰레쉬",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "morellonomicon",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/b172739e487bb317311d32dd2cfad7a52a016412?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "a00b2255",
+    "name": "6난동꾼 바드 아펠리오스",
+    "goldCost": 60,
+    "traits": [
+      {
+        "id": "caretaker_black",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "targon",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "shen",
+        "name": "쉔",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "illaoi",
+        "name": "일라오이",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bard",
+        "name": "바드",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "ludensecho",
+          "jeweled_gauntlet",
+          "shojins_spear"
+        ]
+      },
+      {
+        "id": "sion",
+        "name": "사이온",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "sunfire_cape"
+        ]
+      },
+      {
+        "id": "aphelios",
+        "name": "아펠리오스",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "infinity_edge"
+        ]
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "volibear",
+        "name": "볼리베어",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "steraks_gage",
+          "guardianangel"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/a00b2255597eed6f0b391485caba9ae0807d325f?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "6ae67df0",
+    "name": "엄호대 아펠리오스",
+    "goldCost": 69,
+    "traits": [
+      {
+        "id": "caretaker_black",
+        "count": 0
+      },
+      {
+        "id": "huntress_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "bramblevest"
+        ]
+      },
+      {
+        "id": "bard",
+        "name": "바드",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "ludensecho",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "aphelios",
+        "name": "아펠리오스",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "infinity_edge"
+        ]
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nidalee",
+        "name": "니달리",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "guardbreaker",
+          "hand_of_justice"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/6ae67df04787295b5bdbc13f121b02c18784a4ab?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "a0edca9e",
+    "name": "슈리마 아지르 애니",
+    "goldCost": 93,
+    "traits": [
+      {
+        "id": "ascendant_black",
+        "count": 0
+      },
+      {
+        "id": "darkchild_black",
+        "count": 0
+      },
+      {
+        "id": "emperor_black",
+        "count": 0
+      },
+      {
+        "id": "shurima",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "disruptor_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "tft16_annietibbers",
+        "name": "티버",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "renekton",
+        "name": "레넥톤",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "azir",
+        "name": "아지르",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "hextech_gunblade",
+          "jeweled_gauntlet"
+        ]
+      },
+      {
+        "id": "annie",
+        "name": "애니",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "adaptivehelm",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "xerath",
+        "name": "제라스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "jeweled_gauntlet",
+          "nashorstooth"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/a0edca9e2ab076afb8e98d77424ce69657a2fa2e?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "c400b49c",
+    "name": "빌지워터 라이즈",
+    "goldCost": 111,
+    "traits": [
+      {
+        "id": "glutton_black",
+        "count": 0
+      },
+      {
+        "id": "runemage_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 0
+      },
+      {
+        "id": "bilgewater",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "yordle",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "illaoi",
+        "name": "일라오이",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "lissandra",
+        "name": "리산드라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "morellonomicon",
+          "void_staff"
+        ]
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "fizz",
+        "name": "피즈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "volibear",
+        "name": "볼리베어",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "steraks_gage",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "tahmkench",
+        "name": "탐 켄치",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "fimbulwinter",
+          "redemption",
+          "tft16_item_bilgewater_pileocitrus"
+        ]
+      },
+      {
+        "id": "ryze",
+        "name": "라이즈",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "jeweled_gauntlet",
+          "tft16_item_bilgewater_blackmarketexplosives"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/c400b49ce8bcd21842b4904f8f5b4f7a46c7c028?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "8b3da833",
+    "name": "데마시아 자헨",
+    "goldCost": 87,
+    "traits": [
+      {
+        "id": "heroic_black",
+        "count": 0
+      },
+      {
+        "id": "immortal_black",
+        "count": 0
+      },
+      {
+        "id": "demacia",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      },
+      {
+        "id": "darkin_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "sona",
+        "name": "소나",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "jarvan_iv",
+        "name": "자르반 4세",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "orianna",
+        "name": "오리아나",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "garen",
+        "name": "가렌",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "lux",
+        "name": "럭스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "hextech_gunblade",
+          "ludensecho",
+          "ludensecho"
+        ]
+      },
+      {
+        "id": "galio",
+        "name": "갈리오",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "zaahen",
+        "name": "자헨",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "hand_of_justice",
+          "titansresolve"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/8b3da833604f88c6ccc4413e4c4132e68df12b8f?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "29265442",
+    "name": "4기원자 리산드라",
+    "goldCost": 102,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "chronokeeper_black",
+        "count": 0
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "anivia",
+        "name": "애니비아",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "lissandra",
+        "name": "리산드라",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "jeweled_gauntlet",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "volibear",
+        "name": "볼리베어",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "steraks_gage",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "zilean",
+        "name": "질리언",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "morellonomicon",
+          "void_staff",
+          "adaptivehelm"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/29265442307cbed5b8168c29220b7f9f17321213?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "230c9b93",
+    "name": "기동타격대 워윅",
+    "goldCost": 93,
+    "traits": [
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "zaun",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "gunslinger_black",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ashe",
+        "name": "애쉬",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "jinx",
+        "name": "징크스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "braum",
+        "name": "브라움",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "warwick",
+        "name": "워윅",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "lastwhisper",
+          "redbuffitem"
+        ]
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/230c9b93aecae9b0531861b44695f23dcf29168d?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "c78d224c",
+    "name": "기동타격대 애쉬 트린",
+    "goldCost": 66,
+    "traits": [
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "freljord",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 3
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "briar",
+        "name": "브라이어",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "neeko",
+        "name": "니코",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "ashe",
+        "name": "애쉬",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "giant_slayer"
+        ]
+      },
+      {
+        "id": "tryndamere",
+        "name": "트린다미어",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "guinsoos_rageblade",
+          "quicksilver"
+        ]
+      },
+      {
+        "id": "draven",
+        "name": "드레이븐",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sejuani",
+        "name": "세주아니",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "fimbulwinter",
+          "redemption",
+          "warmogs_armor"
+        ]
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/c78d224c07e7a3933ca69ebed406251e4cc90b25?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "10e0dd1b",
+    "name": "토벌자 갱플랭크 암베사",
+    "goldCost": 90,
+    "traits": [
+      {
+        "id": "harvester_black",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      },
+      {
+        "id": "bilgewater",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 2
+      },
+      {
+        "id": "bruiser",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "illaoi",
+        "name": "일라오이",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sion",
+        "name": "사이온",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "gangplank",
+        "name": "갱플랭크",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "quicksilver",
+          "steraks_gage",
+          "hand_of_justice"
+        ]
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "bel_veth",
+        "name": "벨베스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "giant_slayer",
+          "quicksilver",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "fiddlesticks",
+        "name": "피들스틱",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/10e0dd1b5160dd34865de15d624098f4da7cd481?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "17431440",
+    "name": "7데마시아 베인",
+    "goldCost": 87,
+    "traits": [
+      {
+        "id": "assimilator",
+        "count": 1
+      },
+      {
+        "id": "heroic_black",
+        "count": 0
+      },
+      {
+        "id": "demacia",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      },
+      {
+        "id": "longshot",
+        "count": 1
+      }
+    ],
+    "champions": [
+      {
+        "id": "jarvan_iv",
+        "name": "자르반 4세",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "xinzhao",
+        "name": "신 짜오",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vayne",
+        "name": "베인",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "hextech_gunblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "garen",
+        "name": "가렌",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "lux",
+        "name": "럭스",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "fimbulwinter"
+        ]
+      },
+      {
+        "id": "kai_sa",
+        "name": "카이사",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "ludensecho",
+          "hextech_gunblade"
+        ]
+      },
+      {
+        "id": "galio",
+        "name": "갈리오",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/174314403be9e8f488e40a4ad4b853d442eee261?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "1c71168c",
+    "name": "데마시아 소나 리롤",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "chronokeeper_black",
+        "count": 0
+      },
+      {
+        "id": "heroic_black",
+        "count": 0
+      },
+      {
+        "id": "demacia",
+        "count": 0
+      },
+      {
+        "id": "targon",
+        "count": 0
+      },
+      {
+        "id": "arcanist",
+        "count": 0
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "invoker_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 1
+      }
+    ],
+    "champions": [
+      {
+        "id": "sona",
+        "name": "소나",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "ludensecho",
+          "ludensecho",
+          "hextech_gunblade"
+        ]
+      },
+      {
+        "id": "jarvan_iv",
+        "name": "자르반 4세",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "xinzhao",
+        "name": "신 짜오",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "garen",
+        "name": "가렌",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "redemption"
+        ]
+      },
+      {
+        "id": "lux",
+        "name": "럭스",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "hextech_gunblade",
+          "jeweled_gauntlet",
+          "nashorstooth"
+        ]
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "taric",
+        "name": "타릭",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "galio",
+        "name": "갈리오",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "zilean",
+        "name": "질리언",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "morellonomicon",
+          "void_staff",
+          "shojins_spear"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/1c71168c6cacf652006a52f9ebf5023ed8cf43cc?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "de424247",
+    "name": "파수꾼 드레이븐 리롤",
+    "goldCost": 69,
+    "traits": [
+      {
+        "id": "bilgewater",
+        "count": 0
+      },
+      {
+        "id": "noxus",
+        "count": 3
+      },
+      {
+        "id": "juggernaut",
+        "count": 0
+      },
+      {
+        "id": "piltover",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      },
+      {
+        "id": "vanquisher_black",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "briar",
+        "name": "브라이어",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "twistedfate",
+        "name": "트위스티드 페이트",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "gangplank",
+        "name": "갱플랭크",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "quicksilver",
+          "steraks_gage",
+          "hand_of_justice"
+        ]
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "draven",
+        "name": "드레이븐",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "giant_slayer"
+        ]
+      },
+      {
+        "id": "loris",
+        "name": "로리스",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "seraphine",
+        "name": "세라핀",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ambessa",
+        "name": "암베사",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/de4242470d5e7595fc0aca19336d0af28c156049?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "3700e2b0",
+    "name": "7자운 징크스 리롤",
+    "goldCost": 72,
+    "traits": [
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "zaun",
+        "count": 0
+      },
+      {
+        "id": "gunslinger_black",
+        "count": 0
+      },
+      {
+        "id": "juggernaut",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "blitzcrank",
+        "name": "블리츠크랭크",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "vi",
+        "name": "바이",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ekko",
+        "name": "에코",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "drmundo",
+        "name": "문도 박사",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "redemption",
+          "evenshroud"
+        ]
+      },
+      {
+        "id": "jinx",
+        "name": "징크스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "runaans_hurricane",
+          "runaans_hurricane"
+        ]
+      },
+      {
+        "id": "singed",
+        "name": "신지드",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "morellonomicon",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "warwick",
+        "name": "워윅",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "steraks_gage"
+        ]
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      }
+    ],
+    "guideUrl": "/builder/guide/3700e2b06cc1863308aa4fcc40873ced2e187a8a?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "a83c66e2",
+    "name": "아이오니아 자헨",
+    "goldCost": 96,
+    "traits": [
+      {
+        "id": "blacksmith_black",
+        "count": 0
+      },
+      {
+        "id": "immortal_black",
+        "count": 0
+      },
+      {
+        "id": "theboss_black",
+        "count": 0
+      },
+      {
+        "id": "ionia",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "slayer_black",
+        "count": 0
+      },
+      {
+        "id": "warden_black",
+        "count": 0
+      },
+      {
+        "id": "darkin_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "shen",
+        "name": "쉔",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "yasuo",
+        "name": "야스오",
+        "cost": 2,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "hand_of_justice",
+          "guardianangel"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "evenshroud",
+          "redemption"
+        ]
+      },
+      {
+        "id": "yone",
+        "name": "요네",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "bloodthirster",
+          "titansresolve",
+          "guinsoos_rageblade"
+        ]
+      },
+      {
+        "id": "yunara",
+        "name": "유나라",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "sett",
+        "name": "세트",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "ornn",
+        "name": "오른",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "zaahen",
+        "name": "자헨",
+        "cost": 6,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "hand_of_justice",
+          "titansresolve"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/a83c66e2632b7bd430a6a7d8ef92e85beb086b82?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "8c9f31a5",
+    "name": "[믿음의 도약] 일라오이",
+    "goldCost": 102,
+    "traits": [
+      {
+        "id": "eternal_black",
+        "count": 0
+      },
+      {
+        "id": "glutton_black",
+        "count": 0
+      },
+      {
+        "id": "soulbound_black",
+        "count": 0
+      },
+      {
+        "id": "bilgewater",
+        "count": 0
+      },
+      {
+        "id": "bruiser",
+        "count": 1
+      },
+      {
+        "id": "gunslinger_black",
+        "count": 0
+      },
+      {
+        "id": "quickstriker_black",
+        "count": 0
+      }
+    ],
+    "champions": [
+      {
+        "id": "illaoi",
+        "name": "일라오이",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "hand_of_justice",
+          "titansresolve"
+        ]
+      },
+      {
+        "id": "twistedfate",
+        "name": "트위스티드 페이트",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "nautilus",
+        "name": "노틸러스",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "bramblevest",
+          "dragonsclaw",
+          "tft16_item_bilgewater_freebootersfrock"
+        ]
+      },
+      {
+        "id": "missfortune",
+        "name": "미스 포츈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "infinity_edge",
+          "shojins_spear",
+          "tft16_item_bilgewater_captainsbrew"
+        ]
+      },
+      {
+        "id": "wukong",
+        "name": "오공",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "luciansenna",
+        "name": "루시안과 세나",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "lastwhisper",
+          "redbuffitem",
+          "shojins_spear"
+        ]
+      },
+      {
+        "id": "volibear",
+        "name": "볼리베어",
+        "cost": 5,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kindred",
+        "name": "킨드레드",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade"
+        ]
+      },
+      {
+        "id": "tahmkench",
+        "name": "탐 켄치",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "fimbulwinter",
+          "redemption",
+          "tft16_item_bilgewater_pileocitrus"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/8c9f31a5a8be19bb50604be8a823c6c383fbcc6e?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "5becdb63",
+    "name": "[밴들 현상금] 10요들",
+    "goldCost": 81,
+    "traits": [
+      {
+        "id": "yordle",
+        "count": 8
+      },
+      {
+        "id": "arcanist",
+        "count": 2
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "longshot",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "rumble",
+        "name": "럼블",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "lulu",
+        "name": "룰루",
+        "cost": 1,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "tristana",
+        "name": "트리스타나",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "teemo",
+        "name": "티모",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "veigar",
+        "name": "베이가",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "shojins_spear",
+          "rabadons_deathcap",
+          "hextech_gunblade"
+        ]
+      },
+      {
+        "id": "fizz",
+        "name": "피즈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "jeweled_gauntlet",
+          "hand_of_justice",
+          "guardbreaker"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "rabadons_deathcap",
+          "jeweled_gauntlet"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/5becdb63c7a23c3092142485fdc15f3e46cf0fc3?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  },
+  {
+    "id": "66d45881",
+    "name": "[미사일 폭격] 럼블",
+    "goldCost": 78,
+    "traits": [
+      {
+        "id": "yordle",
+        "count": 7
+      },
+      {
+        "id": "defender",
+        "count": 1
+      },
+      {
+        "id": "juggernaut",
+        "count": 2
+      },
+      {
+        "id": "longshot",
+        "count": 2
+      }
+    ],
+    "champions": [
+      {
+        "id": "rumble",
+        "name": "럼블",
+        "cost": 1,
+        "star": 2,
+        "items": [
+          "ludensecho",
+          "guinsoos_rageblade",
+          "guinsoos_rageblade"
+        ]
+      },
+      {
+        "id": "poppy",
+        "name": "뽀삐",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "tristana",
+        "name": "트리스타나",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "teemo",
+        "name": "티모",
+        "cost": 2,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "kennen",
+        "name": "케넨",
+        "cost": 3,
+        "star": 2,
+        "items": [
+          "sunfire_cape",
+          "redemption",
+          "ionic_spark"
+        ]
+      },
+      {
+        "id": "kobuko_yuumi",
+        "name": "코부코와 유미",
+        "cost": 3,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "swain",
+        "name": "스웨인",
+        "cost": 4,
+        "star": 2,
+        "items": []
+      },
+      {
+        "id": "fizz",
+        "name": "피즈",
+        "cost": 4,
+        "star": 2,
+        "items": [
+          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+        ]
+      },
+      {
+        "id": "ziggs",
+        "name": "직스",
+        "cost": 5,
+        "star": 2,
+        "items": [
+          "guinsoos_rageblade",
+          "rabadons_deathcap",
+          "jeweled_gauntlet"
+        ]
+      }
+    ],
+    "guideUrl": "/builder/guide/66d45881188cb3c7cd623212600f1a70aa7146ce?type=guide",
+    "difficulty": "",
+    "playStyle": "",
+    "description": "",
+    "synergy1": "",
+    "synergy2": "",
+    "augments": [],
+    "earlyChampions": [],
+    "subChampions": [],
+    "winRate": 0,
+    "avgPlacement": 0,
+    "tips": []
+  }
+]

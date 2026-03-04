@@ -1,0 +1,5937 @@
+[
+  {
+    "id": "rumble",
+    "name": "럼블",
+    "cost": 1,
+    "traits": [
+      "defender",
+      "yordle"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        45,
+        68,
+        101
+      ],
+      "dps": [
+        27,
+        41,
+        61
+      ],
+      "attackSpeed": 0.6,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "고철장 거인",
+      "type": "active",
+      "mana": [
+        40,
+        110
+      ],
+      "description": "4초 동안 350/430/550의 보호막을 얻습니다. 불길을 내뿜어 원뿔 범위에 72/108/162의 마법 피해를 입힙니다.",
+      "values": {
+        "보호막": [
+          350,
+          430,
+          550
+        ],
+        "피해량": [
+          72,
+          108,
+          162
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "sunfire_cape",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Rumble_1762915668-Rumble.jpg"
+  },
+  {
+    "id": "lulu",
+    "name": "룰루",
+    "cost": 1,
+    "traits": [
+      "arcanist",
+      "yordle"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "attack": [
+        25,
+        38,
+        56
+      ],
+      "dps": [
+        18,
+        26,
+        39
+      ],
+      "attackSpeed": 0.7,
+      "armor": 15,
+      "magicResist": 15,
+      "range": 4
+    },
+    "ability": {
+      "name": "변덕쟁이",
+      "type": "active",
+      "mana": [
+        20,
+        70
+      ],
+      "description": "대상에게 330/500/750의 마법 피해를 입히고 2초 동안 춤추게 만듭니다. 이후 투사체가 가장 가까운 대상에게 튕겨 140/210/315의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          330,
+          500,
+          750
+        ],
+        "2차 피해량": [
+          140,
+          210,
+          315
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Lulu_1762916226-Lulu.jpg"
+  },
+  {
+    "id": "briar",
+    "name": "브라이어",
+    "cost": 1,
+    "traits": [
+      "juggernaut",
+      "noxus",
+      "slayer"
+    ],
+    "role": "assassin",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        42,
+        63,
+        95
+      ],
+      "dps": [
+        32,
+        47,
+        71
+      ],
+      "attackSpeed": 0.75,
+      "armor": 35,
+      "magicResist": 35,
+      "range": 1
+    },
+    "ability": {
+      "name": "핏빛 광분",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "2칸 내 가장 멀리 있는 적에게 도약합니다. 4초 동안 이동 속도가 증가하고 공격력을 25%, 점차 감소하는 공격 속도를 300%/300%/350% 얻습니다.",
+      "values": {
+        "공격 속도": [
+          300,
+          300,
+          350
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Briar_1762915799-Briar.jpg"
+  },
+  {
+    "id": "blitzcrank",
+    "name": "블리츠크랭크",
+    "cost": 1,
+    "traits": [
+      "juggernaut",
+      "zaun"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        28,
+        41,
+        62
+      ],
+      "attackSpeed": 0.55,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "정전기장",
+      "type": "active",
+      "mana": [
+        60,
+        105
+      ],
+      "description": "4초 동안 400/480/600의 보호막을 얻고 1칸 내 모든 적에게 56/84/126의 마법 피해를 입힙니다.",
+      "values": {
+        "보호막": [
+          400,
+          480,
+          600
+        ],
+        "피해량": [
+          56,
+          84,
+          126
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Blitzcrank_1762915816-Blitzcrank.jpg"
+  },
+  {
+    "id": "viego",
+    "name": "비에고",
+    "cost": 1,
+    "traits": [
+      "quickstriker",
+      "shadow_isle"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        40,
+        60,
+        90
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.75,
+      "armor": 35,
+      "magicResist": 35,
+      "range": 1
+    },
+    "ability": {
+      "name": "몰락한 왕의 검",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "기본 지속 효과: 공격 속도를 10% 얻습니다. 사용 시: 대상에게 55/85/125의 물리 피해를 입힙니다. 이후 전투가 끝날 때까지 비에고의 기본 공격이 18/27/42의 마법 피해를 추가로 입힙니다. 이 효과는 중첩됩니다.",
+      "values": {
+        "피해량": [
+          55,
+          85,
+          125
+        ],
+        "중첩 피해량": [
+          18,
+          27,
+          42
+        ]
+      },
+      "skills": [
+        {
+          "tab": "스킬 1",
+          "name": "몰락한 왕의 검"
+        },
+        {
+          "tab": "스킬 2",
+          "name": "스킬 2"
+        }
+      ]
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "quicksilver"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Viego_1762916287-Viego.jpg"
+  },
+  {
+    "id": "shen",
+    "name": "쉔",
+    "cost": 1,
+    "traits": [
+      "bruiser",
+      "ionia"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        42,
+        63,
+        95
+      ],
+      "attackSpeed": 0.65,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 1
+    },
+    "ability": {
+      "name": "단결된 의지",
+      "type": "active",
+      "mana": [
+        30,
+        90
+      ],
+      "description": "4초 동안 이 유닛과 피해를 입은 주변 아군에게 250/325/425의 보호막을 부여합니다.",
+      "values": {
+        "보호막": [
+          250,
+          325,
+          425
+        ]
+      },
+      "skills": [
+        {
+          "tab": "스킬 1",
+          "name": "단결된 의지"
+        },
+        {
+          "tab": "스킬 2",
+          "name": "스킬 2"
+        }
+      ]
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Shen_1762916327-Shen.jpg"
+  },
+  {
+    "id": "sona",
+    "name": "소나",
+    "cost": 1,
+    "traits": [
+      "demacia",
+      "invoker"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "attack": [
+        20,
+        30,
+        45
+      ],
+      "dps": [
+        14,
+        21,
+        32
+      ],
+      "attackSpeed": 0.7,
+      "armor": 15,
+      "magicResist": 15,
+      "range": 4
+    },
+    "ability": {
+      "name": "파워 코드",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "주변 적 2명에게 130/195/300의 마법 피해를 입히고 체력이 가장 낮은 아군의 체력을 30/40/65 회복시킵니다.",
+      "values": {
+        "피해량": [
+          130,
+          195,
+          300
+        ],
+        "체력 회복": [
+          30,
+          40,
+          65
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "rabadon_deathcap"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Sona_1762915844-Sona.jpg"
+  },
+  {
+    "id": "anivia",
+    "name": "애니비아",
+    "cost": 1,
+    "traits": [
+      "freljord",
+      "invoker"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "동상",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "대상에게 얼음 파편을 발사해 325/455/650의 마법 피해를 입힙니다. 대상이 냉각에 걸린 경우, 피해량에 치명타가 적용됩니다.",
+      "values": {
+        "피해량": [
+          325,
+          455,
+          650
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Anivia_1762916415-Anivia.jpg"
+  },
+  {
+    "id": "illaoi",
+    "name": "일라오이",
+    "cost": 1,
+    "traits": [
+      "bilgewater",
+      "bruiser"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 1
+    },
+    "ability": {
+      "name": "촉수 강타",
+      "type": "active",
+      "mana": [
+        40,
+        100
+      ],
+      "description": "체력을 249/328/439 회복하고 촉수로 강타해 일직선상의 적에게 180/270/405의 물리 피해를 입힙니다.",
+      "values": {
+        "체력 회복량": [
+          249,
+          328,
+          439
+        ],
+        "피해량": [
+          180,
+          270,
+          405
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "sunfire_cape",
+      "titan_resolve"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Illaoi_1762916605-Illaoi.jpg"
+  },
+  {
+    "id": "jarvan_iv",
+    "name": "자르반 4세",
+    "cost": 1,
+    "traits": [
+      "defender",
+      "demacia"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        55,
+        83,
+        124
+      ],
+      "dps": [
+        33,
+        50,
+        74
+      ],
+      "attackSpeed": 0.6,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 1
+    },
+    "ability": {
+      "name": "데마시아의 깃발",
+      "type": "active",
+      "mana": [
+        30,
+        100
+      ],
+      "description": "4초 동안 350/425/500의 보호막을 얻습니다. 모든 아군이 4초 동안 공격 속도를 20%/25%/50% 얻습니다.",
+      "values": {
+        "보호막": [
+          350,
+          425,
+          500
+        ],
+        "공격 속도": [
+          20,
+          25,
+          50
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/JarvanIV_1762916612-Jarvaniv.jpg"
+  },
+  {
+    "id": "jinx",
+    "name": "진",
+    "cost": 1,
+    "traits": [
+      "gunslinger",
+      "ionia"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        444,
+        799,
+        1439
+      ],
+      "attack": [
+        44,
+        66,
+        99
+      ],
+      "dps": [
+        31,
+        46,
+        69
+      ],
+      "attackSpeed": 0.7,
+      "armor": 24,
+      "magicResist": 24,
+      "range": 4
+    },
+    "ability": {
+      "name": "커튼 콜",
+      "type": "active",
+      "mana": [
+        0,
+        70
+      ],
+      "description": "다음 기본 공격 4회 동안 의 공격 속도가 적용되고 사거리 제한이 없어지며 기본 공격이 포탄으로 교체됩니다. 포탄은 160/237/359의 물리 피해를 입힙니다. 4번째 포탄은 144% 증가한 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          160,
+          237,
+          359
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "runaans_hurricane"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Jhin_1762916645-Jhin.jpg"
+  },
+  {
+    "id": "caitlyn",
+    "name": "케이틀린",
+    "cost": 1,
+    "traits": [
+      "longshot",
+      "piltover"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "attack": [
+        45,
+        68,
+        101
+      ],
+      "dps": [
+        34,
+        51,
+        76
+      ],
+      "attackSpeed": 0.75,
+      "armor": 15,
+      "magicResist": 15,
+      "range": 5
+    },
+    "ability": {
+      "name": "비장의 한 발",
+      "type": "active",
+      "mana": [
+        0,
+        80
+      ],
+      "description": "가장 멀리 있는 적에게 탄환을 발사하여 처음 적중하는 적에게 515/775/1205의 물리 피해를 입힙니다. 대상이 사망하면 탄환이 튕겨 다음으로 적중하는 적에게 초과 피해량만큼 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          515,
+          775,
+          1205
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Caitlyn_1762916733-Caitlyn.jpg"
+  },
+  {
+    "id": "cogmo",
+    "name": "코그모",
+    "cost": 1,
+    "traits": [
+      "arcanist",
+      "longshot",
+      "void"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "attack": [
+        20,
+        30,
+        45
+      ],
+      "dps": [
+        14,
+        21,
+        32
+      ],
+      "attackSpeed": 0.7,
+      "armor": 15,
+      "magicResist": 15,
+      "range": 4
+    },
+    "ability": {
+      "name": "부식성 침",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "대상에게 140/200/300의 마법 피해를 입히고 방어력 및 마법 저항력을 8/10/15 감소시킵니다. 인접한 적에게는 피해량과 방어력 및 마법 저항력 감소 효과가 50% 적용됩니다.",
+      "values": {
+        "피해량": [
+          140,
+          200,
+          300
+        ],
+        "방어력 및 마법 저항력 감소": [
+          8,
+          10,
+          15
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "ionic_spark",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1762916754-KogMaw.jpg"
+  },
+  {
+    "id": "kiana",
+    "name": "키아나",
+    "cost": 1,
+    "traits": [
+      "ixtal",
+      "slayer"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        42,
+        63,
+        95
+      ],
+      "dps": [
+        32,
+        47,
+        71
+      ],
+      "attackSpeed": 0.75,
+      "armor": 35,
+      "magicResist": 35,
+      "range": 1
+    },
+    "ability": {
+      "name": "수풀 장악",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "주변 칸으로 돌진해 전방에 무기를 휘둘러 일직선으로 2칸 내 적에게 180/270/445의 물리 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          180,
+          270,
+          445
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "jeweled_gauntlet",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Quiyana_1762916809-Quiyana.jpg"
+  },
+  {
+    "id": "niko",
+    "name": "니코",
+    "cost": 2,
+    "traits": [
+      "arcanist",
+      "defender",
+      "ixtal"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "만개",
+      "type": "active",
+      "mana": [
+        15,
+        65
+      ],
+      "description": "대상에게 도약하고 4초 동안 400/475/600의 보호막을 얻습니다. 잠시 후 땅으로 내리쳐 2칸 내 적에게 80/120/180의 마법 피해를 입히고 2초 동안 20%의 냉각을 적용합니다.",
+      "values": {
+        "보호막": [
+          400,
+          475,
+          600
+        ],
+        "피해량": [
+          80,
+          120,
+          180
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Neeko_1762916183-Neeko.jpg"
+  },
+  {
+    "id": "reksai",
+    "name": "렉사이",
+    "cost": 2,
+    "traits": [
+      "vanquisher",
+      "void"
+    ],
+    "role": "assassin",
+    "stats": {
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        43,
+        64,
+        96
+      ],
+      "attackSpeed": 0.85,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "매복",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "3칸 내 가장 멀리 있는 적에게 돌진해 160/240/360의 물리 피해를 입힙니다. 다음 3회의 기본 공격이 인접한 적에게 적중하고 110/165/300의 물리 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          160,
+          240,
+          360
+        ],
+        "회전 피해량": [
+          110,
+          165,
+          300
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/RekSai_1762915684-Reksai.jpg"
+  },
+  {
+    "id": "vi",
+    "name": "바이",
+    "cost": 2,
+    "traits": [
+      "defender",
+      "piltover",
+      "zaun"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        51,
+        77,
+        115
+      ],
+      "attackSpeed": 0.85,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 1
+    },
+    "ability": {
+      "name": "끈질긴 힘",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "2초 동안 125/150/175의 보호막을 얻습니다. 대상을 내려찍어 1칸 내 적에게 120/180/270의 물리 피해를 입힙니다. 스킬을 3회 사용할 때마다 2칸 내 적에게 대신 150/225/340의 물리 피해를 입히고 1초 동안 공중에 띄웁니다.",
+      "values": {
+        "보호막": [
+          125,
+          150,
+          175
+        ],
+        "피해량": [
+          120,
+          180,
+          270
+        ],
+        "강화 피해량": [
+          150,
+          225,
+          340
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "titan_resolve",
+      "gargoyle_stoneplate"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Vi_1762916266-Vi.jpg"
+  },
+  {
+    "id": "sion",
+    "name": "사이온",
+    "cost": 2,
+    "traits": [
+      "bruiser",
+      "noxus"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        28,
+        41,
+        62
+      ],
+      "attackSpeed": 0.55,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 1
+    },
+    "ability": {
+      "name": "영혼의 용광로",
+      "type": "active",
+      "mana": [
+        0,
+        70
+      ],
+      "description": "기본 지속 효과: 처치 관여 시 영구적으로 최대 체력을 18/20/50 얻습니다. 사용 시: 4초 동안 226/272/334의 보호막을 얻습니다. 보호막이 파괴되면 인접한 적에게 26/47/84의 마법 피해를 입힙니다.",
+      "values": {
+        "영구 체력": [
+          18,
+          20,
+          50
+        ],
+        "보호막": [
+          200,
+          225,
+          250
+        ],
+        "피해량": [
+          26,
+          47,
+          84
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "sunfire_cape",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Sion_1762916301-Sion.jpg"
+  },
+  {
+    "id": "shin_zao",
+    "name": "신 짜오",
+    "cost": 2,
+    "traits": [
+      "demacia",
+      "ionia",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        33,
+        49,
+        73
+      ],
+      "attackSpeed": 0.65,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "삼조격",
+      "type": "active",
+      "mana": [
+        15,
+        70
+      ],
+      "description": "대상을 3회 타격합니다. 타격당 65/100/150의 물리 피해를 입히고 체력을 105/145/200 회복합니다. 마지막 타격은 대상을 1.5초 동안 기절시킵니다.",
+      "values": {
+        "피해량": [
+          65,
+          100,
+          150
+        ],
+        "체력 회복": [
+          105,
+          145,
+          200
+        ]
+      },
+      "skills": [
+        {
+          "tab": "스킬 1",
+          "name": "삼조격"
+        },
+        {
+          "tab": "스킬 2",
+          "name": "스킬 2"
+        }
+      ]
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "titan_resolve"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/XinZhao_1762916341-XinZhao.jpg"
+  },
+  {
+    "id": "aphelios",
+    "name": "아펠리오스",
+    "cost": 2,
+    "traits": [
+      "targon"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        20,
+        30,
+        45
+      ],
+      "dps": [
+        15,
+        23,
+        34
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "화염의 맹공",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "화염포를 장착한 상태로 시작합니다. 스킬 사용 시 절단검으로 교체하고 8회 공격합니다. 화염포: 기본 공격이 적 3명에게 적중하고 6초 동안 피열을 30% 적용합니다. 절단검: 공격 속도를 200%, 모든 피해 흡혈을 10% 얻습니다. 기본 공격이 휩쓸기로 교체되며 80/120/200의 물리 피해를 입힙니다.",
+      "values": {
+        "절단검 공격 횟수": [
+          8,
+          8,
+          8
+        ],
+        "피해량": [
+          80,
+          120,
+          200
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Aphelios_1762916395-Aphelios.jpg"
+  },
+  {
+    "id": "ashe",
+    "name": "애쉬",
+    "cost": 2,
+    "traits": [
+      "freljord",
+      "quickstriker"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        45,
+        68,
+        101
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "얼음 정수 화살",
+      "type": "active",
+      "mana": [
+        20,
+        80
+      ],
+      "description": "대상에게 화살을 발사해 155/225/340의 물리 피해를 입히고 인접한 적에게 51/74/112의 피해를 입힙니다. 체력이 30% 아래인 적은 대신 고정 피해를 입힙니다. 적중한 모든 적에게 3초 동안 냉각을 30% 적용합니다.",
+      "values": {
+        "피해량": [
+          155,
+          225,
+          340
+        ],
+        "원형 범위 피해량": [
+          51,
+          74,
+          112
+        ]
+      }
+    },
+    "recommendedItems": [
+      "runaans_hurricane",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ashe_1762916420-Ashe.jpg"
+  },
+  {
+    "id": "yasuo",
+    "name": "야스오",
+    "cost": 2,
+    "traits": [
+      "ionia",
+      "slayer"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "attack": [
+        45,
+        68,
+        101
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.8,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "질풍검",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "돌진한 후 인접한 적에게 103/157/233의 물리 피해를 입힙니다. 적 한 명에게만 적중한 경우 피해량이 두 배로 증가합니다.",
+      "values": {
+        "피해량": [
+          103,
+          157,
+          233
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "quicksilver"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Yasuo_1762916426-Yasuo.jpg"
+  },
+  {
+    "id": "ekko",
+    "name": "에코",
+    "cost": 2,
+    "traits": [
+      "disruptor",
+      "zaun"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        30,
+        45,
+        67
+      ],
+      "attackSpeed": 0.85,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "평행 시간 교차",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "대상 주변에 3초 동안 지속되는 1칸 구역을 생성합니다. 다음 3회의 기본 공격이 160/240/380의 추가 마법 피해를 입힙니다. 구역이 사라지면 구역 내 모든 적에게 130/195/295의 마법 피해 및 지속시간 동안 대상이 받은 피해량의 10%에 해당하는 피해를 입힙니다.",
+      "values": {
+        "추가 마법 피해량": [
+          160,
+          240,
+          380
+        ],
+        "영역 피해량": [
+          130,
+          195,
+          295
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "jeweled_gauntlet",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ekko_1762916432-Ekko.jpg"
+  },
+  {
+    "id": "cho_gath",
+    "name": "초가스",
+    "cost": 2,
+    "traits": [
+      "juggernaut",
+      "void"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "파열",
+      "type": "active",
+      "mana": [
+        40,
+        100
+      ],
+      "description": "체력을 200/225/400 회복하고 대상 아래 원형 2칸 범위를 폭발시킵니다. 잠시 후 범위 내 적이 1.5초 동안 공중에 뜨고 88/152/248의 마법 피해를 입습니다.",
+      "values": {
+        "체력 회복": [
+          200,
+          225,
+          400
+        ],
+        "피해량": [
+          88,
+          152,
+          248
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/ChoGath_1762916690-ChoGath.jpg"
+  },
+  {
+    "id": "tristana",
+    "name": "트리스타나",
+    "cost": 2,
+    "traits": [
+      "gunslinger",
+      "yordle"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "attack": [
+        55,
+        83,
+        124
+      ],
+      "dps": [
+        41,
+        62,
+        93
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "대구경 탄환",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "대상에게 거대한 대포를 발사해 280/420/670의 물리 피해를 입힙니다. 대상이 2칸 내에 있을 경우 2칸 뒤로 밀어내고 잠시 기절시킵니다.",
+      "values": {
+        "피해량": [
+          280,
+          420,
+          670
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Tristana_1762916861-Tristana.jpg"
+  },
+  {
+    "id": "twisted_fate",
+    "name": "트위스티드 페이트",
+    "cost": 2,
+    "traits": [
+      "bilgewater",
+      "quickstriker"
+    ],
+    "role": "specialist",
+    "stats": {
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "attack": null,
+      "dps": null,
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "속임수 덱",
+      "type": "active",
+      "mana": [
+        0,
+        3
+      ],
+      "description": "기본 지속 효과: 기본 공격 시 50/75/115의 추가 마법 피해를 입힙니다. 기본 공격 3회마다 카드 3장을 원뿔 형태로 던져 70/105/160의 마법 피해를 입힙니다. 관통한 하나당 피해량이 50%씩 감소합니다.",
+      "values": {
+        "기본 공격 추가 피해량": [
+          50,
+          75,
+          115
+        ],
+        "피해량": [
+          70,
+          105,
+          160
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/TwistedFate_1762916874-Twistedfate.jpg"
+  },
+  {
+    "id": "teemo",
+    "name": "티모",
+    "cost": 2,
+    "traits": [
+      "longshot",
+      "yordle"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        26,
+        39,
+        59
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "독성 다트",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "가장 가까운 중독되지 않은 적에게 다트를 발사해 130/200/330의 마법 피해를 입히고 8초 동안 중독시킵니다. 중독된 적은 매초 35/55/100의 마법 피해를 입습니다.",
+      "values": {
+        "피해량": [
+          130,
+          200,
+          330
+        ],
+        "초당 피해량": [
+          35,
+          55,
+          100
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "morellonomicon",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Teemo_1762916881-Teemo.jpg"
+  },
+  {
+    "id": "gangplank",
+    "name": "갱플랭크",
+    "cost": 3,
+    "traits": [
+      "bilgewater",
+      "slayer",
+      "vanquisher"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        45,
+        68,
+        101
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.8,
+      "armor": 55,
+      "magicResist": 55,
+      "range": 1
+    },
+    "ability": {
+      "name": "화약통",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "가장 가까운 적 3명에게 화약통을 던지고 폭발시켜 215/325/525의 피해를 입힙니다. 피해량은 연결된 화약통 하나당 25% 감소합니다. 화약통은 대상의 방어력을 10 감소시킵니다. 이 수치는 치명타 적용 시 20까지 증가합니다.",
+      "values": {
+        "피해량": [
+          215,
+          325,
+          525
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Gangplank_1762916166-Gangplank.jpg"
+  },
+  {
+    "id": "nautilus",
+    "name": "노틸러스",
+    "cost": 3,
+    "traits": [
+      "bilgewater",
+      "juggernaut",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "타이탄의 분노",
+      "type": "active",
+      "mana": [
+        60,
+        120
+      ],
+      "description": "기본 지속 효과: 4초마다 및 스킬을 사용할 때마다 다음 기본 공격이 원형 1칸 범위에 45/68/108의 추가 마법 피해를 입힙니다. 사용 시: 4초 동안 465/562/717의 보호막을 얻습니다.",
+      "values": {
+        "피해량": [
+          45,
+          68,
+          108
+        ],
+        "보호막": [
+          465,
+          562,
+          717
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Nautilus_1762915628-Nautilus.jpg"
+  },
+  {
+    "id": "draven",
+    "name": "드레이븐",
+    "cost": 3,
+    "traits": [
+      "noxus",
+      "quickstriker"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        58,
+        87,
+        131
+      ],
+      "dps": [
+        44,
+        65,
+        98
+      ],
+      "attackSpeed": 0.75,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 3
+    },
+    "ability": {
+      "name": "회전 도끼",
+      "type": "active",
+      "mana": [
+        60,
+        100
+      ],
+      "description": "기본 지속 효과: 드레이븐이 강화된 도끼를 손에 들고 있다면 다음 기본 공격 시 도끼를 던집니다. 처치 관여 시 팬들의 환호 중첩을 얻습니다. 드레이븐 또는 다리우스가 킬 달성 시 2배로 얻습니다. 사용 시: 강화된 도끼를 회전시켜 드레이븐의 기본 공격을 대체합니다. 도끼는 적에게 적중 시 130/195/375의 물리 피해를 입히고 드레이븐에게 돌아옵니다.",
+      "values": {
+        "피해량": [
+          130,
+          195,
+          375
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Draven_1762915653-Draven.jpg"
+  },
+  {
+    "id": "leona",
+    "name": "레오나",
+    "cost": 3,
+    "traits": [
+      "targon"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        33,
+        49,
+        73
+      ],
+      "attackSpeed": 0.65,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "흑점 폭발",
+      "type": "active",
+      "mana": [
+        70,
+        120
+      ],
+      "description": "기본 지속 효과: 피해를 받을 때 해당 피해량이 15/30/80 감소합니다. 가장 강한 아군 레오나가 살아있는 동안 매초 가장 강한 아군 다이애나에게 주문력을 3 부여합니다. 사용 시: 가장 가까운 적 3명에게 태양 광선을 소환해 1초 동안 기절시키고 80/120/200의 마법 피해를 입힙니다. 4초 동안 상처 및 1%의 불태우기를 적용합니다.",
+      "values": {
+        "피해량 감소": [
+          15,
+          30,
+          80
+        ],
+        "피해량": [
+          80,
+          120,
+          200
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "sunfire_cape",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Leona_1762916218-Leona.jpg"
+  },
+  {
+    "id": "lorus",
+    "name": "로리스",
+    "cost": 3,
+    "traits": [
+      "piltover",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        950,
+        1710,
+        3078
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.6,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "필트오버 난투",
+      "type": "active",
+      "mana": [
+        70,
+        140
+      ],
+      "description": "4초 동안 700/800/1000의 보호막을 얻습니다. 돌진하며 대상을 뒤로 밀어내 대상 및 대상과 적중한 적을 1.25초 동안 기절시키고 150/225/360의 마법 피해를 입힙니다. 돌진 후, 주변 적이 이 유닛을 대상으로 지정하게 만듭니다.",
+      "values": {
+        "보호막": [
+          700,
+          800,
+          1000
+        ],
+        "피해량": [
+          150,
+          225,
+          360
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "redemption",
+      "gargoyle_stoneplate"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Loris_1762915693-Loris.jpg"
+  },
+  {
+    "id": "malzahar",
+    "name": "말자하",
+    "cost": 3,
+    "traits": [
+      "disruptor",
+      "void"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        24,
+        36,
+        54
+      ],
+      "attackSpeed": 0.8,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "공허의 무리",
+      "type": "active",
+      "mana": [
+        0,
+        35
+      ],
+      "description": "공허충 2마리를 소환합니다. 공허충은 주변 적을 8회 공격하여 각각 30/45/80의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          30,
+          45,
+          80
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "morellonomicon",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1762916234-Malzahar.jpg"
+  },
+  {
+    "id": "mundo_dr",
+    "name": "문도 박사",
+    "cost": 3,
+    "traits": [
+      "bruiser",
+      "zaun"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "최대 투여량",
+      "type": "active",
+      "mana": [
+        0,
+        60
+      ],
+      "description": "5초 동안 몸을 키웁니다. 몸을 키운 동안, 매초 체력을 114/192/325 회복하고 기본 공격 시 105/171/291의 물리 피해를 입힙니다.",
+      "values": {
+        "체력 회복량": [
+          114,
+          192,
+          325
+        ],
+        "피해량": [
+          105,
+          171,
+          291
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/DrMundo_1762916255-DrMundo.jpg"
+  },
+  {
+    "id": "milio",
+    "name": "밀리오",
+    "cost": 3,
+    "traits": [
+      "invoker",
+      "ixtal"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "초특급 불꽃 킥!!!",
+      "type": "active",
+      "mana": [
+        0,
+        60
+      ],
+      "description": "3번 튕기는 불꽃 공을 대상에게 날려 적중한 적에게 190/285/445의 마법 피해를 입힙니다. 최종 반동 시 반경 1칸 내 적에게 160/240/375의 마법 피해를 입힙니다.",
+      "values": {
+        "공 피해량": [
+          190,
+          285,
+          445
+        ],
+        "반동 피해량": [
+          160,
+          240,
+          375
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Milio_1762915760-Milio.jpg"
+  },
+  {
+    "id": "bane",
+    "name": "베인",
+    "cost": 3,
+    "traits": [
+      "demacia",
+      "longshot"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        70,
+        105,
+        158
+      ],
+      "dps": [
+        63,
+        95,
+        142
+      ],
+      "attackSpeed": 0.9,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "구르기",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "주변 칸으로 구른 후 대상에게 화살을 발사해 116/175/300의 고정 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          116,
+          175,
+          300
+        ]
+      }
+    },
+    "recommendedItems": [
+      "last_whisper",
+      "infinity_edge",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Vayne_1762915776-Vayne.jpg"
+  },
+  {
+    "id": "sejuani",
+    "name": "세주아니",
+    "cost": 3,
+    "traits": [
+      "defender",
+      "freljord"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.6,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "혹한의 서릿발",
+      "type": "active",
+      "mana": [
+        40,
+        80
+      ],
+      "description": "4초 동안 525/575/775의 보호막을 얻습니다. 원뿔 범위 및 일직선상을 타격합니다. 적중한 적에게 70/105/170의 마법 피해를 입히고 4초 동안 30%의 냉각을 적용합니다. 적이 이미 냉각에 걸린 경우 1초 동안 기절시킵니다.",
+      "values": {
+        "보호막": [
+          525,
+          575,
+          775
+        ],
+        "피해량": [
+          70,
+          105,
+          170
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Sejuani_1762915837-Sejuani.jpg"
+  },
+  {
+    "id": "ari",
+    "name": "아리",
+    "cost": 3,
+    "traits": [
+      "arcanist",
+      "ionia"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        24,
+        36,
+        54
+      ],
+      "attackSpeed": 0.8,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "여우불",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "대상에게 불꽃 3개를 발사해 각각 82/125/225의 마법 피해를 입힙니다. 스킬을 3회 사용할 때마다 불꽃 9개를 대상과 주변 적 최대 2명에게 나누어 발사합니다.",
+      "values": {
+        "피해량": [
+          82,
+          125,
+          225
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ahri_1762916349-Ahri.jpg"
+  },
+  {
+    "id": "joy",
+    "name": "조이",
+    "cost": 3,
+    "traits": [
+      "targon"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        28,
+        42,
+        63
+      ],
+      "attackSpeed": 0.8,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "헤롱헤롱헤롱방울",
+      "type": "active",
+      "mana": [
+        30,
+        60
+      ],
+      "description": "기본 지속 효과: 적에게 피해를 입히면 6초 동안 파쇄를 30% 적용합니다. 사용 시: 주변 적에게 방울 2개를 날려 330/500/1000의 마법 피해를 입히고 2초 동안 냉각을 30% 적용합니다.",
+      "values": {
+        "피해량": [
+          330,
+          500,
+          1000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "blue_buff",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Zoe_1762916632-Zoe.jpg"
+  },
+  {
+    "id": "jinx_3",
+    "name": "징크스",
+    "cost": 3,
+    "traits": [
+      "gunslinger",
+      "zaun"
+    ],
+    "role": "specialist",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        38,
+        56,
+        84
+      ],
+      "attackSpeed": 0.75,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "휘릭휘릭!",
+      "type": "active",
+      "mana": [
+        0,
+        18
+      ],
+      "description": "기본 지속 효과: 기본 공격 18/18/16회 후 생선대가리로 교체합니다. 생선대가리 장착 시 기본 공격이 무작위 적을 대상으로 지정하며 58/88/159의 물리 피해를 입히는 로켓 3발로 교체됩니다.",
+      "values": {
+        "기본 공격 횟수": [
+          18,
+          18,
+          16
+        ],
+        "피해량": [
+          58,
+          88,
+          159
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Jinx_1762916660-Jinx.jpg"
+  },
+  {
+    "id": "garen",
+    "name": "가렌",
+    "cost": 4,
+    "traits": [
+      "defender",
+      "demacia"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        39,
+        59,
+        88
+      ],
+      "attackSpeed": 0.6,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "심판",
+      "type": "active",
+      "mana": [
+        50,
+        130
+      ],
+      "description": "3초 동안 회전하며 내구력을 50/50/80% 얻고 지속시간 동안 체력을 370/516/1589 회복합니다. 매초 인접한 적에게 100/150/1700의 물리 피해를 입히고 방어력 및 마법 저항력을 5 감소시킵니다.",
+      "values": {
+        "내구력": [
+          50,
+          50,
+          80
+        ],
+        "체력 회복량": [
+          370,
+          516,
+          1589
+        ],
+        "피해량": [
+          100,
+          150,
+          1700
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Garen_1762916153-Garen.jpg"
+  },
+  {
+    "id": "rex",
+    "name": "레넥톤",
+    "cost": 4,
+    "traits": [
+      "shurima"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1400,
+        2520,
+        4536
+      ],
+      "attack": [
+        75,
+        113,
+        169
+      ],
+      "dps": [
+        68,
+        101,
+        152
+      ],
+      "attackSpeed": 0.9,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "자르고 토막내기",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "2칸 내 체력이 가장 낮은 적에게 돌진해 경로에 있는 모든 적에게 80/120/360의 물리 피해를 입힙니다. 이후 4회 베어 각각 55/85/600의 물리 피해를 입힙니다. 이후 스킬 사용 시 베기 횟수가 1 증가합니다.",
+      "values": {
+        "돌진 피해량": [
+          80,
+          120,
+          360
+        ],
+        "베기 피해량": [
+          55,
+          85,
+          600
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Renekton_1762915676-Renekton.jpg",
+    "unlockCondition": "아지르와 함께 전투 연속 승리 2회 (슈리마를 해금할 때마다 더 어려워집니다)"
+  },
+  {
+    "id": "lisandra",
+    "name": "리산드라",
+    "cost": 4,
+    "traits": [
+      "freljord",
+      "invoker"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "얼음 무덤",
+      "type": "active",
+      "mana": [
+        20,
+        65
+      ],
+      "description": "대상을 얼음 속에 가둬 1초 동안 기절시키고 315/475/2800의 마법 피해를 입힙니다. 대상으로부터 2칸 내 모든 적에게 415/625/2800의 마법 피해를 나누어 입힙니다. 대상이 사망하면 파편이 날아가 가장 가까운 적 2명에게 초과 피해량만큼 피해를 나누어 입힙니다. 냉각이 적용된 적은 이 스킬로부터 12% 증가한 피해를 입습니다.",
+      "values": {
+        "피해량": [
+          315,
+          475,
+          2800
+        ],
+        "2차 피해량": [
+          415,
+          625,
+          2800
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "morellonomicon",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Lissandra_1762915727-Lissandra.jpg"
+  },
+  {
+    "id": "miss_fortune",
+    "name": "미스 포춘",
+    "cost": 4,
+    "traits": [
+      "bilgewater",
+      "gunslinger"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        55,
+        83,
+        124
+      ],
+      "dps": [
+        41,
+        62,
+        93
+      ],
+      "attackSpeed": 0.75,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "심장 파괴자",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "기본 지속 효과: 기본 공격이 현재 체력이 가장 높은 적에게 튕겨 50/50/100%의 피해를 입힙니다. 사용 시: 가장 가까운 적 2명에게 총알을 난사합니다. 난사 첫 적중 시 245/370/3070의 물리 피해를 입히고 나머지는 98/148/2456의 물리 피해를 입힙니다. 스킬을 3회 사용할 때마다 총알 난사 횟수가 1 증가합니다.",
+      "values": {
+        "피해량": [
+          245,
+          370,
+          3070
+        ],
+        "2차 난사 피해량": [
+          98,
+          148,
+          2456
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/MissFortune_1762915751-MissFortune.jpg"
+  },
+  {
+    "id": "velbeth",
+    "name": "벨베스",
+    "cost": 4,
+    "traits": [
+      "slayer",
+      "void"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        55,
+        83,
+        124
+      ],
+      "attackSpeed": 0.85,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "끝없는 연회",
+      "type": "active",
+      "mana": [
+        0,
+        100
+      ],
+      "description": "기본 지속 효과: 처치 관여 시 공격 속도를 75/75/200% 얻습니다. 공격 속도는 3초에 걸쳐 점차 사라집니다. 사용 시: 반경 2칸에 150/225/900의 물리 피해를 입히고 전투가 끝날 때까지 변신합니다. 변신한 동안 공격 속도를 33/33/133%, 최대 체력을 33% 얻고 이동 속도가 증가합니다. 기본 공격 시 15/25/100의 추가 고정 피해를 입히며 같은 적을 공격할 때마다 피해량이 3/5/30 증가합니다.",
+      "values": {
+        "피해량": [
+          150,
+          225,
+          900
+        ],
+        "공격 속도": [
+          33,
+          33,
+          133
+        ],
+        "고정 피해": [
+          15,
+          25,
+          100
+        ],
+        "중첩되는 고정 피해": [
+          3,
+          5,
+          30
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "titan_resolve"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/BelVeth_1762915791-BelVeth.jpg"
+  },
+  {
+    "id": "braum",
+    "name": "브라움",
+    "cost": 4,
+    "traits": [
+      "freljord",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        30,
+        45,
+        68
+      ],
+      "attackSpeed": 0.6,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "불굴의 서리",
+      "type": "active",
+      "mana": [
+        60,
+        105
+      ],
+      "description": "4초 동안 방패를 들어 내구력을 55/55/90% 얻고 투사체가 브라움에게 향하도록 합니다. 피격 시 주변 적에게 27/43/1245의 마법 피해를 입히고 2초 동안 냉각을 30% 적용합니다.",
+      "values": {
+        "내구력": [
+          55,
+          55,
+          90
+        ],
+        "피해량": [
+          27,
+          43,
+          1245
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Braum_1762916279-Braum.jpg"
+  },
+  {
+    "id": "seraphine",
+    "name": "세라핀",
+    "cost": 4,
+    "traits": [
+      "disruptor",
+      "piltover"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "화려한 앙코르",
+      "type": "active",
+      "mana": [
+        0,
+        20
+      ],
+      "description": "음표 3개를 얻습니다. 활성화된 음표 하나당 주변 적에게 35/55/300의 마법 피해를 입힙니다. 스킬 사용 시 음표 12개를 보유하고 있다면 음표를 소모해 에너지 파동을 방출합니다. 적중한 아군은 체력을 40/80/400 회복합니다. 적중한 적은 270/405/2200의 마법 피해를 입습니다. 관통한 적 하나당 피해량이 30%씩 감소합니다.",
+      "values": {
+        "음표 피해량": [
+          35,
+          55,
+          300
+        ],
+        "체력 회복": [
+          40,
+          80,
+          400
+        ],
+        "파동 피해량": [
+          270,
+          405,
+          2200
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1762916313-Seraphine.jpg"
+  },
+  {
+    "id": "swain",
+    "name": "스웨인",
+    "cost": 4,
+    "traits": [
+      "arcanist",
+      "juggernaut",
+      "noxus"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        40,
+        60,
+        90
+      ],
+      "dps": [
+        26,
+        39,
+        59
+      ],
+      "attackSpeed": 0.65,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "속박명령",
+      "type": "active",
+      "mana": [
+        40,
+        155
+      ],
+      "description": "기본 지속 효과: 매초 체력을 36/52/158 회복하고 1칸 내 적에게 20/30/90의 마법 피해를 입힙니다. 사용 시: 주변의 가장 큰 적 무리에 악마의 눈을 소환해 100/150/1800의 마법 피해를 입히고 1.5/1.75/8초 동안 기절시킵니다.",
+      "values": {
+        "체력 회복량": [
+          36,
+          52,
+          158
+        ],
+        "피해량": [
+          20,
+          30,
+          90
+        ],
+        "악마의 눈 피해량": [
+          100,
+          150,
+          1800
+        ],
+        "기절 지속시간": [
+          1.5,
+          1.75,
+          8
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Swain_1762916334-Swain.jpg"
+  },
+  {
+    "id": "ambessa",
+    "name": "암베사",
+    "cost": 4,
+    "traits": [
+      "noxus",
+      "vanquisher"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        45,
+        68,
+        101
+      ],
+      "attackSpeed": 0.9,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "찢어 가르기",
+      "type": "active",
+      "mana": [
+        0,
+        20
+      ],
+      "description": "대상 주변을 휩쓸고 돌진하며 경로에 있는 적에게 50/75/350의 물리 피해를 입힙니다. 이후 대상을 사슬로 내려찍어 일직선에 158/236/1103의 물리 피해를 입힙니다. 적을 처치하면 즉시 이 스킬을 다시 사용해 80%의 피해를 입힙니다. 탱커 상대로는 내려찍기 피해량이 40/40/100% 증가합니다.",
+      "values": {
+        "피해량": [
+          50,
+          75,
+          350
+        ],
+        "내려찍기 피해량": [
+          158,
+          236,
+          1103
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ambessa_1762916401-Ambessa.jpg"
+  },
+  {
+    "id": "oh_gong",
+    "name": "오공",
+    "cost": 4,
+    "traits": [
+      "bruiser",
+      "ionia"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1050,
+        1890,
+        3402
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        39,
+        59,
+        88
+      ],
+      "attackSpeed": 0.65,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "눈길을 끄는 재주꾼",
+      "type": "active",
+      "mana": [
+        30,
+        60
+      ],
+      "description": "기본 지속 효과: 사망 시 오공의 아이템을 장착했으며 570/956/3361의 체력을 지닌 바위 복사본을 소환합니다. 사용 시: 4초 동안 방어력 및 마법 저항력을 100/110/400 얻습니다. 이후 회전하며 2칸 내 모든 적에게 150/225/3000의 물리 피해를 입힙니다.",
+      "values": {
+        "분신 체력": [
+          570,
+          956,
+          3361
+        ],
+        "방어력 및 마법 저항력": [
+          100,
+          110,
+          400
+        ],
+        "피해량": [
+          150,
+          225,
+          3000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Wukong_1762916438-Wukong.jpg"
+  },
+  {
+    "id": "yunaara",
+    "name": "유나라",
+    "cost": 4,
+    "traits": [
+      "ionia",
+      "quickstriker"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        48,
+        72,
+        108
+      ],
+      "attackSpeed": 0.8,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "초월 상태",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "다음 4초 동안 공격 속도를 80/80/300% 얻고 사거리 제한이 없어지며 기본 공격이 빛줄기로 교체됩니다. 빛줄기는 일직선에 88/132/475의 물리 피해를 입힙니다. 관통한 적 하나당 피해량이 75%씩 감소합니다. 빛줄기에 치명타가 적용되면 33%의 추가 고정 피해를 입힙니다.",
+      "values": {
+        "공격 속도": [
+          80,
+          80,
+          300
+        ],
+        "피해량": [
+          88,
+          132,
+          475
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Yunara_1762916589-Yunara.jpg"
+  },
+  {
+    "id": "taric",
+    "name": "타릭",
+    "cost": 4,
+    "traits": [
+      "targon"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1300,
+        2340,
+        4212
+      ],
+      "attack": [
+        70,
+        105,
+        158
+      ],
+      "dps": [
+        46,
+        68,
+        102
+      ],
+      "attackSpeed": 0.65,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "별빛 손길",
+      "type": "active",
+      "mana": [
+        0,
+        80
+      ],
+      "description": "기본 지속 효과: 모든 아군이 마법 저항력을 10/20/100 얻습니다. 전투당 1회 체력이 최대 체력의 35% 아래로 떨어지면 2초 동안 체력을 300/700/2500 회복합니다. 사용 시: 4초 동안 600/700/2500의 보호막을 얻고 체력이 가장 낮은 아군 2명에게 125/150/1000의 보호막을 부여합니다. 다음 2/2/10회 기본 공격 시 200/300/3000의 추가 마법 피해를 입힙니다.",
+      "values": {
+        "기본 지속 효과 마법 저항력": [
+          10,
+          20,
+          100
+        ],
+        "기본 지속 효과 체력 회복량": [
+          300,
+          700,
+          2500
+        ],
+        "보호막": [
+          600,
+          700,
+          2500
+        ],
+        "아군 보호막": [
+          125,
+          150,
+          1000
+        ],
+        "피해량": [
+          200,
+          300,
+          3000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "redemption",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Taric_1762916825-Taric.jpg"
+  },
+  {
+    "id": "lucian_senna",
+    "name": "루시안과 세나",
+    "cost": 5,
+    "traits": [
+      "gunslinger",
+      "soulbound"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        52,
+        78,
+        117
+      ],
+      "attackSpeed": 0.8,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "빛의 심판",
+      "type": "active",
+      "mana": [
+        0,
+        70
+      ],
+      "description": "대상을 향해 12/12/42발의 탄환을 발사합니다. 각 탄환은 적에게 처음 적중하면 폭발해 주변 모든 적에게 83/132/900의 물리 피해를 입힙니다.",
+      "values": {
+        "발사 횟수": [
+          12,
+          12,
+          42
+        ],
+        "피해량": [
+          83,
+          132,
+          900
+        ]
+      },
+      "skills": [
+        {
+          "tab": "스킬 1",
+          "name": "빛의 심판"
+        },
+        {
+          "tab": "스킬 2",
+          "name": "스킬 2"
+        }
+      ]
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/LucianSenna_1762915709-LucianSenna.jpg"
+  },
+  {
+    "id": "shyvana",
+    "name": "쉬바나",
+    "cost": 5,
+    "traits": [
+      "dragonkin",
+      "juggernaut"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        80,
+        120,
+        180
+      ],
+      "dps": [
+        76,
+        114,
+        171
+      ],
+      "attackSpeed": 0.95,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "용의 강림 / 화염 숨결",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "용의 강림: 용으로 변신하고 최대 체력을 600/1000/9999 얻습니다. 잠시 내구력을 20/20/90% 얻고 가장 큰 적 무리에게 뛰어들어 원형 3칸 범위에 100/150/3000의 물리 피해를 입힙니다. 화염 숨결: 3초 동안 원뿔 범위에 불을 내뿜어 적중한 적에게 매초 205/305/13579의 물리 피해를 입힙니다.",
+      "values": {
+        "최대 체력": [
+          600,
+          1000,
+          9999
+        ],
+        "낙하 피해량": [
+          100,
+          150,
+          3000
+        ],
+        "화염 숨결 피해량": [
+          205,
+          305,
+          13579
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "giant_slayer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Shyvana_1762915852-Shyvana.jpg"
+  },
+  {
+    "id": "azir",
+    "name": "아지르",
+    "cost": 5,
+    "traits": [
+      "disruptor",
+      "emperor",
+      "shurima"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        30,
+        45,
+        67
+      ],
+      "attackSpeed": 0.85,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "일어나라!",
+      "type": "active",
+      "mana": [
+        20,
+        40
+      ],
+      "description": "기본 지속 효과: 아지르의 기본 공격을 3회 목격한 후, 모래 병사가 대상에게 100/150/3000의 마법 피해를 입힙니다. 사용 시: 대상 주변에 모래 병사를 소환하고 공격을 명령합니다. 병사 2명이 이미 소환된 상태라면, 대신 모든 병사가 즉시 90/135/5000의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          100,
+          150,
+          3000
+        ],
+        "2차 피해량": [
+          90,
+          135,
+          5000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/TFT16_Azir.jpg"
+  },
+  {
+    "id": "ani",
+    "name": "애니",
+    "cost": 5,
+    "traits": [
+      "arcanist",
+      "darkchild"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        26,
+        38,
+        57
+      ],
+      "attackSpeed": 0.85,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "분노의 지옥불",
+      "type": "active",
+      "mana": [
+        0,
+        160
+      ],
+      "description": "전장 전체에 불길을 분출시켜 모든 적에게 영구히 불태우기 및 상처를 적용하고 45초에 걸쳐 각각 1500/2250/8000의 마법 피해를 입힙니다. 전투가 끝날 때까지 애니의 최대 마나가 140 감소합니다. 이후 스킬 사용 시 대상에게 화염구를 발사해 240/360/3000의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          1500,
+          2250,
+          8000
+        ],
+        "2차 피해량": [
+          240,
+          360,
+          3000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "morellonomicon",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Annie_1762916408-Annie.jpg"
+  },
+  {
+    "id": "orn",
+    "name": "오른",
+    "cost": 5,
+    "traits": [
+      "mastersmith",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        70,
+        105,
+        158
+      ],
+      "dps": [
+        39,
+        58,
+        87
+      ],
+      "attackSpeed": 0.55,
+      "armor": 55,
+      "magicResist": 55,
+      "range": 1
+    },
+    "ability": {
+      "name": "대장간의 부름",
+      "type": "active",
+      "mana": [
+        50,
+        150
+      ],
+      "description": "가장 멀리 있는 적 뒤에서 정령을 소환합니다. 적중한 적에게 5초 동안 20%의 냉각을 적용하고 100/150/3000의 마법 피해를 입힙니다. 정령이 도착하면 박치기를 해 멀리 있는 또 다른 적에게 보내고 150/225/4500의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          100,
+          150,
+          3000
+        ],
+        "2차 피해량": [
+          150,
+          225,
+          4500
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ornn_1762916445-Ornn.jpg"
+  },
+  {
+    "id": "zilean",
+    "name": "질리언",
+    "cost": 5,
+    "traits": [
+      "timeguardian",
+      "invoker"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        40,
+        60,
+        90
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.9,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "종말의 환영",
+      "type": "active",
+      "mana": [
+        0,
+        35
+      ],
+      "description": "시한 폭탄이 없는 가장 가까운 적에게 시한 폭탄을 던집니다. 시한 폭탄은 매초 90/135/1000의 마법 피해를 입힙니다. 대상이 사망하면 폭발해 반경 1칸에 150/225/4000의 마법 피해를 입히고 질리언이 마나를 15 얻습니다. 적에게 적용된 시한 폭탄이 18/16/1초 동안 지속된 상황에서 질리언이 살아있다면 적이 즉시 사망합니다.",
+      "values": {
+        "피해량": [
+          90,
+          135,
+          1000
+        ],
+        "2차 피해량": [
+          150,
+          225,
+          4000
+        ],
+        "즉사 임박": [
+          18,
+          16,
+          1
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Zilean_1762916653-Zilean.jpg"
+  },
+  {
+    "id": "kindred",
+    "name": "킨드레드",
+    "cost": 5,
+    "traits": [
+      "eternal",
+      "quickstriker"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        73,
+        110,
+        164
+      ],
+      "dps": [
+        66,
+        99,
+        148
+      ],
+      "attackSpeed": 0.9,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "양의 안식처",
+      "type": "active",
+      "mana": [
+        80,
+        200
+      ],
+      "description": "돌진한 후 2.5/2.5/99초 동안 반경 2칸 범위의 영역을 생성해 영역 내 아군에게 영역 지속시간 동안 350/750/10000의 보호막을 부여합니다. 활성화된 동안 현재 공격 속도가 2배가 되며 기본 공격 시 주변 적에게 추가 화살을 발사해 25/38/999의 물리 피해를 입힙니다. 영역이 사라지면 활성화된 동안 입힌 피해량의 8%만큼 모든 아군의 체력을 회복하고 적에게서 멀어집니다.",
+      "values": {
+        "피해량": [
+          25,
+          38,
+          999
+        ],
+        "체력 회복 %": [
+          8,
+          8,
+          8
+        ],
+        "영역 보호막 흡수량": [
+          350,
+          750,
+          10000
+        ],
+        "지속시간": [
+          2.5,
+          2.5,
+          99
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Kindred_1762916815-Kindred.jpg"
+  },
+  {
+    "id": "fiddle_stick",
+    "name": "피들스틱",
+    "cost": 5,
+    "traits": [
+      "harvester",
+      "vanquisher"
+    ],
+    "role": "assassin",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        45,
+        68,
+        101
+      ],
+      "attackSpeed": 0.9,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "까마귀 폭풍",
+      "type": "active",
+      "mana": [
+        30,
+        70
+      ],
+      "description": "2칸 내 큰 적 무리로 순간이동해 적을 1.25초 동안 기절시킵니다. 매초 마나를 22 잃습니다. 스킬을 사용하는 동안 반경 2칸 내 모든 적에게 매초 100/150/6666의 마법 피해를 입힙니다. 가장 가까운 적 2명은 33% 증가한 피해를 받습니다.",
+      "values": {
+        "초당 피해량": [
+          100,
+          150,
+          6666
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1762916889-Fiddlesticks.jpg"
+  },
+  {
+    "id": "nasser",
+    "name": "나서스",
+    "cost": 4,
+    "traits": [
+      "shurima"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1500,
+        2700,
+        4860
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        39,
+        59,
+        88
+      ],
+      "attackSpeed": 0.65,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "사막의 분노",
+      "type": "active",
+      "mana": [
+        10,
+        70
+      ],
+      "description": "가장 가까운 적 4/4/8명에게서 총 500/685/3000의 체력을 나눠서 흡칩니다. 8초 동안 방어력 및 마법 저항력을 30 얻고 인접한 적에게 매초 23/41/583의 마법 피해를 입힙니다.",
+      "values": {
+        "체력 흡수": [
+          500,
+          685,
+          3000
+        ],
+        "초당 피해량": [
+          23,
+          41,
+          583
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Nasus_1762915595-Nasus.jpg",
+    "unlockCondition": "아지르와 함께 전투 연속 패배 2회 (슈리마를 해금할 때마다 더 어려워집니다)"
+  },
+  {
+    "id": "nidalee",
+    "name": "니달리",
+    "cost": 4,
+    "traits": [
+      "huntress",
+      "ixtal"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        45,
+        68,
+        101
+      ],
+      "dps": [
+        38,
+        57,
+        86
+      ],
+      "attackSpeed": 0.85,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "끈질긴 급습",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "체력이 가장 낮은 인접한 적에게 도약해 290/470/2000의 마법 피해를 입히고 인접한 적에게 100/150/600의 마법 피해를 입힙니다. 적이 사망하면 스킬을 다시 사용해 70%의 피해를 입힙니다. 이 스킬로부터 탱커는 60%, 전사는 30% 증가한 피해를 입습니다.",
+      "values": {
+        "피해량": [
+          290,
+          470,
+          2000
+        ],
+        "2차 피해량": [
+          100,
+          150,
+          600
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Nidalee_1762915637-Nidalee.jpg",
+    "unlockCondition": "전투에 배치: 아이템 3개를 장착한 2성 니코 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "diana",
+    "name": "다이애나",
+    "cost": 4,
+    "traits": [
+      "targon"
+    ],
+    "role": "assassin",
+    "stats": {
+      "hp": [
+        1300,
+        2340,
+        4212
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        28,
+        42,
+        63
+      ],
+      "attackSpeed": 0.8,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "월광 쇄도",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "기본 지속 효과: 가장 강한 아군 레오나와 가장 강한 아군 다이애나가 적에게 스킬 피해를 입히면 달빛 표식을 남겨 대상이 입히는 피해량을 10% 감소시킵니다. 사용 시: 100/175/300의 보호막을 얻습니다. 4칸 내 가장 멀리 있는 달빛 표식이 없는 적에게 달 에너지를 발사해 125/190/600의 마법 피해를 입힙니다. 이후 달빛 표식이 있는 모든 적에게 돌진해 160/240/1500의 마법 피해를 입힙니다.",
+      "values": {
+        "보호막": [
+          100,
+          175,
+          300
+        ],
+        "피해량": [
+          125,
+          190,
+          600
+        ],
+        "2차 피해량": [
+          160,
+          240,
+          1500
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "jeweled_gauntlet",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Diana_1762915645-Diana.jpg",
+    "unlockCondition": "전투에 배치: 아이템 3개를 장착한 레오나 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "leblanc",
+    "name": "르블랑",
+    "cost": 3,
+    "traits": [
+      "invoker",
+      "noxus"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        26,
+        39,
+        59
+      ],
+      "attackSpeed": 0.75,
+      "armor": 25,
+      "magicResist": 25,
+      "range": 4
+    },
+    "ability": {
+      "name": "왜곡",
+      "type": "active",
+      "mana": [
+        0,
+        60
+      ],
+      "description": "돌진하는 거울 환영 3개를 소환해 대상과 최대 2명의 주변 다른 적을 타격합니다. 대상은 300/450/800의 마법 피해를 입고 1초 동안 기절합니다. 적중된 다른 유닛은 180/270/500의 마법 피해를 입습니다.",
+      "values": {
+        "피해량": [
+          300,
+          450,
+          800
+        ],
+        "2차 피해량": [
+          180,
+          270,
+          500
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Leblanc_1762915720-Leblanc.jpg",
+    "unlockCondition": "전투에 배치: 아이템 2개를 장착한 사이온"
+  },
+  {
+    "id": "veiga",
+    "name": "베이가",
+    "cost": 4,
+    "traits": [
+      "arcanist",
+      "yordle"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        33,
+        50,
+        74
+      ],
+      "dps": [
+        26,
+        40,
+        59
+      ],
+      "attackSpeed": 0.8,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "어둠의 폭풍",
+      "type": "active",
+      "mana": [
+        0,
+        60
+      ],
+      "description": "기본 지속 효과: 모든 요소로부터 얻는 주문력이 50% 증가합니다. 사용 시: 전장에 유성 12/12/24개를 떨어뜨려 각각 56/84/199의 마법 피해를 입힙니다. 이러한 유성에는 본질적으로 치명타가 적용될 수 있습니다. 적을 처치할 때마다 영구히 주문력을 1 얻습니다.",
+      "values": {
+        "유성 개수": [
+          12,
+          12,
+          24
+        ],
+        "피해량": [
+          56,
+          84,
+          199
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "blue_buff",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Veigar_1762915771-Veigar.jpg",
+    "unlockCondition": "전투에 배치: 라바돈의 죽음모자 1개를 장착한 요들 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "scanner",
+    "name": "스카너",
+    "cost": 4,
+    "traits": [
+      "ixtal"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1400,
+        2520,
+        4536
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        42,
+        63,
+        95
+      ],
+      "attackSpeed": 0.65,
+      "armor": 70,
+      "magicResist": 70,
+      "range": 1
+    },
+    "ability": {
+      "name": "꿰뚫기",
+      "type": "active",
+      "mana": [
+        60,
+        120
+      ],
+      "description": "기본 지속 효과: 모든 아군이 방어력을 10/20/100 얻습니다. 사용 시: 4초 동안 750/950/3000의 보호막을 얻습니다. 일직선상의 주변 적 최대 3명을 꿰뚫어 84/126/1750의 물리 피해를 입히고 1.5/1.75/8초 동안 기절시킵니다.",
+      "values": {
+        "기본 방어력": [
+          10,
+          20,
+          100
+        ],
+        "보호막": [
+          750,
+          950,
+          3000
+        ],
+        "피해량": [
+          84,
+          126,
+          1750
+        ],
+        "꿰뚫기 지속시간": [
+          1.5,
+          1.75,
+          8
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Lux_1762916210-Lux.jpg",
+    "unlockCondition": "전투에 배치: 쇠사슬 조끼 아이템을 1개 이상 장착한 마법사 또는 원거리 딜러 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "singed",
+    "name": "신지드",
+    "cost": 4,
+    "traits": [
+      "juggernaut",
+      "zaun"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        15,
+        23,
+        34
+      ],
+      "dps": [
+        11,
+        16,
+        24
+      ],
+      "attackSpeed": 0.7,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "맹독의 자취",
+      "type": "active",
+      "mana": [
+        0,
+        80
+      ],
+      "description": "기본 지속 효과: 전장 주변을 뛰어다니며 4초 동안 지속되는 맹독의 자취를 남깁니다. 맹독의 자취 내부에 있는 적에게 매초 8/18/160의 마법 피해를 입힙니다. 매초 마나를 4 얻습니다. 사용 시: 4초 동안 이동 속도가 증가하고, 매초 체력을 15/80/500 회복하며, 방어력 및 마법 저항력을 20/60/100 얻습니다.",
+      "values": {
+        "초당 피해량": [
+          8,
+          18,
+          160
+        ],
+        "초당 체력 회복량": [
+          15,
+          80,
+          500
+        ],
+        "방어력 및 마법 저항력": [
+          20,
+          60,
+          100
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "sunfire_cape",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Singed_1762915878-Singed.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 자운 또는 전쟁기계 4명 + 플레이어 체력 35 잃기"
+  },
+  {
+    "id": "yone",
+    "name": "요네",
+    "cost": 4,
+    "traits": [
+      "ionia",
+      "slayer"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        20,
+        30,
+        45
+      ],
+      "dps": [
+        17,
+        26,
+        38
+      ],
+      "attackSpeed": 0.85,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "형제의 피로 얼룩진 검",
+      "type": "active",
+      "mana": [
+        30,
+        100
+      ],
+      "description": "기본 지속 효과: 기본 공격 시 55/85/800의 추가 물리 피해와 110/165/1400의 추가 마법 피해를 번갈아 입힙니다. 사용 시: 3칸 내 가장 많은 적을 관통해 타격하며 1.5초 동안 공중에 띄우고 80/120/480의 물리 피해 및 마법 피해를 입힙니다. 이후 요네가 280/420/2160의 물리 피해 및 마법 피해를 적중한 모든 적에게 나누어 입힙니다.",
+      "values": {
+        "추가 물리 피해량": [
+          55,
+          85,
+          800
+        ],
+        "추가 마법 피해량": [
+          110,
+          165,
+          1400
+        ],
+        "스킬 피해량": [
+          80,
+          120,
+          480
+        ],
+        "나누어 입히는 피해량": [
+          280,
+          420,
+          2160
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Yone_1762916516-Yone.jpg",
+    "unlockCondition": "전투에 배치: 2성 야스오에 장착된 아이템 3개 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "warwick",
+    "name": "워윅",
+    "cost": 4,
+    "traits": [
+      "quickstriker",
+      "zaun"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        54,
+        81,
+        122
+      ],
+      "attackSpeed": 0.9,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "끝없는 허기",
+      "type": "active",
+      "mana": [
+        0,
+        70
+      ],
+      "description": "전투가 끝날 때까지 공격 속도를 100/100/400%, 모든 피해 흡혈을 15% 얻고 이동 속도가 증가하며 기본 공격 시 55/85/550의 추가 물리 피해를 입힙니다. 이 효과가 활성화된 동안 처치 관여 시 워윅, 징크스, 바이가 3초 동안 공격 속도를 20/20/50% 얻습니다.",
+      "values": {
+        "공격 속도": [
+          100,
+          100,
+          400
+        ],
+        "피해량": [
+          55,
+          85,
+          550
+        ],
+        "처치 관여 시 공격 속도": [
+          20,
+          20,
+          50
+        ]
+      }
+    },
+    "recommendedItems": [
+      "bloodthirster",
+      "titan_resolve",
+      "warmogs_armor"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Warwick_1762916578-Warwick.jpg",
+    "unlockCondition": "전투에 배치: 아이템 1개를 장착한 징크스 + 아이템 1개를 장착한 바이 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "kai_sa",
+    "name": "카이사",
+    "cost": 4,
+    "traits": [
+      "assimilator",
+      "longshot",
+      "void"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        25,
+        38,
+        56
+      ],
+      "attackSpeed": 0.5,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "이케시아 폭우",
+      "type": "active",
+      "mana": [
+        0,
+        10
+      ],
+      "description": "적들에게서 멀어지며 가장 가까운 적 4명에게 15/15/25개의 미사일을 나누어 발사합니다. 각 미사일은 45/72/170의 물리 피해를 입힙니다.",
+      "values": {
+        "미사일 수": [
+          15,
+          15,
+          25
+        ],
+        "피해량": [
+          45,
+          72,
+          170
+        ]
+      },
+      "skills": [
+        {
+          "tab": "스킬 1",
+          "name": "이케시아 폭우"
+        },
+        {
+          "tab": "스킬 2",
+          "name": "스킬 2"
+        }
+      ]
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/KaiSa_1762916711-KaiSa.jpg",
+    "unlockCondition": "전투에 배치: 아이템 2개를 장착한 원거리 사격 유닛 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "kalista",
+    "name": "칼리스타",
+    "cost": 4,
+    "traits": [
+      "shadow_isle",
+      "vanquisher"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        43,
+        64,
+        96
+      ],
+      "attackSpeed": 0.85,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "끝없는 뽑아 찢기",
+      "type": "active",
+      "mana": [
+        20,
+        65
+      ],
+      "description": "가장 가까운 적 4명에게 창 25개를 나누어 소환합니다. 잠시 후 각각 대상을 꿰뚫어 33/53/465의 물리 피해를 입히고 방어력을 1 감소시킵니다.",
+      "values": {
+        "창 개수": [
+          25,
+          25,
+          50
+        ],
+        "피해량": [
+          33,
+          53,
+          465
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "runaans_hurricane",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Kalista_1762916719-Kalista.jpg",
+    "unlockCondition": "영혼 30개 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "fizz",
+    "name": "피즈",
+    "cost": 4,
+    "traits": [
+      "bilgewater",
+      "yordle"
+    ],
+    "role": "assassin",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        27,
+        41,
+        61
+      ],
+      "attackSpeed": 0.9,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "장난치기 재간둥이",
+      "type": "active",
+      "mana": [
+        0,
+        10
+      ],
+      "description": "잠시 대상으로 지정할 수 없는 상태가 된 후 탱커와 전사가 아닌 4칸 내 가장 멀리 있는 적에게 도약해 인접한 적에게 75/115/450의 마법 피해를 입힙니다. 다음 기본 공격 4회 동안 공격 속도를 100% 얻고 적중 시 50/75/600의 추가 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          75,
+          115,
+          450
+        ],
+        "적중 시 추가 피해량": [
+          50,
+          75,
+          600
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "jeweled_gauntlet",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Fizz_1762916896-Fizz.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 요들 또는 빌지워터 유닛 5명 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "hyeop_gok",
+    "name": "협곡의 전령",
+    "cost": 4,
+    "traits": [
+      "bruiser",
+      "void"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.6,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "왜곡 외피",
+      "type": "active",
+      "mana": [
+        60,
+        125
+      ],
+      "description": "최대 체력을 300/425/2000 얻고 크기가 커집니다. 대상을 중심으로 원형 2칸 범위를 강타해 적중한 적에게 166/269/2428의 마법 피해를 입힙니다. 4초 동안 내구력을 25/25/80% 얻고 이 유닛을 대상으로 지정한 적 하나당 추가로 1% 얻습니다.",
+      "values": {
+        "최대 체력": [
+          300,
+          425,
+          2000
+        ],
+        "피해량": [
+          166,
+          269,
+          2428
+        ],
+        "내구력": [
+          25,
+          25,
+          80
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/RiftHerald_1762916917-RiftHerald.jpg",
+    "unlockCondition": "플레이어 대상 전투 2회 동안 공허 특성 활성화 + 요구 사항: 7레벨"
+  },
+  {
+    "id": "graves",
+    "name": "그레이브즈",
+    "cost": 2,
+    "traits": [
+      "bilgewater",
+      "gunslinger"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        35,
+        53,
+        79
+      ],
+      "attackSpeed": 0.7,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 3
+    },
+    "ability": {
+      "name": "무고한 희생자",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "기본 지속 효과: 기본 공격 시 대상을 향해 원뿔 형태로 발사해 적중한 다른 적에게 45%의 피해를 입힙니다. 사용 시: 대상에게 폭발성 탄환을 발사해 원형 1칸 범위 내 적에게 200/300/495의 물리 피해를 나누어 입힙니다.",
+      "values": {
+        "피해량": [
+          200,
+          300,
+          495
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "last_whisper",
+      "runaans_hurricane"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Graves_1762915585-Graves.jpg"
+  },
+  {
+    "id": "bard",
+    "name": "바드",
+    "cost": 2,
+    "traits": [
+      "caretaker"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "방랑자의 부름",
+      "type": "active",
+      "mana": [
+        0,
+        55
+      ],
+      "description": "주변 적에게 정령 6마리를 날려 130/185/255의 마법 피해를 입힙니다. 전장의 아군 3성 유닛 하나당 추가 정령을 획득합니다.",
+      "values": {
+        "피해량": [
+          130,
+          185,
+          255
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "redemption"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Bard_1762915765-Bard.jpg"
+  },
+  {
+    "id": "poppy",
+    "name": "뽀삐",
+    "cost": 2,
+    "traits": [
+      "demacia",
+      "juggernaut",
+      "yordle"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        35,
+        53,
+        79
+      ],
+      "attackSpeed": 0.7,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "망치 강타",
+      "type": "active",
+      "mana": [
+        40,
+        80
+      ],
+      "description": "4초 동안 330/410/500의 보호막을 얻고 대상에게 70/105/165의 물리 피해를 입힙니다. 잠시 후 대상을 잠시 공중에 띄우고 피해를 다시 입힙니다. 대상에게서 방패가 날아와 주변 아군 2명에게 얻은 보호막 흡수량의 30%만큼 보호막을 부여합니다.",
+      "values": {
+        "보호막": [
+          330,
+          410,
+          500
+        ],
+        "피해량": [
+          70,
+          105,
+          165
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "sunfire_cape"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Poppy_1762916294-Poppy.jpg"
+  },
+  {
+    "id": "orianna",
+    "name": "오리아나",
+    "cost": 2,
+    "traits": [
+      "invoker",
+      "piltover"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        21,
+        32,
+        47
+      ],
+      "attackSpeed": 0.7,
+      "armor": 20,
+      "magicResist": 20,
+      "range": 4
+    },
+    "ability": {
+      "name": "명령: 보호",
+      "type": "active",
+      "mana": [
+        20,
+        50
+      ],
+      "description": "구체를 대상에게 보내 200/300/550의 마법 피해를 입히고 원형 1칸 범위 내 적에게 120/180/300의 마법 피해를 나누어 입힙니다. 이후 3초 동안 체력이 가장 낮은 아군 2명에게 60/90/130의 보호막을 부여합니다.",
+      "values": {
+        "피해량": [
+          200,
+          300,
+          550
+        ],
+        "2차 피해량": [
+          120,
+          180,
+          300
+        ],
+        "보호막": [
+          60,
+          90,
+          130
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "ionic_spark"
+    ],
+    "unlockCondition": "전투에 배치: 아이템 2개를 장착한 필트오버 유닛",
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Orianna_1762916452-Orianna.jpg"
+  },
+  {
+    "id": "yorik",
+    "name": "요릭",
+    "cost": 2,
+    "traits": [
+      "shadowisle",
+      "warden"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        36,
+        54,
+        81
+      ],
+      "attackSpeed": 0.6,
+      "armor": 45,
+      "magicResist": 45,
+      "range": 1
+    },
+    "ability": {
+      "name": "애도의 안개",
+      "type": "active",
+      "mana": [
+        15,
+        75
+      ],
+      "description": "체력을 250/350/500 회복합니다. 이번 전투에서 가장 많은 피해를 입힌 적(서로 다른 적 우선)에게 안개의 구를 던집니다. 적중한 적은 4초 동안 20%의 냉각이 적용되며 다음 스킬 사용 시 마나 소모량이 20 증가합니다. 이후 반경 1칸에 123/187/288의 마법 피해를 입힙니다.",
+      "values": {
+        "체력 회복량": [
+          250,
+          350,
+          500
+        ],
+        "피해량": [
+          123,
+          187,
+          288
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "redemption"
+    ],
+    "unlockCondition": "전투에 배치: 아이템 1개를 장착한 비에고",
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Yorick_1762916573-Yorick.jpg"
+  },
+  {
+    "id": "tryndamere",
+    "name": "트린다미어",
+    "cost": 2,
+    "traits": [
+      "freljord",
+      "tobeolsya"
+    ],
+    "role": "fighter",
+    "stats": {
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "attack": [
+        62,
+        93,
+        140
+      ],
+      "dps": [
+        47,
+        70,
+        105
+      ],
+      "attackSpeed": 0.75,
+      "armor": 35,
+      "magicResist": 35,
+      "range": 1
+    },
+    "ability": {
+      "name": "불사의 분노",
+      "type": "active",
+      "mana": [
+        0,
+        60
+      ],
+      "description": "분노를 채워 일정 시간 사망하지 않고 체력을 회복합니다."
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "titan_resolve"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Tryndamere_1762916868-Tryndamere.jpg"
+  },
+  {
+    "id": "gwen",
+    "name": "그웬",
+    "cost": 3,
+    "traits": [
+      "disruptor",
+      "shadow_isle"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "attack": [
+        40,
+        60,
+        90
+      ],
+      "dps": [
+        32,
+        48,
+        72
+      ],
+      "attackSpeed": 0.8,
+      "armor": 55,
+      "magicResist": 55,
+      "range": 1
+    },
+    "ability": {
+      "name": "싹둑싹둑!",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "대상 주변을 돌진하며 5회 가위질해 50/75/120의 마법 피해를 입히고 원뿔 범위에 있는 다른 모든 적에게 25/35/60의 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          50,
+          75,
+          120
+        ],
+        "2차 피해량": [
+          25,
+          35,
+          60
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "edge_of_night"
+    ],
+    "unlockCondition": "영혼 10개 + 요구 사항: 5레벨",
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Gwen_1762916173-Gwen.jpg"
+  },
+  {
+    "id": "darius",
+    "name": "다리우스",
+    "cost": 3,
+    "traits": [
+      "defender",
+      "noxus"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        33,
+        49,
+        73
+      ],
+      "attackSpeed": 0.65,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "학살",
+      "type": "active",
+      "mana": [
+        20,
+        65
+      ],
+      "description": "체력을 345/523/857 회복하고, 회전하여 인접한 적에게 90/135/210의 물리 피해를 입히고 과다출혈 중첩을 적용합니다. 과다출혈은 5초 동안 매초 12/18/30의 물리 피해를 입힙니다. 과다출혈이 적용된 적의 체력이 8% 아래로 떨어지면, 해당 적을 강타해 즉시 처치합니다. (중첩당 처형 기준값 5% 증가)",
+      "values": {
+        "체력 회복량": [
+          345,
+          523,
+          857
+        ],
+        "피해량": [
+          90,
+          135,
+          210
+        ],
+        "과다출혈 피해량": [
+          12,
+          18,
+          30
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "last_whisper"
+    ],
+    "unlockCondition": "전투에 배치: 아이템 1개를 장착한 드레이븐 + 요구 사항: 5레벨",
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Darius_1762916193-Darius.jpg"
+  },
+  {
+    "id": "lux",
+    "name": "럭스",
+    "cost": 4,
+    "traits": [
+      "arcanist",
+      "demacia"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        800,
+        1440,
+        2592
+      ],
+      "attack": [
+        30,
+        45,
+        68
+      ],
+      "dps": [
+        23,
+        34,
+        51
+      ],
+      "attackSpeed": 0.75,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "최후의 섬광",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "가장 큰 적 무리를 향해 빛의 구체를 발사하여 처음 적중하는 적 2명에게 30/45/100의 마법 피해를 입히고 1초 동안 속박합니다. 이후 빛줄기를 발사하여 구체에 적중한 적에게 330/500/1600의 마법 피해를 입히고, 적중한 다른 모든 적에게는 90/135/900의 마법 피해를 입힙니다.",
+      "values": {
+        "최초 피해량": [
+          30,
+          45,
+          100
+        ],
+        "피해량": [
+          330,
+          500,
+          1600
+        ],
+        "2차 피해량": [
+          90,
+          135,
+          900
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "blue_buff"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Lux_1762916210-Lux.jpg"
+  },
+  {
+    "id": "kennen",
+    "name": "케넨",
+    "cost": 3,
+    "traits": [
+      "defender",
+      "ionia",
+      "yordle"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        33,
+        49,
+        73
+      ],
+      "attackSpeed": 0.65,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "날카로운 소용돌이",
+      "type": "active",
+      "mana": [
+        70,
+        125
+      ],
+      "description": "600/700/900의 보호막을 얻고 번개 폭풍을 소환합니다. 번개 파동이 6회 내리쳐 범위 내 적에게 3초 동안 120/180/290의 마법 피해를 입힙니다. 처음으로 번개에 3회 적중한 대상 3명이 1.5초 동안 기절합니다. 동일한 적을 여러 차례 기절시킬 경우 효과가 50%로 감소합니다.",
+      "values": {
+        "보호막": [
+          600,
+          700,
+          900
+        ],
+        "피해량": [
+          120,
+          180,
+          290
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Kennen_1762916726-Kennen.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 아이오니아, 요들 또는 엄호대 별 레벨 총합 5 + 요구 사항: 5레벨"
+  },
+  {
+    "id": "kobu_yumi",
+    "name": "코부코와 유미",
+    "cost": 3,
+    "traits": [
+      "bruiser",
+      "invoker",
+      "yordle"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        950,
+        1710,
+        3078
+      ],
+      "attack": [
+        20,
+        30,
+        45
+      ],
+      "dps": [
+        13,
+        20,
+        29
+      ],
+      "attackSpeed": 0.65,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 4
+    },
+    "ability": {
+      "name": "너랑 유미랑!",
+      "type": "active",
+      "mana": [
+        30,
+        90
+      ],
+      "description": "기본 지속 효과: 유미가 가장 강한 아군 코부코와 함께합니다. 3초마다 번갈아 체력이 가장 낮은 아군의 체력을 140/180/240 회복하거나 가장 많은 피해를 입힌 아군에게 4초 동안 공격 속도를 25/33/50% 부여합니다. 사용 시: 춤을 추며 3초 동안 체력을 294/445/669 회복합니다.",
+      "values": {
+        "체력 회복": [
+          140,
+          180,
+          240
+        ],
+        "공격 속도": [
+          25,
+          33,
+          50
+        ],
+        "자신 체력 회복량": [
+          294,
+          445,
+          669
+        ]
+      }
+    },
+    "recommendedItems": [
+      "shojins_spear",
+      "blue_buff",
+      "ardent_censer"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/KobukoYuumi_1762915357-KobukoYuumi.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 요들, 난동꾼 또는 기원자 별 레벨 총합 6 + 요구 사항: 6레벨"
+  },
+  {
+    "id": "t_hex",
+    "name": "T-헥스",
+    "cost": 5,
+    "traits": [
+      "gunslinger",
+      "piltover",
+      "hexmech"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        85,
+        128,
+        191
+      ],
+      "dps": [
+        77,
+        115,
+        172
+      ],
+      "attackSpeed": 0.9,
+      "armor": 80,
+      "magicResist": 80,
+      "range": 4
+    },
+    "ability": {
+      "name": "마법공학 무기고",
+      "type": "active",
+      "mana": [
+        10,
+        80
+      ],
+      "description": "기본 지속 효과: 기본 공격 시 탄환 4발을 퍼붓습니다. 사용 시: 410/598/67022의 보호막을 얻고 매초 마나를 30 소모합니다. 스킬을 사용하는 동안 매초 레이저를 발사해 290/435/2150의 물리 피해를 입힙니다. 피해량은 적중한 적 하나당 70%까지 감소해 90%까지 감소합니다. 또한 미사일 4발을 주변 4명에게 나누어 발사해 각각 17/26/129의 물리 피해를 입힙니다.",
+      "values": {
+        "보호막": [
+          410,
+          598,
+          67022
+        ],
+        "레이저 피해량": [
+          290,
+          435,
+          2150
+        ],
+        "미사일 피해량": [
+          17,
+          26,
+          129
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/THex_1762915419-THex.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 필트오버 유닛 별 레벨 총합 7 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "galio",
+    "name": "갈리오",
+    "cost": 5,
+    "traits": [
+      "demacia",
+      "heroic"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        45,
+        68,
+        101
+      ],
+      "attackSpeed": 0.9,
+      "armor": 65,
+      "magicResist": 65,
+      "range": 1
+    },
+    "ability": {
+      "name": "고무의 위력",
+      "type": "active",
+      "mana": [
+        90,
+        140
+      ],
+      "description": "기본 지속 효과: 기본 공격 3회마다 대상 주변 원형 범위에 247/370/5850의 마법 피해를 입힙니다. 사용 시: 가장 큰 적 무리로 돌진해 2칸 내 모든 아군을 고무시켜 4초 동안 500/600/2000의 보호막을 부여합니다. 이후 지면을 강타하여 2칸 내 모든 적에게 325/488/3900의 추가 마법 피해를 입힙니다.",
+      "values": {
+        "기본 지속 효과 피해량": [
+          247,
+          370,
+          5850
+        ],
+        "보호막": [
+          500,
+          600,
+          2000
+        ],
+        "지면 강타 피해량": [
+          325,
+          488,
+          3900
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Galio_1762916159-Galio.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 데마시아 별 레벨 총합 8 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "mel",
+    "name": "멜",
+    "cost": 5,
+    "traits": [
+      "disruptor",
+      "noxus"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        40,
+        60,
+        90
+      ],
+      "attackSpeed": 0.8,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "찬란한 일식",
+      "type": "active",
+      "mana": [
+        30,
+        200
+      ],
+      "description": "기본 지속 효과: 마나를 얻는 동안 대상 주위를 도는 찬란한 구체 2개를 던집니다. 구체는 반경 1칸에 65/100/150의 마법 피해를 입히고 적중한 적으로부터 매초 마나를 1 흡수합니다. 마나를 235 흡수한 후, 무작위 찬란한 아이템 1개를 획득합니다. 사용 시: 대상의 구체를 터뜨려 반경 3칸 범위에 폭발을 일으키고 1000/1500/10000의 마법 피해를 입힙니다. 적중한 다른 모든 적에게 400/600/10000의 피해를 입힙니다.",
+      "values": {
+        "구체 피해량": [
+          65,
+          100,
+          150
+        ],
+        "대상 피해량": [
+          1000,
+          1500,
+          10000
+        ],
+        "2차 피해량": [
+          400,
+          600,
+          10000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Mel_1762915734-Mel.jpg",
+    "unlockCondition": "전투에서 아이템을 1개 장착한 암베사 사망 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "boliver",
+    "name": "볼리베어",
+    "cost": 5,
+    "traits": [
+      "bruiser",
+      "freljord"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        55,
+        83,
+        124
+      ],
+      "dps": [
+        50,
+        74,
+        111
+      ],
+      "attackSpeed": 0.9,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "무자비한 폭풍",
+      "type": "active",
+      "mana": [
+        0,
+        20
+      ],
+      "description": "대상을 물어뜯어 136/215/2117의 물리 피해를 입히고 표식을 남깁니다. 표식이 있는 대상에게는 피해량이 60% 증가합니다. 스킬을 5회 사용한 후 주변 칸으로 도약해 폭풍을 부르는 자를 활성화하고 반경 2칸 내 적에게 272/430/4233의 물리 피해를 입힙니다. 폭풍을 부르는 자: 체력을 400/550/9999, 공격 속도를 50/50/999% 얻습니다. 2초마다 주변 적에게 번개를 소환해 98/161/1155의 마법 피해를 입힙니다. 처치 관여 시 쓰러진 적 위에 번개를 소환합니다.",
+      "values": {
+        "물어뜯기 피해량": [
+          136,
+          215,
+          2117
+        ],
+        "내려찍기 피해량": [
+          272,
+          430,
+          4233
+        ],
+        "최대 체력": [
+          400,
+          550,
+          9999
+        ],
+        "번개 피해량": [
+          98,
+          161,
+          1155
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Volibear_1762916273-Volibear.jpg",
+    "unlockCondition": "전투에 배치: 3400의 체력으로 전투를 시작한 유닛 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "set",
+    "name": "세트",
+    "cost": 5,
+    "traits": [
+      "ionia",
+      "bossmaster"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        54,
+        81,
+        122
+      ],
+      "attackSpeed": 0.9,
+      "armor": 50,
+      "magicResist": 50,
+      "range": 1
+    },
+    "ability": {
+      "name": "대미 장식",
+      "type": "active",
+      "mana": [
+        10,
+        90
+      ],
+      "description": "대상을 붙잡아 전방에 내려쳐 200/350/9999의 마법 피해 + 대상 최대 체력의 2%/5%/900%에 해당하는 마법 피해를 입힙니다. 3칸 내 다른 모든 적은 전체 피해량의 50%만큼 피해를 입습니다.",
+      "values": {
+        "피해량": [
+          200,
+          350,
+          9999
+        ],
+        "최대 체력 비례 피해량": [
+          2,
+          5,
+          900
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Sylas_1762915831-Sylas.jpg",
+    "unlockCondition": "전투에 배치: 전장 전방 가로 2열에 유닛 1명만 배치 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "trash",
+    "name": "쓰레쉬",
+    "cost": 5,
+    "traits": [
+      "shadow_isle",
+      "warden"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1200,
+        2160,
+        3888
+      ],
+      "attack": [
+        60,
+        90,
+        135
+      ],
+      "dps": [
+        51,
+        77,
+        115
+      ],
+      "attackSpeed": 0.85,
+      "armor": 65,
+      "magicResist": 65,
+      "range": 1
+    },
+    "ability": {
+      "name": "영혼 감옥",
+      "type": "active",
+      "mana": [
+        0,
+        40
+      ],
+      "description": "기본 지속 효과: 2칸 내 모든 적에게 매초 30/50/400의 마법 피해를 입힙니다. 이 효과로 입힌 피해량의 75%만큼 체력을 회복합니다. 사용 시: 반경 2칸에 5초 동안 지속되는 감옥 장벽을 생성합니다. 활성화된 동안 기본 지속 효과 피해량이 두 배로 증가합니다. 적이 벽에 닿으면 100/150/4000의 마법 피해를 입습니다. 영혼 감옥 내부에 적이 2명 미만일 경우 적을 안으로 끌어당깁니다.",
+      "values": {
+        "기본 지속 효과 흡수": [
+          30,
+          50,
+          400
+        ],
+        "피해량": [
+          100,
+          150,
+          4000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "gargoyle_stoneplate",
+      "bramble_vest"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Thresh_1762915886-Thresh.jpg",
+    "unlockCondition": "서로 다른 그림자 군도 유닛 별 레벨 총합 5 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "atrocx",
+    "name": "아트록스",
+    "cost": 5,
+    "traits": [
+      "darkin",
+      "slayer",
+      "worldender"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        59,
+        88,
+        132
+      ],
+      "attackSpeed": 0.9,
+      "armor": 55,
+      "magicResist": 55,
+      "range": 1
+    },
+    "ability": {
+      "name": "다르킨의 검",
+      "type": "active",
+      "mana": [
+        0,
+        20
+      ],
+      "description": "스킬 사용 시 아래 스킬 중 하나를 번갈아 사용합니다. 일직선으로 갈라 적중한 적에게 100/195/2500의 물리 피해를 입히고 4초 동안 피열을 20% 적용합니다. 원뿔 범위를 휩쓸어 적중한 적에게 120/234/3000의 물리 피해를 입히고 1초 동안 공중에 띄웁니다. 대상을 내려찍어 원형 1칸 범위에 160/312/4000의 물리 피해를 입힙니다. 체력이 최대 체력의 15% 아래인 적은 처형됩니다.",
+      "values": {
+        "가르기 피해량": [
+          100,
+          195,
+          2500
+        ],
+        "휩쓸기 피해량": [
+          120,
+          234,
+          3000
+        ],
+        "내려찍기 피해량": [
+          160,
+          312,
+          4000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "last_whisper"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Aatrox_1762916388-Aatrox.jpg",
+    "unlockCondition": "전투에 배치: 모든 피해 흡혈이 30%인 상태로 전투를 시작한 챔피언 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "jeras",
+    "name": "제라스",
+    "cost": 5,
+    "traits": [
+      "ascendant",
+      "shurima"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": [
+        40,
+        60,
+        90
+      ],
+      "dps": [
+        32,
+        48,
+        72
+      ],
+      "attackSpeed": 0.8,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "초월체의 눈",
+      "type": "active",
+      "mana": [
+        0,
+        135
+      ],
+      "description": "가장 가까운 적 4명에게 비전 폭격을 10회 무작위로 나누어 발사해 각각 390/650/2500의 마법 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          390,
+          650,
+          2500
+        ],
+        "폭격 횟수": [
+          10,
+          10,
+          99
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "morellonomicon"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Xerath_1762916625-Xerath.jpg",
+    "unlockCondition": "아지르와 함께 번갈아 전투 승리 및 패배 3회 (슈리마를 해금할 때마다 더 어려워집니다)"
+  },
+  {
+    "id": "zix",
+    "name": "직스",
+    "cost": 5,
+    "traits": [
+      "longshot",
+      "yordle",
+      "zaun"
+    ],
+    "role": "marksman",
+    "stats": {
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "attack": null,
+      "dps": null,
+      "attackSpeed": 0.9,
+      "armor": 30,
+      "magicResist": 30,
+      "range": 4
+    },
+    "ability": {
+      "name": "지옥 화염 폭탄",
+      "type": "active",
+      "mana": [
+        0,
+        140
+      ],
+      "description": "기본 지속 효과: 기본 공격이 1회 튕기는 폭탄으로 교체되어 적중한 유닛에게 40/65/500의 마법 피해를 입힙니다. 사용 시: 가장 큰 4칸 적 무리에 닿으면 폭발하는 거대한 폭탄을 던져 적중한 적에게 중심으로부터 거리에 따라 70/105/3000~550/875/7000의 마법 피해를 입힙니다.",
+      "values": {
+        "반동 폭탄 피해량": [
+          40,
+          65,
+          500
+        ],
+        "최소 폭발 피해량": [
+          70,
+          105,
+          3000
+        ],
+        "최대 폭발 피해량": [
+          550,
+          875,
+          7000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ziggs_1762916639-Ziggs.jpg",
+    "unlockCondition": "전투에 배치: 아이템 2개를 장착한 요들 또는 자운 + 요구 사항: 9레벨"
+  },
+  {
+    "id": "tam_kench",
+    "name": "탐 켄치",
+    "cost": 5,
+    "traits": [
+      "bilgewater",
+      "bruiser",
+      "glutton"
+    ],
+    "role": "tanker",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        70,
+        105,
+        158
+      ],
+      "dps": [
+        39,
+        58,
+        87
+      ],
+      "attackSpeed": 0.55,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "집어삼키기",
+      "type": "active",
+      "mana": [
+        10,
+        90
+      ],
+      "description": "대상을 2.5초 동안 집어삼켜 1200/1800/30000의 마법 피해를 입히고 다른 피해에 면역 상태로 만듭니다. 지속시간 동안 내구력을 30% 얻습니다. 대상이 군중 제어 효과와 면역 상태일 경우 대신 1000/1500/20000의 마법 피해를 입힙니다. 집어삼켜진 상태에서 대상이 사망하면 대상이 장착하고 있었던 무작위 조합 아이템 또는 대상의 비용만큼 골드를 뺏어냅니다. 대상이 사망하지 않을 경우 대상을 가장 멀리 있는 적에게 벨어 충돌 시 대상을 잠깐 기절시킵니다.",
+      "values": {
+        "피해량": [
+          1200,
+          1800,
+          30000
+        ],
+        "감소한 피해량": [
+          1000,
+          1500,
+          20000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "warmogs_armor",
+      "redemption",
+      "ionic_spark"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/TahmKench_1762916854-TahmKench.jpg",
+    "unlockCondition": "빌지워터 바다뱀 은화 350개 사용 + 요구 사항: 8레벨"
+  },
+  {
+    "id": "naeser_lord",
+    "name": "내셔 남작",
+    "cost": 7,
+    "traits": [
+      "voidlord",
+      "void"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        3000,
+        5400,
+        9720
+      ],
+      "attack": [
+        120,
+        180,
+        270
+      ],
+      "dps": [
+        60,
+        90,
+        135
+      ],
+      "attackSpeed": 0.5,
+      "armor": 85,
+      "magicResist": 85,
+      "range": 1
+    },
+    "ability": {
+      "name": "공허의 분노",
+      "type": "active",
+      "mana": [
+        0,
+        50
+      ],
+      "description": "기본 지속 효과: 군중 제어 효과에 면역이 됩니다. 기본 공격 시 대상으로부터 일직선상에 피해를 입힙니다. 사거리 내에 적이 없을 경우, 다음 적에게 돌진하고 도착 시 인접한 적을 공중에 띄웁니다. 공허 균열에 있는 동안 3초마다 무작위 아래에 촉수를 소환해 대상을 1.5초 동안 공중에 띄웁니다. 사용 시: 원형 2칸 범위를 내려찍고 가시를 일으켜 적중한 적에게 280/420/20500의 물리 피해를 입힙니다. 이후 3초 동안 산성 방울 10개를 뱉어 112/189/10250의 물리 피해를 입힙니다.",
+      "values": {
+        "피해량": [
+          280,
+          420,
+          20500
+        ],
+        "산성 물질 피해량": [
+          112,
+          189,
+          10250
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "titan_resolve"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Thresh_1762915886-Thresh.jpg",
+    "unlockCondition": "서로 다른 공허 유닛 7명 배치 + 요구 사항: 10레벨"
+  },
+  {
+    "id": "ryze",
+    "name": "라이즈",
+    "cost": 7,
+    "traits": [
+      "runemage"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "attack": [
+        35,
+        53,
+        79
+      ],
+      "dps": [
+        32,
+        47,
+        71
+      ],
+      "attackSpeed": 0.9,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "룬 과부하",
+      "type": "active",
+      "mana": [
+        0,
+        45
+      ],
+      "description": "룬의 돌풍을 발사해 255/460/1500의 마법 피해를 입힙니다. 돌풍은 2개로 갈라져 가장 가까운 적 2명에게 33%의 피해를 입힙니다. 각 2차 돌풍은 추가로 1번 더 갈라집니다. 특성별 추가 효과: 빌지워터/데마시아/프렐요드/아이오니아/이쉬탈/녹서스/필트오버/그림자 군도/슈리마/타곤/공허/요들/자운",
+      "values": {
+        "피해량": [
+          255,
+          460,
+          1500
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "jeweled_gauntlet",
+      "shojins_spear"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Ryze_1762916203-Ryze.jpg",
+    "unlockCondition": "전투에 배치: 지역 특성 총합 3개 + 요구 사항: 9레벨"
+  },
+  {
+    "id": "brrok",
+    "name": "브록",
+    "cost": 7,
+    "traits": [
+      "ixtal"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1800,
+        3240,
+        5832
+      ],
+      "attack": [
+        270,
+        405,
+        608
+      ],
+      "dps": [
+        135,
+        203,
+        304
+      ],
+      "attackSpeed": 0.5,
+      "armor": 60,
+      "magicResist": 60,
+      "range": 1
+    },
+    "ability": {
+      "name": "지진 강타",
+      "type": "active",
+      "mana": [
+        40,
+        100
+      ],
+      "description": "기본 지속 효과: 군중 제어 효과에 면역이 됩니다. 기본 공격 시 대상을 잠시 공중에 띄우고 대상 주변 반경 1칸에 50%의 피해를 입힙니다. 사용 시: 지면을 강타해 모든 적에게 186/265/1617의 물리 피해를 입힙니다. 피해량은 중심으로부터 1칸 떨어질 때마다 15% 감소합니다. (최소 40%) 이번 전투에서 지진 강타에 처음 적중당한 대상은 1.75초 동안 공중에 뜹니다. 바위 12개가 전장 주변에 떨어져 적중한 적에게 각각 220/405/700의 물리 피해를 입힙니다.",
+      "values": {
+        "강타 피해량": [
+          186,
+          265,
+          1617
+        ],
+        "바위 피해량": [
+          220,
+          405,
+          700
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "bloodthirster",
+      "edge_of_night"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/BaronNashor_1762915619-BaronNashor.jpg",
+    "unlockCondition": "게임이 진행되는 동안 이쉬탈 태양피편 500개 수집"
+  },
+  {
+    "id": "sirus",
+    "name": "사일러스",
+    "cost": 7,
+    "traits": [
+      "arcanist",
+      "spellbreaker",
+      "defender"
+    ],
+    "role": "warrior",
+    "stats": {
+      "hp": [
+        1450,
+        2610,
+        4698
+      ],
+      "attack": [
+        65,
+        98,
+        146
+      ],
+      "dps": [
+        65,
+        98,
+        146
+      ],
+      "attackSpeed": 1.0,
+      "armor": 80,
+      "magicResist": 80,
+      "range": 1
+    },
+    "ability": {
+      "name": "훔친 힘",
+      "type": "active",
+      "mana": [
+        0,
+        30
+      ],
+      "description": "세 가지 스킬 중 하나 사용: 대격변: 주변 적에게 도약합니다. 2칸 내 모든 적에게 200/350/1000의 마법 피해를 입히고 1.5초 동안 기절시킵니다. 데마시아의 정의: 대상에게 630/950/99999의 마법 피해를 입힙니다. 대상의 체력이 최대 체력의 15% 아래일 경우 처형합니다. 최후의 섬광: 1.25초 동안 400/450/800의 보호막을 얻습니다. 일직선상의 모든 적에게 300/475/1000의 마법 피해를 입힙니다.",
+      "values": {
+        "대격변 피해량": [
+          200,
+          350,
+          1000
+        ],
+        "데마시아의 정의 피해량": [
+          630,
+          950,
+          99999
+        ],
+        "보호막": [
+          400,
+          450,
+          800
+        ],
+        "최후의 섬광 피해량": [
+          300,
+          475,
+          1000
+        ]
+      }
+    },
+    "recommendedItems": [
+      "infinity_edge",
+      "titan_resolve",
+      "bloodthirster"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Brock_1762915809-Brock.jpg",
+    "unlockCondition": "2성 가렌 판매 + 요구 사항: 9레벨"
+  },
+  {
+    "id": "aurelion_sol",
+    "name": "아우렐리온 솔",
+    "cost": 7,
+    "traits": [
+      "targon",
+      "starcreator"
+    ],
+    "role": "mage",
+    "stats": {
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "attack": [
+        50,
+        75,
+        113
+      ],
+      "dps": [
+        40,
+        60,
+        90
+      ],
+      "attackSpeed": 0.8,
+      "armor": 40,
+      "magicResist": 40,
+      "range": 4
+    },
+    "ability": {
+      "name": "천상 강림",
+      "type": "active",
+      "mana": [
+        0,
+        85
+      ],
+      "description": "기본 지속 효과: 플레이어 대상 전투에서 적에게 입힌 스킬 피해량 250마다 별가루를 얻습니다. 별가루는 천상 강림을 강화합니다. 사용 시: 대상에게 별을 떨어뜨려 반경 2칸에 525/725/5000의 마법 피해를 입힙니다. 별가루 업그레이드: 25 충격파 생성/60 별 피해량 15% 증가/140 충격파 범위 확장/200 공중 띄우기/300 충격파 범위 10칸/550 33% 추가 고정 피해/800 유성 폭풍 소환/1444 블랙홀 즉시 처치",
+      "values": {
+        "피해량": [
+          525,
+          725,
+          5000
+        ],
+        "충격파 피해량": [
+          100,
+          150,
+          1000
+        ],
+        "유성 폭풍 피해량": [
+          500,
+          750,
+          9999
+        ]
+      }
+    },
+    "recommendedItems": [
+      "rabadons_deathcap",
+      "shojins_spear",
+      "jeweled_gauntlet"
+    ],
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/AurelionSol_1762915893-AurelionSol.jpg",
+    "unlockCondition": "전투에 배치: 서로 다른 타곤 5명"
+  },
+  {
+    "id": "zaahen",
+    "name": "자헨",
+    "cost": 7,
+    "traits": ["darkin", "immortal"],
+    "role": "warrior",
+    "stats": {
+        "hp": [1200, 2160, 3888],
+        "attack": [95, 143, 214],
+        "dps": [71, 107, 161],
+        "attackSpeed": 0.75,
+        "armor": 65,
+        "magicResist": 65,
+        "range": 1
+    },
+    "ability": {
+        "name": "신성한 도전",
+        "type": "active",
+        "mana": [0, 40],
+        "description": "대상 주변을 돌진하며 원형 범위를 베어 대상에게 110/165/1700의 물리 피해를 입히고 적중한 다른 모든 인접한 적에게 44/66/680의 물리 피해를 입힙니다. 대상이 사망하지 않으면 즉시 스킬을 다시 사용합니다. 이 스킬을 22회 연속 사용했다면, 대신 대상을 강타해 즉시 처치하고 3칸 내 모든 적에게 220/330/3400의 물리 피해를 입힙니다.",
+        "values": {
+        "피해량": [110, 165, 1700],
+        "2차 피해량": [44, 66, 680],
+        "강타 원형 범위 피해량": [220, 330, 3400]
+        }
+    },
+    "unlockCondition": "'황혼의 시험' 증강 획득 + 전투 5회 동안 3성 신 짜오 배치",
+    "icon": "https://cdn.lolchess.gg/upload/images/champions/Zaahen_1762916619-Zaahen.jpg"
+    }
+]
