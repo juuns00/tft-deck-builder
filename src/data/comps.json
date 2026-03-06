@@ -27,7 +27,7 @@
     ],
     "champions": [
       {
-        "id": "kog_maw",
+        "id": "cogmo",
         "name": "코그모",
         "cost": 1,
         "star": 2,
@@ -2303,7 +2303,7 @@
     ],
     "champions": [
       {
-        "id": "kog_maw",
+        "id": "cogmo",
         "name": "코그모",
         "cost": 1,
         "star": 2,
