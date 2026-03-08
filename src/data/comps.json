@@ -62,7 +62,7 @@
         "items": [
           "giant_slayer",
           "quicksilver",
-          "runaans_hurricane"
+          "kraken_slayer"
         ]
       },
       {
@@ -191,7 +191,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "rabadons_deathcap",
           "hextech_gunblade"
         ]
@@ -245,23 +245,23 @@
     "goldCost": 105,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       },
       {
-        "id": "shadowisles_black",
+        "id": "shadow_isle",
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -269,7 +269,7 @@
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       }
     ],
@@ -301,8 +301,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "warmogs_armor"
         ]
       },
@@ -319,8 +319,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "lastwhisper",
+          "spear_of_shojin",
+          "last_whisper",
           "guardbreaker"
         ]
       },
@@ -332,7 +332,7 @@
         "items": [
           "morellonomicon",
           "ionic_spark",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -369,19 +369,19 @@
     "goldCost": 117,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
@@ -397,11 +397,11 @@
         "count": 1
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       }
     ],
@@ -452,7 +452,7 @@
         "star": 2,
         "items": [
           "infinity_edge",
-          "shojins_spear",
+          "spear_of_shojin",
           "giant_slayer"
         ]
       },
@@ -462,7 +462,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -472,8 +472,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       },
       {
@@ -482,7 +482,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       }
     ],
@@ -505,11 +505,11 @@
     "goldCost": 105,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
@@ -529,7 +529,7 @@
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -541,7 +541,7 @@
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       }
     ],
@@ -566,7 +566,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -603,8 +603,8 @@
         "star": 2,
         "items": [
           "jeweled_gauntlet",
-          "nashorstooth",
-          "nashorstooth"
+          "nashors_tooth",
+          "nashors_tooth"
         ]
       },
       {
@@ -614,7 +614,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -624,7 +624,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       }
     ],
@@ -647,11 +647,11 @@
     "goldCost": 102,
     "traits": [
       {
-        "id": "runemage_black",
+        "id": "runemage",
         "count": 0
       },
       {
-        "id": "theboss_black",
+        "id": "theboss",
         "count": 0
       },
       {
@@ -722,8 +722,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "warmogs_armor"
         ]
       },
@@ -740,7 +740,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -760,7 +760,7 @@
         "cost": 6,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -785,7 +785,7 @@
     "goldCost": 72,
     "traits": [
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -801,7 +801,7 @@
         "count": 3
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -826,8 +826,8 @@
         "cost": 3,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -837,9 +837,9 @@
         "cost": 3,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "redemption",
-          "steadfastheart"
+          "steadfast_heart"
         ]
       },
       {
@@ -856,8 +856,8 @@
         "star": 2,
         "items": [
           "jeweled_gauntlet",
-          "nashorstooth",
-          "nashorstooth"
+          "nashors_tooth",
+          "nashors_tooth"
         ]
       },
       {
@@ -873,7 +873,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -898,7 +898,7 @@
     "goldCost": 90,
     "traits": [
       {
-        "id": "emperor_black",
+        "id": "emperor",
         "count": 0
       },
       {
@@ -910,11 +910,11 @@
         "count": 1
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -938,7 +938,7 @@
         "items": [
           "sunfire_cape",
           "redemption",
-          "bramblevest"
+          "bramble_vest"
         ]
       },
       {
@@ -975,9 +975,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "lordsedge",
+          "deathblade",
           "hand_of_justice",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -986,7 +986,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "jeweled_gauntlet",
           "void_staff"
         ]
@@ -1018,15 +1018,15 @@
     "goldCost": 111,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "worldender_black",
+        "id": "worldender",
         "count": 0
       },
       {
@@ -1046,11 +1046,11 @@
         "count": 1
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       },
       {
@@ -1058,7 +1058,7 @@
         "count": 1
       },
       {
-        "id": "darkin_black",
+        "id": "darkin",
         "count": 0
       }
     ],
@@ -1078,7 +1078,7 @@
         "items": [
           "giant_slayer",
           "quicksilver",
-          "runaans_hurricane"
+          "kraken_slayer"
         ]
       },
       {
@@ -1094,9 +1094,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "lordsedge",
+          "deathblade",
           "hand_of_justice",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -1131,7 +1131,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -1162,7 +1162,7 @@
     "goldCost": 102,
     "traits": [
       {
-        "id": "runemage_black",
+        "id": "runemage",
         "count": 0
       },
       {
@@ -1186,7 +1186,7 @@
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -1229,9 +1229,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "ludensecho",
-          "adaptivehelm"
+          "spear_of_shojin",
+          "archangels_staff",
+          "adaptive_helm"
         ]
       },
       {
@@ -1240,8 +1240,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "warmogs_armor"
         ]
       },
@@ -1260,7 +1260,7 @@
         "items": [
           "bloodthirster",
           "steraks_gage",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -1269,7 +1269,7 @@
         "cost": 6,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -1294,7 +1294,7 @@
     "goldCost": 102,
     "traits": [
       {
-        "id": "runemage_black",
+        "id": "runemage",
         "count": 0
       },
       {
@@ -1318,11 +1318,11 @@
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
@@ -1365,9 +1365,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "ludensecho",
-          "adaptivehelm"
+          "spear_of_shojin",
+          "archangels_staff",
+          "adaptive_helm"
         ]
       },
       {
@@ -1405,7 +1405,7 @@
         "cost": 6,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "jeweled_gauntlet",
           "void_staff"
         ]
@@ -1430,11 +1430,11 @@
     "goldCost": 96,
     "traits": [
       {
-        "id": "chronokeeper_black",
+        "id": "chronokeeper",
         "count": 0
       },
       {
-        "id": "heroic_black",
+        "id": "heroic",
         "count": 0
       },
       {
@@ -1454,7 +1454,7 @@
         "count": 1
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -1497,8 +1497,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -1510,7 +1510,7 @@
         "items": [
           "hextech_gunblade",
           "jeweled_gauntlet",
-          "nashorstooth"
+          "nashors_tooth"
         ]
       },
       {
@@ -1535,7 +1535,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -1546,7 +1546,7 @@
         "items": [
           "morellonomicon",
           "void_staff",
-          "shojins_spear"
+          "spear_of_shojin"
         ]
       }
     ],
@@ -1569,23 +1569,23 @@
     "goldCost": 111,
     "traits": [
       {
-        "id": "chainbreaker_black",
+        "id": "chainbreaker",
         "count": 0
       },
       {
-        "id": "chronokeeper_black",
+        "id": "chronokeeper",
         "count": 0
       },
       {
-        "id": "darkchild_black",
+        "id": "darkchild",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
-        "id": "theboss_black",
+        "id": "theboss",
         "count": 0
       },
       {
@@ -1605,7 +1605,7 @@
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -1620,9 +1620,9 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "warmogs_armor",
-          "bramblevest"
+          "bramble_vest"
         ]
       },
       {
@@ -1653,8 +1653,8 @@
         "star": 2,
         "items": [
           "infinity_edge",
-          "lastwhisper",
-          "shojins_spear"
+          "last_whisper",
+          "spear_of_shojin"
         ]
       },
       {
@@ -1663,7 +1663,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -1672,8 +1672,8 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "bluebuff",
+          "spear_of_shojin",
+          "blue_buff",
           "void_staff"
         ]
       },
@@ -1715,23 +1715,23 @@
     "goldCost": 105,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "glutton_black",
+        "id": "glutton",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
@@ -1743,7 +1743,7 @@
         "count": 0
       },
       {
-        "id": "gunslinger_black",
+        "id": "gunslinger",
         "count": 0
       },
       {
@@ -1751,11 +1751,11 @@
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -1782,8 +1782,8 @@
         "cost": 3,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "tft16_item_bilgewater_freebootersfrock"
         ]
       },
@@ -1794,7 +1794,7 @@
         "star": 2,
         "items": [
           "infinity_edge",
-          "shojins_spear",
+          "spear_of_shojin",
           "tft16_item_bilgewater_firstmatesflintlock"
         ]
       },
@@ -1804,9 +1804,9 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "lastwhisper",
-          "redbuffitem",
-          "shojins_spear"
+          "last_whisper",
+          "red_buff",
+          "spear_of_shojin"
         ]
       },
       {
@@ -1815,7 +1815,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -1832,8 +1832,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       },
       {
@@ -1867,15 +1867,15 @@
     "goldCost": 111,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "emperor_black",
+        "id": "emperor",
         "count": 0
       },
       {
-        "id": "starforger_black",
+        "id": "starforger",
         "count": 0
       },
       {
@@ -1891,7 +1891,7 @@
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -1925,7 +1925,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "ionic_spark"
         ]
       },
@@ -1949,8 +1949,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -1961,7 +1961,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -1979,8 +1979,8 @@
         "star": 2,
         "items": [
           "jeweled_gauntlet",
-          "nashorstooth",
-          "nashorstooth"
+          "nashors_tooth",
+          "nashors_tooth"
         ]
       }
     ],
@@ -2003,19 +2003,19 @@
     "goldCost": 108,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "hexmech_black",
+        "id": "hexmech",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
@@ -2023,11 +2023,11 @@
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       },
       {
-        "id": "gunslinger_black",
+        "id": "gunslinger",
         "count": 0
       },
       {
@@ -2063,9 +2063,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "redemption",
-          "steadfastheart"
+          "steadfast_heart"
         ]
       },
       {
@@ -2081,9 +2081,9 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "lastwhisper",
-          "redbuffitem",
-          "shojins_spear"
+          "last_whisper",
+          "red_buff",
+          "spear_of_shojin"
         ]
       },
       {
@@ -2108,7 +2108,7 @@
         "items": [
           "infinity_edge",
           "guardbreaker",
-          "bluebuff"
+          "blue_buff"
         ]
       }
     ],
@@ -2131,15 +2131,15 @@
     "goldCost": 99,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "worldender_black",
+        "id": "worldender",
         "count": 0
       },
       {
@@ -2147,11 +2147,11 @@
         "count": 2
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       },
       {
@@ -2163,7 +2163,7 @@
         "count": 2
       },
       {
-        "id": "darkin_black",
+        "id": "darkin",
         "count": 0
       }
     ],
@@ -2197,7 +2197,7 @@
         "items": [
           "giant_slayer",
           "quicksilver",
-          "runaans_hurricane"
+          "kraken_slayer"
         ]
       },
       {
@@ -2217,9 +2217,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "lordsedge",
+          "deathblade",
           "hand_of_justice",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -2236,7 +2236,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -2246,7 +2246,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       }
     ],
@@ -2273,7 +2273,7 @@
         "count": 1
       },
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
@@ -2354,8 +2354,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -2366,7 +2366,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -2376,7 +2376,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "redbuffitem",
+          "red_buff",
           "void_staff",
           "guinsoos_rageblade"
         ]
@@ -2401,7 +2401,7 @@
     "goldCost": 96,
     "traits": [
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
@@ -2417,7 +2417,7 @@
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -2429,7 +2429,7 @@
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       }
     ],
@@ -2487,7 +2487,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -2509,8 +2509,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "lastwhisper",
-          "runaans_hurricane"
+          "last_whisper",
+          "kraken_slayer"
         ]
       }
     ],
@@ -2533,15 +2533,15 @@
     "goldCost": 105,
     "traits": [
       {
-        "id": "dragonborn_black",
+        "id": "dragonborn",
         "count": 0
       },
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "theboss_black",
+        "id": "theboss",
         "count": 0
       },
       {
@@ -2565,7 +2565,7 @@
         "count": 1
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       }
     ],
@@ -2578,7 +2578,7 @@
         "items": []
       },
       {
-        "id": "ahri",
+        "id": "ari",
         "name": "아리",
         "cost": 3,
         "star": 2,
@@ -2639,7 +2639,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -2649,8 +2649,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       }
     ],
@@ -2673,15 +2673,15 @@
     "goldCost": 96,
     "traits": [
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "theboss_black",
+        "id": "theboss",
         "count": 0
       },
       {
-        "id": "worldender_black",
+        "id": "worldender",
         "count": 0
       },
       {
@@ -2689,7 +2689,7 @@
         "count": 0
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       },
       {
@@ -2697,7 +2697,7 @@
         "count": 2
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       },
       {
@@ -2705,7 +2705,7 @@
         "count": 3
       },
       {
-        "id": "darkin_black",
+        "id": "darkin",
         "count": 0
       }
     ],
@@ -2739,7 +2739,7 @@
         "items": [
           "giant_slayer",
           "quicksilver",
-          "runaans_hurricane"
+          "kraken_slayer"
         ]
       },
       {
@@ -2770,7 +2770,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -2780,7 +2780,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -2811,11 +2811,11 @@
     "goldCost": 90,
     "traits": [
       {
-        "id": "caretaker_black",
+        "id": "caretaker",
         "count": 0
       },
       {
-        "id": "huntress_black",
+        "id": "huntress",
         "count": 0
       },
       {
@@ -2831,7 +2831,7 @@
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -2846,7 +2846,7 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "redemption",
           "warmogs_armor"
         ]
@@ -2857,9 +2857,9 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "ludensecho",
+          "archangels_staff",
           "jeweled_gauntlet",
-          "nashorstooth"
+          "nashors_tooth"
         ]
       },
       {
@@ -2875,7 +2875,7 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "adaptivehelm",
+          "adaptive_helm",
           "morellonomicon",
           "void_staff"
         ]
@@ -2920,7 +2920,7 @@
         "items": [
           "bloodthirster",
           "steraks_gage",
-          "lordsedge"
+          "deathblade"
         ]
       }
     ],
@@ -2943,7 +2943,7 @@
     "goldCost": 93,
     "traits": [
       {
-        "id": "emperor_black",
+        "id": "emperor",
         "count": 0
       },
       {
@@ -2959,11 +2959,11 @@
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -2971,7 +2971,7 @@
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -3010,8 +3010,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -3021,7 +3021,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -3032,8 +3032,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -3044,8 +3044,8 @@
         "star": 2,
         "items": [
           "jeweled_gauntlet",
-          "nashorstooth",
-          "nashorstooth"
+          "nashors_tooth",
+          "nashors_tooth"
         ]
       },
       {
@@ -3075,23 +3075,23 @@
     "goldCost": 87,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
-        "id": "shadowisles_black",
+        "id": "shadow_isle",
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       }
     ],
@@ -3103,8 +3103,8 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
-          "guardianangel"
+          "titans_resolve",
+          "edge_of_night"
         ]
       },
       {
@@ -3127,7 +3127,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "redemption",
           "warmogs_armor"
         ]
@@ -3138,8 +3138,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "lastwhisper",
+          "spear_of_shojin",
+          "last_whisper",
           "guardbreaker"
         ]
       },
@@ -3188,7 +3188,7 @@
     "goldCost": 60,
     "traits": [
       {
-        "id": "caretaker_black",
+        "id": "caretaker",
         "count": 0
       },
       {
@@ -3221,9 +3221,9 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "ludensecho",
+          "archangels_staff",
           "jeweled_gauntlet",
-          "shojins_spear"
+          "spear_of_shojin"
         ]
       },
       {
@@ -3232,8 +3232,8 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "sunfire_cape"
         ]
       },
@@ -3244,7 +3244,7 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
+          "kraken_slayer",
           "infinity_edge"
         ]
       },
@@ -3270,7 +3270,7 @@
         "items": [
           "bloodthirster",
           "steraks_gage",
-          "guardianangel"
+          "edge_of_night"
         ]
       }
     ],
@@ -3293,11 +3293,11 @@
     "goldCost": 69,
     "traits": [
       {
-        "id": "caretaker_black",
+        "id": "caretaker",
         "count": 0
       },
       {
-        "id": "huntress_black",
+        "id": "huntress",
         "count": 0
       },
       {
@@ -3326,7 +3326,7 @@
         "items": [
           "sunfire_cape",
           "redemption",
-          "bramblevest"
+          "bramble_vest"
         ]
       },
       {
@@ -3335,8 +3335,8 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "ludensecho",
+          "spear_of_shojin",
+          "archangels_staff",
           "void_staff"
         ]
       },
@@ -3354,7 +3354,7 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
+          "kraken_slayer",
           "infinity_edge"
         ]
       },
@@ -3410,15 +3410,15 @@
     "goldCost": 93,
     "traits": [
       {
-        "id": "ascendant_black",
+        "id": "ascendant",
         "count": 0
       },
       {
-        "id": "darkchild_black",
+        "id": "darkchild",
         "count": 0
       },
       {
-        "id": "emperor_black",
+        "id": "emperor",
         "count": 0
       },
       {
@@ -3434,7 +3434,7 @@
         "count": 0
       },
       {
-        "id": "disruptor_black",
+        "id": "disruptor",
         "count": 0
       },
       {
@@ -3449,8 +3449,8 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "warmogs_armor"
         ]
       },
@@ -3475,8 +3475,8 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
-          "guardianangel"
+          "titans_resolve",
+          "edge_of_night"
         ]
       },
       {
@@ -3510,8 +3510,8 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "shojins_spear",
-          "adaptivehelm",
+          "spear_of_shojin",
+          "adaptive_helm",
           "void_staff"
         ]
       },
@@ -3521,9 +3521,9 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "jeweled_gauntlet",
-          "nashorstooth"
+          "nashors_tooth"
         ]
       }
     ],
@@ -3546,11 +3546,11 @@
     "goldCost": 111,
     "traits": [
       {
-        "id": "glutton_black",
+        "id": "glutton",
         "count": 0
       },
       {
-        "id": "runemage_black",
+        "id": "runemage",
         "count": 0
       },
       {
@@ -3570,7 +3570,7 @@
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -3585,8 +3585,8 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "warmogs_armor"
         ]
       },
@@ -3603,7 +3603,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "morellonomicon",
           "void_staff"
         ]
@@ -3628,7 +3628,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -3639,7 +3639,7 @@
         "items": [
           "bloodthirster",
           "steraks_gage",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -3659,9 +3659,9 @@
         "cost": 6,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "jeweled_gauntlet",
-          "tft16_item_bilgewater_blackmarketexplosives"
+          "tft16_item_bilgewatermarketexplosives"
         ]
       }
     ],
@@ -3684,11 +3684,11 @@
     "goldCost": 87,
     "traits": [
       {
-        "id": "heroic_black",
+        "id": "heroic",
         "count": 0
       },
       {
-        "id": "immortal_black",
+        "id": "immortal",
         "count": 0
       },
       {
@@ -3700,7 +3700,7 @@
         "count": 1
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -3708,11 +3708,11 @@
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       },
       {
-        "id": "darkin_black",
+        "id": "darkin",
         "count": 0
       }
     ],
@@ -3762,8 +3762,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -3774,8 +3774,8 @@
         "star": 2,
         "items": [
           "hextech_gunblade",
-          "ludensecho",
-          "ludensecho"
+          "archangels_staff",
+          "archangels_staff"
         ]
       },
       {
@@ -3793,7 +3793,7 @@
         "items": [
           "infinity_edge",
           "hand_of_justice",
-          "titansresolve"
+          "titans_resolve"
         ]
       }
     ],
@@ -3816,15 +3816,15 @@
     "goldCost": 102,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "chronokeeper_black",
+        "id": "chronokeeper",
         "count": 0
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -3840,7 +3840,7 @@
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -3872,9 +3872,9 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "jeweled_gauntlet",
-          "nashorstooth"
+          "nashors_tooth"
         ]
       },
       {
@@ -3883,8 +3883,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -3903,7 +3903,7 @@
         "items": [
           "bloodthirster",
           "steraks_gage",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -3921,7 +3921,7 @@
         "items": [
           "morellonomicon",
           "void_staff",
-          "adaptivehelm"
+          "adaptive_helm"
         ]
       }
     ],
@@ -3944,15 +3944,15 @@
     "goldCost": 93,
     "traits": [
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
@@ -3968,7 +3968,7 @@
         "count": 0
       },
       {
-        "id": "gunslinger_black",
+        "id": "gunslinger",
         "count": 0
       },
       {
@@ -3976,7 +3976,7 @@
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -4022,7 +4022,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "ironwill_anyiyxtecc5fby5mgl1nniwzm76wig0yxwcpq7nj",
+          "gargoyle_stoneplate",
           "redemption",
           "warmogs_armor"
         ]
@@ -4034,7 +4034,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -4045,8 +4045,8 @@
         "star": 2,
         "items": [
           "infinity_edge",
-          "lastwhisper",
-          "redbuffitem"
+          "last_whisper",
+          "red_buff"
         ]
       },
       {
@@ -4056,8 +4056,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       }
     ],
@@ -4080,11 +4080,11 @@
     "goldCost": 66,
     "traits": [
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
@@ -4108,7 +4108,7 @@
         "count": 1
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       }
     ],
@@ -4126,7 +4126,7 @@
         "cost": 2,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -4136,7 +4136,7 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
+          "kraken_slayer",
           "giant_slayer"
         ]
       },
@@ -4207,7 +4207,7 @@
     "goldCost": 90,
     "traits": [
       {
-        "id": "harvester_black",
+        "id": "harvester",
         "count": 0
       },
       {
@@ -4215,7 +4215,7 @@
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       },
       {
@@ -4235,7 +4235,7 @@
         "count": 1
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       }
     ],
@@ -4280,7 +4280,7 @@
         "items": [
           "giant_slayer",
           "quicksilver",
-          "runaans_hurricane"
+          "kraken_slayer"
         ]
       },
       {
@@ -4297,8 +4297,8 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
-          "guardianangel"
+          "titans_resolve",
+          "edge_of_night"
         ]
       },
       {
@@ -4318,7 +4318,7 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       }
     ],
@@ -4345,7 +4345,7 @@
         "count": 1
       },
       {
-        "id": "heroic_black",
+        "id": "heroic",
         "count": 0
       },
       {
@@ -4398,8 +4398,8 @@
         "star": 2,
         "items": [
           "hextech_gunblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       },
       {
@@ -4408,8 +4408,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -4438,7 +4438,7 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "ludensecho",
+          "archangels_staff",
           "hextech_gunblade"
         ]
       },
@@ -4469,11 +4469,11 @@
     "goldCost": 96,
     "traits": [
       {
-        "id": "chronokeeper_black",
+        "id": "chronokeeper",
         "count": 0
       },
       {
-        "id": "heroic_black",
+        "id": "heroic",
         "count": 0
       },
       {
@@ -4493,7 +4493,7 @@
         "count": 1
       },
       {
-        "id": "invoker_black",
+        "id": "invoker",
         "count": 0
       },
       {
@@ -4508,8 +4508,8 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "ludensecho",
-          "ludensecho",
+          "archangels_staff",
+          "archangels_staff",
           "hextech_gunblade"
         ]
       },
@@ -4519,7 +4519,7 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {
@@ -4542,8 +4542,8 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "redemption"
         ]
       },
@@ -4555,7 +4555,7 @@
         "items": [
           "hextech_gunblade",
           "jeweled_gauntlet",
-          "nashorstooth"
+          "nashors_tooth"
         ]
       },
       {
@@ -4587,7 +4587,7 @@
         "items": [
           "morellonomicon",
           "void_staff",
-          "shojins_spear"
+          "spear_of_shojin"
         ]
       }
     ],
@@ -4626,19 +4626,19 @@
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       },
       {
-        "id": "vanquisher_black",
+        "id": "vanquisher",
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       }
     ],
@@ -4686,7 +4686,7 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
+          "kraken_slayer",
           "giant_slayer"
         ]
       },
@@ -4731,7 +4731,7 @@
     "goldCost": 72,
     "traits": [
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
@@ -4739,7 +4739,7 @@
         "count": 0
       },
       {
-        "id": "gunslinger_black",
+        "id": "gunslinger",
         "count": 0
       },
       {
@@ -4775,7 +4775,7 @@
         "cost": 3,
         "star": 2,
         "items": [
-          "bramblevest",
+          "bramble_vest",
           "redemption",
           "evenshroud"
         ]
@@ -4787,8 +4787,8 @@
         "star": 2,
         "items": [
           "guinsoos_rageblade",
-          "runaans_hurricane",
-          "runaans_hurricane"
+          "kraken_slayer",
+          "kraken_slayer"
         ]
       },
       {
@@ -4809,7 +4809,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "steraks_gage"
         ]
       },
@@ -4840,15 +4840,15 @@
     "goldCost": 96,
     "traits": [
       {
-        "id": "blacksmith_black",
+        "id": "blacksmith",
         "count": 0
       },
       {
-        "id": "immortal_black",
+        "id": "immortal",
         "count": 0
       },
       {
-        "id": "theboss_black",
+        "id": "theboss",
         "count": 0
       },
       {
@@ -4860,15 +4860,15 @@
         "count": 1
       },
       {
-        "id": "slayer_black",
+        "id": "slayer",
         "count": 0
       },
       {
-        "id": "warden_black",
+        "id": "warden",
         "count": 0
       },
       {
-        "id": "darkin_black",
+        "id": "darkin",
         "count": 0
       }
     ],
@@ -4888,7 +4888,7 @@
         "items": [
           "infinity_edge",
           "hand_of_justice",
-          "guardianangel"
+          "edge_of_night"
         ]
       },
       {
@@ -4909,7 +4909,7 @@
         "star": 2,
         "items": [
           "bloodthirster",
-          "titansresolve",
+          "titans_resolve",
           "guinsoos_rageblade"
         ]
       },
@@ -4942,7 +4942,7 @@
         "items": [
           "infinity_edge",
           "hand_of_justice",
-          "titansresolve"
+          "titans_resolve"
         ]
       }
     ],
@@ -4965,15 +4965,15 @@
     "goldCost": 102,
     "traits": [
       {
-        "id": "eternal_black",
+        "id": "eternal",
         "count": 0
       },
       {
-        "id": "glutton_black",
+        "id": "glutton",
         "count": 0
       },
       {
-        "id": "soulbound_black",
+        "id": "soulbound",
         "count": 0
       },
       {
@@ -4985,11 +4985,11 @@
         "count": 1
       },
       {
-        "id": "gunslinger_black",
+        "id": "gunslinger",
         "count": 0
       },
       {
-        "id": "quickstriker_black",
+        "id": "quickstriker",
         "count": 0
       }
     ],
@@ -5002,7 +5002,7 @@
         "items": [
           "infinity_edge",
           "hand_of_justice",
-          "titansresolve"
+          "titans_resolve"
         ]
       },
       {
@@ -5018,8 +5018,8 @@
         "cost": 3,
         "star": 2,
         "items": [
-          "bramblevest",
-          "dragonsclaw",
+          "bramble_vest",
+          "dragons_claw",
           "tft16_item_bilgewater_freebootersfrock"
         ]
       },
@@ -5030,7 +5030,7 @@
         "star": 2,
         "items": [
           "infinity_edge",
-          "shojins_spear",
+          "spear_of_shojin",
           "tft16_item_bilgewater_captainsbrew"
         ]
       },
@@ -5047,9 +5047,9 @@
         "cost": 5,
         "star": 2,
         "items": [
-          "lastwhisper",
-          "redbuffitem",
-          "shojins_spear"
+          "last_whisper",
+          "red_buff",
+          "spear_of_shojin"
         ]
       },
       {
@@ -5175,7 +5175,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "shojins_spear",
+          "spear_of_shojin",
           "rabadons_deathcap",
           "hextech_gunblade"
         ]
@@ -5245,7 +5245,7 @@
         "cost": 1,
         "star": 2,
         "items": [
-          "ludensecho",
+          "archangels_staff",
           "guinsoos_rageblade",
           "guinsoos_rageblade"
         ]
@@ -5302,7 +5302,7 @@
         "cost": 4,
         "star": 2,
         "items": [
-          "thiefsgloves_9ptkdu1iyw6l1voqbnlsp5u74tzf7suieq5rqjbh"
+          "thiefs_gloves"
         ]
       },
       {

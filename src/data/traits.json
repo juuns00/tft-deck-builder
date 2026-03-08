@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": "runeMage",
+    "id": "runemage",
     "name": "룬 마법사",
     "type": "origin",
     "breakpoints": [],
@@ -291,7 +291,7 @@
     ]
   },
   {
-    "id": "darkChild",
+    "id": "darkchild",
     "name": "어둠의 아이",
     "type": "origin",
     "breakpoints": [],

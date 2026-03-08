@@ -2652,7 +2652,7 @@
     "icon": "https://cdn.lolchess.gg/upload/images/champions/Milio_1762915760-Milio.jpg"
   },
   {
-    "id": "bane",
+    "id": "vayne",
     "name": "베인",
     "cost": 3,
     "traits": [
@@ -4362,7 +4362,7 @@
     "icon": "https://cdn.lolchess.gg/upload/images/champions/Wukong_1762916438-Wukong.jpg"
   },
   {
-    "id": "yunaara",
+    "id": "yunara",
     "name": "유나라",
     "cost": 4,
     "traits": [
