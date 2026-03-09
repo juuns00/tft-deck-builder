@@ -117,10 +117,16 @@ export const ROLE_COLOR = {
   support:  '#FACC15',
 };
 
+// ─── 점수 색상 ────────────────────────────────
+export const scoreColor = (s) =>
+  s >= 75 ? '#4ADE80' :
+  s >= 50 ? '#FACC15' :
+  s >= 25 ? '#FB923C' : '#94A3B8';
+
 // ─── 보드 설정 ────────────────────────────────
 export const BOARD_ROWS = 4;
 export const BOARD_COLS = 7;
 
-// ─── DDragon 이미지 베이스 URL (필요 시 사용) ──
-export const DDRAGON_BASE = 'https://ddragon.leagueoflegends.com/cdn';
+// ─── DDragon 이미지 베이스 URL ────────────────
+export const DDRAGON_BASE    = 'https://ddragon.leagueoflegends.com/cdn';
 export const DDRAGON_VERSION = '14.24.1';

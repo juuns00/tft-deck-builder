@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar      from "./components/layout/NavBar.jsx";
 import RecommendPage from "./pages/RecommendPage.jsx";
 import CompsPage     from "./pages/CompsPage.jsx";
+import CoachPage from "./pages/CoachPage.jsx";
 import ComingSoon    from "./pages/ComingSoon.jsx";
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/"          element={<RecommendPage />} />
           <Route path="/comps"     element={<CompsPage />} />
-          <Route path="/coach"     element={<ComingSoon path="/coach" />} />
+          <Route path="/coach"     element={<CoachPage path="/coach" />} />
           <Route path="/placement" element={<ComingSoon path="/placement" />} />
         </Routes>
       </div>

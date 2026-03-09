@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { comps, traits, items } from "../data/index.js";
+import { comps, traits, items, champions } from "../data/index.js";
 import { COST_COLOR } from "../utils/constants.js";
 
 /* ── 상수 ── */
@@ -27,19 +27,13 @@ const PLAYSTYLE_META = {
 };
 
 /* ── 유틸 ── */
-const getTraitName  = id => traits.find(t => t.id === id)?.name ?? id;
-const getItemName   = id => items.find(i => i.id === id)?.name ?? id;
-const getItemIcon   = id => items.find(i => i.id === id)?.icon ?? null;
-const getChampIcon  = (champId) => {
-  // champions.json의 icon 필드에서 가져옴 (동적 import 피하고 champions 배열에서 직접)
-  return null; // 챔피언 아이콘은 ChampionPortrait에서 처리
-};
+const getTraitName = id => traits.find(t => t.id === id)?.name ?? id;
+const getItemName  = id => items.find(i => i.id === id)?.name ?? id;
+const getItemIcon  = id => items.find(i => i.id === id)?.icon ?? null;
 
-// 덱의 주요 특성 (가장 카운트 높은 2개)
+// 덱의 주요 특성 (카운트 높은 순 3개)
 const getTopTraits = (comp) =>
-  [...comp.traits]
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 3);
+  [...comp.traits].sort((a, b) => b.count - a.count).slice(0, 3);
 
 // 캐리 챔피언 (아이템 가장 많이 달린 챔피언)
 const getCarry = (comp) =>
@@ -47,9 +41,7 @@ const getCarry = (comp) =>
     (c.items?.length ?? 0) > (best.items?.length ?? 0) ? c : best
   , comp.champions[0]);
 
-/* ── 챔피언 아이콘 (champions 배열 참조) ── */
-import { champions } from "../data/index.js";
-
+/* ── 챔피언 아이콘 ── */
 function ChampIcon({ id, name, cost, size = 36 }) {
   const champ = champions.find(c => c.id === id);
   const color = COST_COLOR[cost] ?? "#94A3B8";
@@ -77,17 +69,20 @@ function ChampIcon({ id, name, cost, size = 36 }) {
           fontSize: 9, color, fontWeight: 700, textAlign: "center", padding: 1,
         }}>{name}</div>
       )}
-      {/* 코스트 바 */}
+      {/* 코스트 그라데이션 바 */}
       <div style={{
         position: "absolute", bottom: 0, left: 0, right: 0,
         background: `linear-gradient(transparent, ${color}BB)`,
         fontSize: 7, color: "#fff", textAlign: "center",
         lineHeight: "11px", fontWeight: 800, textShadow: "0 1px 2px #000a",
-      }}>{name.length > 3 ? name.slice(0, 3) : name}</div>
+      }}>
+        {name.length > 3 ? name.slice(0, 3) : name}
+      </div>
     </div>
   );
 }
 
+/* ── 아이템 아이콘 ── */
 function ItemIcon({ id, size = 22 }) {
   const icon = getItemIcon(id);
   const name = getItemName(id);
@@ -113,8 +108,8 @@ function ItemIcon({ id, size = 22 }) {
 
 /* ── 덱 카드 ── */
 function CompCard({ comp, onClick }) {
-  const tier   = TIER_META[comp.tier] ?? TIER_META.C;
-  const carry  = getCarry(comp);
+  const tier      = TIER_META[comp.tier] ?? TIER_META.C;
+  const carry     = getCarry(comp);
   const topTraits = getTopTraits(comp);
 
   return (
@@ -122,7 +117,7 @@ function CompCard({ comp, onClick }) {
       onClick={onClick}
       className="panel cursor-pointer transition-all duration-200 hover:border-[#334155]"
       style={{
-        border: `1px solid ${comp.tier === "S" ? "#FFD70044" : "#1E293B"}`,
+        border:    `1px solid ${comp.tier === "S" ? "#FFD70044" : "#1E293B"}`,
         boxShadow: comp.tier === "S" ? "0 0 20px #FFD70008" : "none",
       }}
     >
@@ -174,10 +169,10 @@ function CompCard({ comp, onClick }) {
         )}
       </div>
 
-      {/* 챔피언 목록 */}
+      {/* 챔피언 목록 — key에 index 포함해 중복 챔피언 허용 */}
       <div className="flex flex-wrap gap-1 mb-3">
-        {comp.champions.map(c => (
-          <ChampIcon key={c.id} id={c.id} name={c.name} cost={c.cost} />
+        {comp.champions.map((c, i) => (
+          <ChampIcon key={`${c.id}-${i}`} id={c.id} name={c.name} cost={c.cost} />
         ))}
       </div>
 
@@ -187,7 +182,7 @@ function CompCard({ comp, onClick }) {
           <span className="text-[10px] text-[#475569] shrink-0">캐리템</span>
           <div className="flex gap-1">
             {carry.items.map((itemId, i) => (
-              <ItemIcon key={i} id={itemId} />
+              <ItemIcon key={`${itemId}-${i}`} id={itemId} />
             ))}
           </div>
           <span className="text-[10px] text-[#334155]">({carry.name})</span>
@@ -214,10 +209,7 @@ function CompCard({ comp, onClick }) {
             {PLAYSTYLE_META[comp.playStyle] ?? comp.playStyle}
           </span>
         )}
-        <span style={{
-          fontSize: 10, color: "#334155",
-          marginLeft: "auto",
-        }}>
+        <span style={{ fontSize: 10, color: "#334155", marginLeft: "auto" }}>
           골드 {comp.goldCost}
         </span>
       </div>
@@ -227,7 +219,7 @@ function CompCard({ comp, onClick }) {
 
 /* ── 덱 상세 모달 ── */
 function CompModal({ comp, onClose }) {
-  const tier  = TIER_META[comp.tier] ?? TIER_META.C;
+  const tier = TIER_META[comp.tier] ?? TIER_META.C;
 
   return (
     <div
@@ -266,19 +258,19 @@ function CompModal({ comp, onClose }) {
           }}>✕</button>
         </div>
 
-        {/* 챔피언 상세 */}
+        {/* 챔피언 상세 — key에 index 포함해 중복 챔피언 허용 */}
         <div className="mb-4">
           <div className="text-[11px] text-[#475569] font-bold mb-2 uppercase tracking-widest">챔피언</div>
           <div className="flex flex-wrap gap-2">
-            {comp.champions.map(c => (
-              <div key={c.id} style={{
+            {comp.champions.map((c, i) => (
+              <div key={`${c.id}-${i}`} style={{
                 display: "flex", flexDirection: "column", alignItems: "center", gap: 4,
               }}>
                 <ChampIcon id={c.id} name={c.name} cost={c.cost} size={44} />
                 {c.items?.length > 0 && (
                   <div className="flex gap-0.5">
-                    {c.items.map((itemId, i) => (
-                      <ItemIcon key={i} id={itemId} size={18} />
+                    {c.items.map((itemId, j) => (
+                      <ItemIcon key={`${itemId}-${j}`} id={itemId} size={18} />
                     ))}
                   </div>
                 )}
@@ -291,15 +283,19 @@ function CompModal({ comp, onClose }) {
         <div className="mb-4">
           <div className="text-[11px] text-[#475569] font-bold mb-2 uppercase tracking-widest">활성 시너지</div>
           <div className="flex flex-wrap gap-1.5">
-            {comp.traits.filter(t => t.count > 0).sort((a,b) => b.count - a.count).map(t => (
-              <span key={t.id} style={{
-                background: "#1E293B44", border: "1px solid #1E293B",
-                borderRadius: 6, padding: "3px 10px",
-                fontSize: 11, color: "#94A3B8",
-              }}>
-                {getTraitName(t.id)} <span style={{ color: "#E2E8F0", fontWeight: 700 }}>{t.count}</span>
-              </span>
-            ))}
+            {comp.traits
+              .filter(t => t.count > 0)
+              .sort((a, b) => b.count - a.count)
+              .map(t => (
+                <span key={t.id} style={{
+                  background: "#1E293B44", border: "1px solid #1E293B",
+                  borderRadius: 6, padding: "3px 10px",
+                  fontSize: 11, color: "#94A3B8",
+                }}>
+                  {getTraitName(t.id)}{" "}
+                  <span style={{ color: "#E2E8F0", fontWeight: 700 }}>{t.count}</span>
+                </span>
+              ))}
           </div>
         </div>
 
@@ -308,8 +304,8 @@ function CompModal({ comp, onClose }) {
           <div className="mb-4">
             <div className="text-[11px] text-[#475569] font-bold mb-2 uppercase tracking-widest">추천 증강체</div>
             <div className="flex flex-wrap gap-1.5">
-              {comp.augments.map(augId => (
-                <span key={augId} style={{
+              {comp.augments.map((augId, i) => (
+                <span key={`${augId}-${i}`} style={{
                   background: "#C084FC11", border: "1px solid #C084FC33",
                   borderRadius: 6, padding: "3px 10px",
                   fontSize: 11, color: "#C084FC",
@@ -369,11 +365,13 @@ export default function CompsPage() {
           <div className="inline-flex items-center gap-1.5 bg-[#FFD70011] border border-[#FFD70033] rounded-full px-3.5 py-1 text-[10px] tracking-[3px] text-[#FFD700] font-bold uppercase mb-2.5">
             ✦ TFT · 세트 16 신화와 전설
           </div>
-          <h1 className="m-0 font-black tracking-tight text-[clamp(22px,5vw,32px)]"
+          <h1
+            className="m-0 font-black tracking-tight text-[clamp(22px,5vw,32px)]"
             style={{
               background: "linear-gradient(135deg, #FFD700 0%, #F59E0B 40%, #E2E8F0 100%)",
               WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-            }}>
+            }}
+          >
             메타 덱 티어표
           </h1>
           <p className="mt-2 text-[#475569] text-xs">
@@ -408,9 +406,11 @@ export default function CompsPage() {
                 background:  !tierFilter ? "#FFD70011" : "transparent",
                 fontWeight:  !tierFilter ? 700 : 400,
               }}
-            >전체 {comps.length}</button>
+            >
+              전체 {comps.length}
+            </button>
             {["S","A","B","C"].map(t => {
-              const meta = TIER_META[t];
+              const meta   = TIER_META[t];
               const active = tierFilter === t;
               return (
                 <button
