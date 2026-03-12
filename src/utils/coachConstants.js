@@ -3,7 +3,7 @@
 //  AI 코치 페이지 전용 상수
 // ─────────────────────────────────────────────
 
-export const GEMINI_MODEL = 'gemini-2.0-flash-lite';
+export const GEMINI_MODEL = 'gemini-2.5-flash';
 
 /** 신호등 메타 — 색상·텍스트 한 곳에서 관리 */
 export const SIGNAL_META = {

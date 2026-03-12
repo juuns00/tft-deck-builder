@@ -1,11 +1,18 @@
 // ─────────────────────────────────────────────
-//  geminiApi.js  (src/utils/geminiApi.js)
-//  Gemini API 호출 — @google/generative-ai SDK 사용
+//  src/utils/geminiApi.js
+//  Gemini API 호출 전체 — @google/generative-ai SDK 사용
 //  SDK가 CORS를 자동 처리 → 프록시 불필요
+//
+//  exports:
+//    scanScreenshot        — CoachPage: 스크린샷 → 게임 상황 추출
+//    generateCoachAdvice   — CoachPage: 1타 강사 실시간 코칭
+//    generatePlacementAdvice — TacticalSimulatorPage: 배치 분석
 // ─────────────────────────────────────────────
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { GEMINI_MODEL }       from './coachConstants.js';
 import { parseStage }         from './coachLogic.js';
+import { ROLE_LABEL }         from './constants.js';
+import { SIM_COLS, THREAT_MAP, DRAG_THREATS } from './simulatorConstants.js';
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
@@ -105,6 +112,70 @@ ${instruction}
 [결론] 한 줄 요약
 
 각 조언은 1~2문장으로 짧고 임팩트 있게. 반말로.`;
+
+  const result = await model.generateContent(prompt);
+  return result.response.text();
+}
+
+// ─── Text: 배치 전술 분석 ─────────────────────
+/**
+ * 7×4 보드 배치 + 위협 요소를 분석해 '1타 강사' 스타일 배치 피드백 생성
+ * @param {(object|null)[]} board          - 길이 28의 배치 배열
+ * @param {string[]}        activeThreats  - 체크박스 활성 위협 id 배열
+ * @param {{ threatId: string, cellIdx: number }[]} threatPlacements
+ * @returns {Promise<string>}
+ */
+export async function generatePlacementAdvice(board, activeThreats, threatPlacements) {
+  const model = getModel();
+
+  // ── 보드 설명 텍스트 생성 ─────────────────
+  const boardDesc = board
+    .map((cell, i) => {
+      if (!cell || cell.sourceType === 'threat') return null;
+      const row  = Math.floor(i / SIM_COLS);
+      const col  = i % SIM_COLS;
+      const role = ROLE_LABEL[cell.role] ?? cell.role ?? '?';
+      return `(${row + 1}행 ${col + 1}열): ${cell.name} [${role}, 사거리 ${cell.stats?.range ?? '?'}]`;
+    })
+    .filter(Boolean)
+    .join('\n');
+
+  // ── 위협 설명 텍스트 생성 ─────────────────
+  const checkThreats = activeThreats
+    .map(id => THREAT_MAP[id]?.name)
+    .filter(Boolean);
+
+  const dragThreatsDesc = (threatPlacements ?? []).map(({ threatId, cellIdx }) => {
+    const t   = DRAG_THREATS.find(x => x.id === threatId);
+    const row = Math.floor(cellIdx / SIM_COLS) + 1;
+    const col = cellIdx % SIM_COLS + 1;
+    return t ? `${t.name} (${row}행 ${col}열에 배치)` : null;
+  }).filter(Boolean);
+
+  const threatDesc = [...checkThreats, ...dragThreatsDesc].join(', ') || '없음';
+
+  const prompt = `너는 롤토체스(TFT) 전문 코치야. 반말 쓰는 엄격하지만 핵심만 찌르는 '1타 강사' 말투로 피드백해줘.
+
+현재 배치 상황:
+${boardDesc || '유닛 없음'}
+
+상대방 위협 요소: ${threatDesc}
+
+다음 형식으로 분석해줘 (각 섹션을 명확히 구분):
+
+🔥 핵심 문제점 (2–3가지, 직설적으로):
+- ...
+
+✅ 잘한 점 (1–2가지):
+- ...
+
+📌 지금 당장 해야 할 행동 (구체적으로):
+1. ...
+2. ...
+
+말투 예시: "지금 배치는 블리츠한테 끌려가기 딱 좋다", "상대 암살자가 있으면 캐리를 구석에 박으면 안 돼", "앞라인이 너무 몰려있어, 광역기에 한 번에 터진다"
+
+배치된 유닛이 없으면 "유닛을 먼저 배치해봐, 뭘 분석해줘?"라고 말해줘.`;
 
   const result = await model.generateContent(prompt);
   return result.response.text();

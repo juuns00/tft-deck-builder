@@ -20,7 +20,7 @@ export const NAV_ITEMS = [
     icon:   "🧠",
     label:  "실시간 코칭",
     desc:   "스크린샷 올리면 AI가 행동 지침 제공",
-    status: "soon",
+    status: "live",
     preview: [
       "📸 게임 스크린샷 업로드",
       "🤖 Gemini AI 상황 분석",
@@ -29,11 +29,11 @@ export const NAV_ITEMS = [
     ],
   },
   {
-    to:     "/placement",
+    to:     "/simulator",
     icon:   "🗺️",
     label:  "배치 가이드",
     desc:   "상대 딜러 위치별 최적 배치 시뮬레이터",
-    status: "soon",
+    status: "live",
     preview: [
       "🗺️ 7×4 바둑판 배치 UI",
       "🎯 상대 딜러 위치 선택",
