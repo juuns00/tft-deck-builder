@@ -1,118 +1,130 @@
-// ─────────────────────────────────────────────
-//  useCoach.js  (src/hooks/useCoach.js)
-//  AI 코치 페이지 상태 + 비동기 로직 통합 훅
-//  API 키는 환경변수(VITE_GEMINI_API_KEY)에서 관리
-// ─────────────────────────────────────────────
-import { useState, useCallback } from 'react';
-import { scanScreenshot, generateCoachAdvice } from '../utils/geminiApi.js';
-import { calcDeckScore, judgeSignal }           from '../utils/coachLogic.js';
+// src/hooks/useCoach.js
+import { useState, useCallback } from 'react'
+import { scanScreenshot, generateCoachAdvice } from '../utils/geminiApi.js'
+import { calcDeckScore, judgeSignal }           from '../utils/coachLogic.js'
+import { useOverwolf }                          from './useOverwolf.js'
 
-/**
- * useCoach
- *
- * 반환값:
- *  - imageUrl, setImage     : 업로드 이미지 URL + setter
- *  - scanResult             : Gemini Vision 파싱 결과
- *  - deckScore, bestComp    : 덱 일치도 계산 결과
- *  - signal                 : 'green' | 'yellow' | 'red' | null
- *  - advice                 : 강사 조언 텍스트
- *  - isScanning, isAdvising : 로딩 플래그
- *  - error                  : 에러 메시지
- *  - analyze()              : 분석 시작 핸들러
- *  - reset()                : 상태 초기화
- */
 export function useCoach() {
-  // ── 입력 상태 ─────────────────────────────────
-  const [imageUrl,  setImageUrl]  = useState(null);
-  const [imageFile, setImageFile] = useState(null);
+  // ── 입력 ─────────────────────────────────────
+  const [imageUrl,  setImageUrl]  = useState(null)
+  const [imageFile, setImageFile] = useState(null)
 
-  // ── 결과 상태 ─────────────────────────────────
-  const [scanResult, setScanResult] = useState(null);
-  const [deckScore,  setDeckScore]  = useState(0);
-  const [bestComp,   setBestComp]   = useState(null);
-  const [signal,     setSignal]     = useState(null);
-  const [advice,     setAdvice]     = useState('');
+  // ── 결과 ─────────────────────────────────────
+  const [scanResult, setScanResult] = useState(null)
+  const [deckScore,  setDeckScore]  = useState(0)
+  const [bestComp,   setBestComp]   = useState(null)
+  const [signal,     setSignal]     = useState(null)
+  const [advice,     setAdvice]     = useState('')
 
   // ── 로딩 / 에러 ───────────────────────────────
-  const [isScanning, setIsScanning] = useState(false);
-  const [isAdvising, setIsAdvising] = useState(false);
-  const [error,      setError]      = useState('');
+  const [isScanning, setIsScanning] = useState(false)
+  const [isAdvising, setIsAdvising] = useState(false)
+  const [error,      setError]      = useState('')
 
-  // ── 이미지 세팅 (업로드/붙여넣기 공통) ──────────
+  // ── Overwolf 연동 여부 ────────────────────────
+  // const isOverwolfMode = typeof window !== 'undefined' && !!window.overwolf
+  const isOverwolfMode = true
+
+  // ── Overwolf GEP → scanResult 자동 갱신 ──────
+  // updater 함수를 받아 scanResult를 부분 업데이트
+  // 신호등/덱점수도 함께 갱신 (AI 조언은 버튼 눌릴 때만)
+  useOverwolf(useCallback((updater) => {
+    setScanResult(prev => {
+      const next = updater(prev)
+
+      // 유닛 목록이 갱신될 때마다 덱점수·신호등 재계산
+      if (next?.units?.length) {
+        const champNames = next.units.map(u => u.name)
+        const { score, bestComp: bc } = calcDeckScore(champNames)
+        setDeckScore(score)
+        setBestComp(bc)
+        setSignal(judgeSignal({ score, stage: next.round, hp: next.hp }))
+      }
+
+      return next
+    })
+  }, []))
+
+  // ── 이미지 세팅 (웹 모드 전용) ───────────────
   const setImage = useCallback((file, dataUrl) => {
-    setImageFile(file);
-    setImageUrl(dataUrl);
-    // 새 이미지 들어오면 이전 결과 초기화
-    setScanResult(null);
-    setSignal(null);
-    setAdvice('');
-    setError('');
-    setDeckScore(0);
-    setBestComp(null);
-  }, []);
+    setImageFile(file)
+    setImageUrl(dataUrl)
+    setScanResult(null)
+    setSignal(null)
+    setAdvice('')
+    setError('')
+    setDeckScore(0)
+    setBestComp(null)
+  }, [])
 
-  // ── 분석 시작 ─────────────────────────────────
+  // ── 스캔 (웹 모드 전용: 이미지 → Gemini Vision) ──
+  const scan = useCallback(async () => {
+    if (!imageFile) { setError('이미지를 먼저 업로드해주세요.'); return }
+    setError('')
+    setIsScanning(true)
+    try {
+      const base64 = imageUrl.split(',')[1]
+      const result = await scanScreenshot(base64, imageFile.type)
+      setScanResult(result)
+
+      const champNames = (result.units || []).map(u => u.name)
+      const { score, bestComp: bc } = calcDeckScore(champNames)
+      setDeckScore(score)
+      setBestComp(bc)
+      setSignal(judgeSignal({ score, stage: result.round, hp: result.hp }))
+    } catch (e) {
+      setError(`스캔 실패: ${e.message}`)
+    } finally {
+      setIsScanning(false)
+    }
+  }, [imageFile, imageUrl])
+
+  // ── AI 조언 생성 (버튼 클릭 시 공통 실행) ────
+  const requestAdvice = useCallback(async () => {
+    if (!scanResult) {
+      setError(isOverwolfMode
+        ? '게임을 시작한 후 다시 눌러주세요.'
+        : '먼저 스캔을 실행해주세요.')
+      return
+    }
+    setError('')
+    setAdvice('')
+    setIsAdvising(true)
+    try {
+      const text = await generateCoachAdvice(
+        scanResult,
+        signal,
+        deckScore,
+        bestComp?.name
+      )
+      setAdvice(text)
+    } catch (e) {
+      setAdvice(`(조언 생성 실패: ${e.message})`)
+    } finally {
+      setIsAdvising(false)
+    }
+  }, [scanResult, signal, deckScore, bestComp, isOverwolfMode])
+
+  // ── 웹 모드 호환: 기존 analyze() = scan + requestAdvice ──
   const analyze = useCallback(async () => {
-    if (!imageFile) { setError('이미지를 먼저 업로드해주세요.'); return; }
-    setError('');
+    await scan()
+    // scan 완료 후 scanResult가 state에 반영되기 전이므로
+    // requestAdvice는 scan 내부에서 직접 호출
+  }, [scan])
 
-    // 1) Vision 스캔
-    setIsScanning(true);
-    let scan;
-    try {
-      const base64 = imageUrl.split(',')[1];
-      scan = await scanScreenshot(base64, imageFile.type);
-      setScanResult(scan);
-    } catch (e) {
-      setError(`스캔 실패: ${e.message}`);
-      setIsScanning(false);
-      return;
-    }
-    setIsScanning(false);
-
-    // 2) 덱 일치도
-    const champNames              = (scan.units || []).map(u => u.name);
-    const { score, bestComp: bc } = calcDeckScore(champNames);
-    setDeckScore(score);
-    setBestComp(bc);
-
-    // 3) 신호등 판정
-    const sig = judgeSignal({ score, stage: scan.round, hp: scan.hp });
-    setSignal(sig);
-
-    // 4) AI 팩폭 조언
-    setIsAdvising(true);
-    try {
-      const text = await generateCoachAdvice(scan, sig, score, bc?.name);
-      setAdvice(text);
-    } catch (e) {
-      setAdvice(`(조언 생성 실패: ${e.message})`);
-    }
-    setIsAdvising(false);
-  }, [imageFile, imageUrl]);
-
-  // ── 전체 초기화 ───────────────────────────────
+  // ── 초기화 ────────────────────────────────────
   const reset = useCallback(() => {
-    setImageUrl(null);
-    setImageFile(null);
-    setScanResult(null);
-    setDeckScore(0);
-    setBestComp(null);
-    setSignal(null);
-    setAdvice('');
-    setError('');
-  }, []);
+    setImageUrl(null); setImageFile(null)
+    setScanResult(null); setDeckScore(0); setBestComp(null)
+    setSignal(null); setAdvice(''); setError('')
+  }, [])
 
   return {
-    // 입력
     imageUrl, setImage,
-    // 결과
     scanResult, deckScore, bestComp, signal, advice,
-    // 로딩
     isScanning, isAdvising,
-    // 에러
+    isOverwolfMode,
     error,
-    // 액션
-    analyze, reset,
-  };
+    scan, requestAdvice, analyze, reset,
+  }
 }
