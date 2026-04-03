@@ -1,10 +1,17 @@
+// electron/preload.cjs
 const { contextBridge, ipcRenderer } = require('electron')
 
 contextBridge.exposeInMainWorld('electronAPI', {
-  // 창 드래그 (타이틀바 없을 때 필요)
-  minimize: () => ipcRenderer.send('win:minimize'),
-  close:    () => ipcRenderer.send('win:close'),
-
-  // 실행 환경 확인 (React에서 Electron인지 웹인지 구분용)
   isElectron: true,
+  // Main → Renderer: GEP 이벤트 수신
+  onGepInfoUpdate: (callback) => {
+    ipcRenderer.on('gep:info-update', (_, data) => callback(data))
+  },
+  onGepGameEvent: (callback) => {
+    ipcRenderer.on('gep:game-event', (_, data) => callback(data))
+  },
+  offGepListeners: () => {
+    ipcRenderer.removeAllListeners('gep:info-update')
+    ipcRenderer.removeAllListeners('gep:game-event')
+  },
 })

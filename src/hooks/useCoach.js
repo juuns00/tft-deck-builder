@@ -22,8 +22,10 @@ export function useCoach() {
   const [error,      setError]      = useState('')
 
   // ── Overwolf 연동 여부 ────────────────────────
-  // const isOverwolfMode = typeof window !== 'undefined' && !!window.overwolf
-  const isOverwolfMode = true
+  // window.electronAPI가 있으면 Electron GEP 모드
+  const isOverwolfMode = typeof window !== 'undefined' && !!window.electronAPI?.onGepInfoUpdate
+  // const isOverwolfMode = true
+  
 
   // ── Overwolf GEP → scanResult 자동 갱신 ──────
   // updater 함수를 받아 scanResult를 부분 업데이트

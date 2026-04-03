@@ -2,12 +2,16 @@
   "name": "tft-meta",
   "private": true,
   "version": "0.0.0",
+  "author": "Jun Seo Hong",
+  "overwolf": {
+    "packages": ["gep"]
+  },
   "type": "module",
   "main": "electron/main.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && cross-env NODE_ENV=development electron .\"",
+    "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && cross-env NODE_ENV=development ow-electron .\"",
     "electron:build": "vite build && electron-builder",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -20,14 +24,15 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@overwolf/electron-is-overwolf": "^0.0.2",
+    "@overwolf/ow-electron": "^39.6.1",
+    "@overwolf/ow-electron-builder": "^26.8.3",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.27",
     "concurrently": "^8.2.2",
     "cross-env": "^10.1.0",
-    "electron": "^29.4.6",
-    "electron-builder": "^24.13.3",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
